@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="green_sea">#00A87D</color>
+    <color name="verde_aguamarina">#00A87D</color>
     <color name="blue_king">#004370</color>
     <color name="purple">#5D2EE6</color>
-    <color name="pink">#B70AF5</color>
-    <color name="pinky">#D3D2D9</color>
+    <color name="pinkk">#B70AF5</color>
+    <color name="gris_claro">#D3D2D9</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
