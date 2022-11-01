@@ -7,4 +7,7 @@
     <color name="gris_claro">#D3D2D9</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="azul_facebook">#3b5998</color>
+    <color name="google_rojo">#FF0000</color>
+    <color name="gris_medio">#8c8c8c</color>
 </resources>

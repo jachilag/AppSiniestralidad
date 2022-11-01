@@ -15,6 +15,11 @@
     <string name="hint_contrasena">Escribe tu contraseña</string>
     <string name="titulo_contrasena">Contraseña</string>
     <string name="Boton_registrar">REGISTRAR</string>
+    <string name="texto_registrar">Registrarse</string>
+    <string name="olvidar_password">¿Olvidó su contraseña?</string>
+    <string name="login_google">LOGIN WITH GOOGLE</string>
+    <string name="login_facebook">LOGIN WITH FACEBOOK</string>
+    <string name="inicio_sesion">INICIAR SESIÓN</string>
 
 
 </resources>
