@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.appsiniestralidadkotlin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:5:5-57:19
+12        android:allowBackup="true"
+12-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\Jonathan\.gradle\caches\transforms-3\9df45a95e4e06a011612ef3452b5826c\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.AppSiniestralidadKotlin" >
+22-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:13:9-61
+23        <activity
+23-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:16:9-28:20
+24            android:name="com.example.appsiniestralidadkotlin.view.ui.activities.MainActivity"
+24-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:17:13-60
+25            android:exported="true" >
+25-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:18:13-36
+26            <intent-filter>
+26-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:19:13-23:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:20:17-69
+27-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:20:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:22:17-77
+29-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:22:27-74
+30            </intent-filter>
+31
+32            <meta-data
+32-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:25:13-27:36
+33                android:name="android.app.lib_name"
+33-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:26:17-52
+34                android:value="" />
+34-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:27:17-33
+35        </activity>
+36        <activity
+36-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:30:9-37:20
+37            android:name="com.example.appsiniestralidadkotlin.view.ui.activities.LoginActivity"
+37-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:31:13-61
+38            android:exported="false" >
+38-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:13-37
+39            <meta-data
+39-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:25:13-27:36
+40                android:name="android.app.lib_name"
+40-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:26:17-52
+41                android:value="" >
+41-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:27:17-33
+42            </meta-data>
+43        </activity>
+44        <activity
+44-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:39:9-47:20
+45            android:name="com.example.appsiniestralidadkotlin.view.ui.activities.HomeActivity"
+45-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:40:13-60
+46            android:exported="false" >
+46-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:41:13-37
+47            <meta-data
+47-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:25:13-27:36
+48                android:name="android.app.lib_name"
+48-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:26:17-52
+49                android:value="" >
+49-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:27:17-33
+50            </meta-data>
+51        </activity>
+52        <activity
+52-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:47:20-54:20
+53            android:name="com.example.appsiniestralidadkotlin.view.ui.activities.SignUpActivity"
+53-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:48:13-62
+54            android:exported="false" >
+54-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:49:13-37
+55            <meta-data
+55-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:25:13-27:36
+56                android:name="android.app.lib_name"
+56-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:26:17-52
+57                android:value="" >
+57-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:27:17-33
+58            </meta-data>
+59        </activity>
+60
+61        <provider
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\98559743d14cc19cc4c8b0530b0c3c74\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\98559743d14cc19cc4c8b0530b0c3c74\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:27:13-67
+63            android:authorities="com.example.appsiniestralidadkotlin.androidx-startup"
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\98559743d14cc19cc4c8b0530b0c3c74\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:28:13-68
+64            android:exported="false" >
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\98559743d14cc19cc4c8b0530b0c3c74\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:29:13-37
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\98559743d14cc19cc4c8b0530b0c3c74\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\98559743d14cc19cc4c8b0530b0c3c74\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\98559743d14cc19cc4c8b0530b0c3c74\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+68        </provider>
+69    </application>
+70
+71</manifest>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.appsiniestralidadkotlin.app-mergeDebugResources-28:/layout/activity_login.xml",
+        "source": "com.example.appsiniestralidadkotlin.app-main-31:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-mergeDebugResources-28:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-31:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-mergeDebugResources-28:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-31:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-mergeDebugResources-28:\\layout\\prueba.xml",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-31:\\layout\\prueba.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-mergeDebugResources-28:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-31:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-mergeDebugResources-28:\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-31:\\layout\\activity_signup.xml"
+    }
+]
