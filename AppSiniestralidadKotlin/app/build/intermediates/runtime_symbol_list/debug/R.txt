@@ -2830,7 +2830,6 @@ int id mtrl_picker_text_input_range_start 0x7f08012b
 int id mtrl_picker_title_text 0x7f08012c
 int id mtrl_view_tag_bottom_padding 0x7f08012d
 int id multiply 0x7f08012e
-int id nav_car 0x7f08012f
 int id nav_home 0x7f080130
 int id nav_search 0x7f080131
 int id nav_settings 0x7f080132
@@ -3245,7 +3244,6 @@ int string app_name 0x7f10001c
 int string appbar_scrolling_view_behavior 0x7f10001d
 int string bottom_sheet_behavior 0x7f10001e
 int string bottomsheet_action_expand_halfway 0x7f10001f
-int string car 0x7f100020
 int string character_counter_content_description 0x7f100021
 int string character_counter_overflowed_content_description 0x7f100022
 int string character_counter_pattern 0x7f100023

@@ -2831,7 +2831,6 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id nav_car
 id nav_home
 id nav_search
 id nav_settings
@@ -3246,7 +3245,6 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
-string car
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern

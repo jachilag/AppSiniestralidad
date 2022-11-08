@@ -13,11 +13,6 @@
         android:icon="@drawable/ic_outline_search"
         android:title="@string/search"/>
     <item
-        android:id="@+id/nav_car"
-        android:enabled="true"
-        android:icon="@drawable/ic_outline_car"
-        android:title="@string/car"/>
-    <item
         android:id="@+id/nav_settings"
         android:enabled="true"
         android:icon="@drawable/ic_outline_settings"
