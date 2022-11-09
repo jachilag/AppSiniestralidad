@@ -8,7 +8,6 @@ import androidx.cardview.widget.CardView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.appsiniestralidadkotlin.R
-import android.widget.ImageView
 
 
 class menuFragment : Fragment() {
@@ -32,27 +31,27 @@ class menuFragment : Fragment() {
         }
 
         val cardReportar = view.findViewById<CardView>(R.id.fragReportar)
-        cardPerfil.setOnClickListener {
+        cardReportar.setOnClickListener {
             findNavController().navigate(R.id.action_menuFragment_to_reportarFragment)
         }
 
         val cardNoticias = view.findViewById<CardView>(R.id.fragNoticias)
-        cardPerfil.setOnClickListener {
+        cardNoticias.setOnClickListener {
             findNavController().navigate(R.id.action_menuFragment_to_noticiasFragment)
         }
 
         val cardConfiguraciones = view.findViewById<CardView>(R.id.fragConfiguraciones)
-        cardPerfil.setOnClickListener {
+        cardConfiguraciones.setOnClickListener {
             findNavController().navigate(R.id.action_menuFragment_to_configuracionesFragment)
         }
 
         val cardEmergencias = view.findViewById<CardView>(R.id.fragEmergencias)
-        cardPerfil.setOnClickListener {
+        cardEmergencias.setOnClickListener {
             findNavController().navigate(R.id.action_menuFragment_to_emergenciasFragment)
         }
 
         val cardAyuda = view.findViewById<CardView>(R.id.fragAyuda)
-        cardPerfil.setOnClickListener {
+        cardAyuda.setOnClickListener {
             findNavController().navigate(R.id.action_menuFragment_to_ayudaFragment)
         }
 

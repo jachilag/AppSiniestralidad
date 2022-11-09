@@ -4,6 +4,7 @@ package com.example.appsiniestralidadkotlin.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -37,10 +38,30 @@ public final class FragmentMenuBinding implements ViewBinding {
   @NonNull
   public final CardView fragReportar;
 
+  @NonNull
+  public final ImageView imgAvatarVerde;
+
+  @NonNull
+  public final ImageView imgConfiguraciones;
+
+  @NonNull
+  public final ImageView imgCrashcar;
+
+  @NonNull
+  public final ImageView imgHelp;
+
+  @NonNull
+  public final ImageView imgLineaemergencia;
+
+  @NonNull
+  public final ImageView imgNews;
+
   private FragmentMenuBinding(@NonNull LinearLayout rootView, @NonNull CardView fragAyuda,
       @NonNull CardView fragConfiguraciones, @NonNull CardView fragEmergencias,
-      @NonNull CardView fragNoticias, @NonNull CardView fragPerfil,
-      @NonNull CardView fragReportar) {
+      @NonNull CardView fragNoticias, @NonNull CardView fragPerfil, @NonNull CardView fragReportar,
+      @NonNull ImageView imgAvatarVerde, @NonNull ImageView imgConfiguraciones,
+      @NonNull ImageView imgCrashcar, @NonNull ImageView imgHelp,
+      @NonNull ImageView imgLineaemergencia, @NonNull ImageView imgNews) {
     this.rootView = rootView;
     this.fragAyuda = fragAyuda;
     this.fragConfiguraciones = fragConfiguraciones;
@@ -48,6 +69,12 @@ public final class FragmentMenuBinding implements ViewBinding {
     this.fragNoticias = fragNoticias;
     this.fragPerfil = fragPerfil;
     this.fragReportar = fragReportar;
+    this.imgAvatarVerde = imgAvatarVerde;
+    this.imgConfiguraciones = imgConfiguraciones;
+    this.imgCrashcar = imgCrashcar;
+    this.imgHelp = imgHelp;
+    this.imgLineaemergencia = imgLineaemergencia;
+    this.imgNews = imgNews;
   }
 
   @Override
@@ -113,8 +140,45 @@ public final class FragmentMenuBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.img_avatarVerde;
+      ImageView imgAvatarVerde = ViewBindings.findChildViewById(rootView, id);
+      if (imgAvatarVerde == null) {
+        break missingId;
+      }
+
+      id = R.id.img_configuraciones;
+      ImageView imgConfiguraciones = ViewBindings.findChildViewById(rootView, id);
+      if (imgConfiguraciones == null) {
+        break missingId;
+      }
+
+      id = R.id.img_crashcar;
+      ImageView imgCrashcar = ViewBindings.findChildViewById(rootView, id);
+      if (imgCrashcar == null) {
+        break missingId;
+      }
+
+      id = R.id.img_help;
+      ImageView imgHelp = ViewBindings.findChildViewById(rootView, id);
+      if (imgHelp == null) {
+        break missingId;
+      }
+
+      id = R.id.img_lineaemergencia;
+      ImageView imgLineaemergencia = ViewBindings.findChildViewById(rootView, id);
+      if (imgLineaemergencia == null) {
+        break missingId;
+      }
+
+      id = R.id.img_news;
+      ImageView imgNews = ViewBindings.findChildViewById(rootView, id);
+      if (imgNews == null) {
+        break missingId;
+      }
+
       return new FragmentMenuBinding((LinearLayout) rootView, fragAyuda, fragConfiguraciones,
-          fragEmergencias, fragNoticias, fragPerfil, fragReportar);
+          fragEmergencias, fragNoticias, fragPerfil, fragReportar, imgAvatarVerde,
+          imgConfiguraciones, imgCrashcar, imgHelp, imgLineaemergencia, imgNews);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

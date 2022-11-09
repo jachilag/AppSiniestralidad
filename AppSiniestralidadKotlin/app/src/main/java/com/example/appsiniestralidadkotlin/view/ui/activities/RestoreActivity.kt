@@ -23,9 +23,21 @@ class RestoreActivity : AppCompatActivity() {
         firebaseAuth = Firebase.auth
         var email = findViewById<EditText>(R.id.text_correo_recuperacion)
 
-        var register: Button = findViewById(R.id.btn_recuperar)
-        register.setOnClickListener {
-            Toast.makeText(this, "RECUPERANDO CONTRASEÑA", Toast.LENGTH_LONG).show()
-            startActivity(Intent(this,LoginActivity::class.java))}
+        var restore: Button = findViewById(R.id.btn_recuperar)
+        restore.setOnClickListener {
+            restorePassword(email.text.toString())
+        }
+    }
+
+    fun restorePassword(email: String) {
+        firebaseAuth.sendPasswordResetEmail(email)
+            .addOnCompleteListener(this) { Task ->
+                if (Task.isSuccessful) {
+                    Toast.makeText(baseContext, "RECUPERANDO CONTRASEÑA", Toast.LENGTH_LONG).show()
+                    startActivity(Intent(this, LoginActivity::class.java))
+                } else {
+                    Toast.makeText(baseContext, "Error", Toast.LENGTH_LONG).show()
+                }
+            }
     }
 }

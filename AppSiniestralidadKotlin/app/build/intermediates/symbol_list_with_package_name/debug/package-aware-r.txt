@@ -2746,7 +2746,6 @@ id beginning
 id bestChoice
 id blocking
 id bottom
-id bottom_navigation
 id bounce
 id bounceBoth
 id bounceEnd
@@ -2892,6 +2891,12 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id img_avatarVerde
+id img_configuraciones
+id img_crashcar
+id img_help
+id img_lineaemergencia
+id img_news
 id immediateStop
 id included
 id info

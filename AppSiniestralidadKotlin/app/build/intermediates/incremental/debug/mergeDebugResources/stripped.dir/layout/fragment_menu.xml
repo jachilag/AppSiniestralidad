@@ -8,8 +8,6 @@
     android:orientation="vertical"
     tools:context=".view.ui.fragments.menuFragment">
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -76,6 +74,7 @@
                         android:padding="15dp"
                         >
                         <ImageView
+                            android:id="@+id/img_avatarVerde"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/avatarverde"
@@ -110,6 +109,7 @@
                         android:padding="15dp"
                         >
                         <ImageView
+                            android:id="@+id/img_crashcar"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/crashcar"
@@ -144,6 +144,7 @@
                         android:padding="15dp"
                         >
                         <ImageView
+                            android:id="@+id/img_news"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/news"
@@ -178,6 +179,7 @@
                         android:padding="15dp"
                         >
                         <ImageView
+                            android:id="@+id/img_configuraciones"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/settings"
@@ -212,6 +214,7 @@
                         android:padding="15dp"
                         >
                         <ImageView
+                            android:id="@+id/img_lineaemergencia"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/lineaemergencia"
@@ -246,6 +249,7 @@
                         android:padding="15dp"
                         >
                         <ImageView
+                            android:id="@+id/img_help"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/help"
@@ -257,8 +261,7 @@
                             android:textSize="18sp"
                             android:textStyle="bold"
                             android:textAlignment="center"
-                            android:text="@string/ayuda"
-                            >
+                            android:text="@string/ayuda">
                         </TextView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
