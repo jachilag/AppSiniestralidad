@@ -192,7 +192,6 @@ com.example.appsiniestralidadkotlin:style/Widget.Material3.MaterialCalendar.Day.
 com.example.appsiniestralidadkotlin:style/Widget.Material3.MaterialCalendar.Day.Invalid = 0x7f120342
 com.example.appsiniestralidadkotlin:style/Widget.Material3.MaterialCalendar.Day = 0x7f120341
 com.example.appsiniestralidadkotlin:style/Widget.Material3.LinearProgressIndicator = 0x7f12033f
-com.example.appsiniestralidadkotlin:style/Widget.Material3.Light.ActionBar.Solid = 0x7f12033e
 com.example.appsiniestralidadkotlin:style/Widget.Material3.FloatingActionButton.Secondary = 0x7f12033b
 com.example.appsiniestralidadkotlin:style/Widget.Material3.FloatingActionButton.Primary = 0x7f12033a
 com.example.appsiniestralidadkotlin:style/Widget.Material3.FloatingActionButton.Large.Surface = 0x7f120338
@@ -911,6 +910,8 @@ com.example.appsiniestralidadkotlin:string/numerostelefono = 0x7f1100b4
 com.example.appsiniestralidadkotlin:layout/design_bottom_navigation_item = 0x7f0b0024
 com.example.appsiniestralidadkotlin:layout/browser_actions_context_menu_row = 0x7f0b0022
 com.example.appsiniestralidadkotlin:layout/activity_signup = 0x7f0b0020
+com.example.appsiniestralidadkotlin:style/Widget.Material3.Light.ActionBar.Solid = 0x7f12033e
+com.example.appsiniestralidadkotlin:layout/activity_restore = 0x7f0b001f
 com.example.appsiniestralidadkotlin:string/common_google_play_services_unsupported_text = 0x7f110035
 com.example.appsiniestralidadkotlin:layout/activity_main = 0x7f0b001e
 com.example.appsiniestralidadkotlin:layout/activity_login = 0x7f0b001d
@@ -3256,7 +3257,6 @@ com.example.appsiniestralidadkotlin:color/m3_ref_palette_dynamic_neutral_variant
 com.example.appsiniestralidadkotlin:style/Widget.MaterialComponents.AppBarLayout.Primary = 0x7f120383
 com.example.appsiniestralidadkotlin:attr/state_lifted = 0x7f0303a5
 com.example.appsiniestralidadkotlin:attr/subheaderColor = 0x7f0303ac
-com.example.appsiniestralidadkotlin:layout/activity_recuperacion = 0x7f0b001f
 com.example.appsiniestralidadkotlin:dimen/mtrl_calendar_bottom_padding = 0x7f06018d
 com.example.appsiniestralidadkotlin:style/Base.Widget.MaterialComponents.PopupMenu.ListPopupWindow = 0x7f12010a
 com.example.appsiniestralidadkotlin:attr/statusBarForeground = 0x7f0303a7
