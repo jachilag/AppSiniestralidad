@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.appsiniestralidadkotlin.R;
@@ -22,10 +23,28 @@ public final class ActivityHomeBinding implements ViewBinding {
   @NonNull
   public final BottomNavigationView bottomNavigation;
 
+  @NonNull
+  public final CardView fragSiniestros1;
+
+  @NonNull
+  public final CardView fragSiniestros2;
+
+  @NonNull
+  public final CardView fragSiniestros3;
+
+  @NonNull
+  public final CardView fragSiniestros4;
+
   private ActivityHomeBinding(@NonNull LinearLayout rootView,
-      @NonNull BottomNavigationView bottomNavigation) {
+      @NonNull BottomNavigationView bottomNavigation, @NonNull CardView fragSiniestros1,
+      @NonNull CardView fragSiniestros2, @NonNull CardView fragSiniestros3,
+      @NonNull CardView fragSiniestros4) {
     this.rootView = rootView;
     this.bottomNavigation = bottomNavigation;
+    this.fragSiniestros1 = fragSiniestros1;
+    this.fragSiniestros2 = fragSiniestros2;
+    this.fragSiniestros3 = fragSiniestros3;
+    this.fragSiniestros4 = fragSiniestros4;
   }
 
   @Override
@@ -61,7 +80,32 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityHomeBinding((LinearLayout) rootView, bottomNavigation);
+      id = R.id.fragSiniestros_1;
+      CardView fragSiniestros1 = ViewBindings.findChildViewById(rootView, id);
+      if (fragSiniestros1 == null) {
+        break missingId;
+      }
+
+      id = R.id.fragSiniestros_2;
+      CardView fragSiniestros2 = ViewBindings.findChildViewById(rootView, id);
+      if (fragSiniestros2 == null) {
+        break missingId;
+      }
+
+      id = R.id.fragSiniestros_3;
+      CardView fragSiniestros3 = ViewBindings.findChildViewById(rootView, id);
+      if (fragSiniestros3 == null) {
+        break missingId;
+      }
+
+      id = R.id.fragSiniestros_4;
+      CardView fragSiniestros4 = ViewBindings.findChildViewById(rootView, id);
+      if (fragSiniestros4 == null) {
+        break missingId;
+      }
+
+      return new ActivityHomeBinding((LinearLayout) rootView, bottomNavigation, fragSiniestros1,
+          fragSiniestros2, fragSiniestros3, fragSiniestros4);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

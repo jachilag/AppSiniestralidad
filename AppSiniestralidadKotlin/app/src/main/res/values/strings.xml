@@ -19,6 +19,20 @@
     <string name="login_google">LOGIN WITH GOOGLE</string>
     <string name="login_facebook">LOGIN WITH FACEBOOK</string>
     <string name="inicio_sesion">INICIAR SESIÓN</string>
+    <string name="peaton">Peaton</string>
+    <string name="ciclista">Ciclista</string>
+    <string name="motociclista">Motociclista</string>
+    <string name="automovil">Automovil</string>
+    <string name="animal">Animal</string>
+    <string name="bus">Bus</string>
+    <string name="miPerfil">Mi Perfil</string>
+    <string name="reportar">Reportar Accidente</string>
+    <string name="noticias">Ultimos Reportes</string>
+    <string name="configuraciones">Configuraciones</string>
+    <string name="numerostelefono">Lineas de Emergencia</string>
+    <string name="ayuda">Ayuda</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

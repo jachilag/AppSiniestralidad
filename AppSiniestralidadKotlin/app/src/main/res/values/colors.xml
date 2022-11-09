@@ -10,4 +10,6 @@
     <color name="azul_facebook">#3b5998</color>
     <color name="google_rojo">#FF0000</color>
     <color name="gris_medio">#8c8c8c</color>
+    <color name="color_fodorange">#f37335</color>
+    <color name="color_fondyellow">#fdc830</color>
 </resources>

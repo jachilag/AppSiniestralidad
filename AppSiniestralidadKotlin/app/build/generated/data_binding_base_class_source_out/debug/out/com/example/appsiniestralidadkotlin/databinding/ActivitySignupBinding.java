@@ -26,22 +26,22 @@ public final class ActivitySignupBinding implements ViewBinding {
   public final Button btnRegistrarse;
 
   @NonNull
-  public final EditText editTextPhone;
-
-  @NonNull
-  public final EditText editTextTextEmailAddress2;
-
-  @NonNull
-  public final EditText editTextTextPassword2;
-
-  @NonNull
-  public final EditText editTextTextPersonName3;
-
-  @NonNull
-  public final EditText editTextTextPersonName4;
-
-  @NonNull
   public final ImageView imageView;
+
+  @NonNull
+  public final EditText registrarCelular;
+
+  @NonNull
+  public final EditText registrarEmail;
+
+  @NonNull
+  public final EditText registrarPassword;
+
+  @NonNull
+  public final EditText registroApellido;
+
+  @NonNull
+  public final EditText registroNombre;
 
   @NonNull
   public final TextView textView;
@@ -59,19 +59,19 @@ public final class ActivitySignupBinding implements ViewBinding {
   public final TextView textView5;
 
   private ActivitySignupBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnRegistrarse,
-      @NonNull EditText editTextPhone, @NonNull EditText editTextTextEmailAddress2,
-      @NonNull EditText editTextTextPassword2, @NonNull EditText editTextTextPersonName3,
-      @NonNull EditText editTextTextPersonName4, @NonNull ImageView imageView,
+      @NonNull ImageView imageView, @NonNull EditText registrarCelular,
+      @NonNull EditText registrarEmail, @NonNull EditText registrarPassword,
+      @NonNull EditText registroApellido, @NonNull EditText registroNombre,
       @NonNull TextView textView, @NonNull TextView textView2, @NonNull TextView textView3,
       @NonNull TextView textView4, @NonNull TextView textView5) {
     this.rootView = rootView;
     this.btnRegistrarse = btnRegistrarse;
-    this.editTextPhone = editTextPhone;
-    this.editTextTextEmailAddress2 = editTextTextEmailAddress2;
-    this.editTextTextPassword2 = editTextTextPassword2;
-    this.editTextTextPersonName3 = editTextTextPersonName3;
-    this.editTextTextPersonName4 = editTextTextPersonName4;
     this.imageView = imageView;
+    this.registrarCelular = registrarCelular;
+    this.registrarEmail = registrarEmail;
+    this.registrarPassword = registrarPassword;
+    this.registroApellido = registroApellido;
+    this.registroNombre = registroNombre;
     this.textView = textView;
     this.textView2 = textView2;
     this.textView3 = textView3;
@@ -112,39 +112,39 @@ public final class ActivitySignupBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editTextPhone;
-      EditText editTextPhone = ViewBindings.findChildViewById(rootView, id);
-      if (editTextPhone == null) {
-        break missingId;
-      }
-
-      id = R.id.editTextTextEmailAddress2;
-      EditText editTextTextEmailAddress2 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextEmailAddress2 == null) {
-        break missingId;
-      }
-
-      id = R.id.editTextTextPassword2;
-      EditText editTextTextPassword2 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPassword2 == null) {
-        break missingId;
-      }
-
-      id = R.id.editTextTextPersonName3;
-      EditText editTextTextPersonName3 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPersonName3 == null) {
-        break missingId;
-      }
-
-      id = R.id.editTextTextPersonName4;
-      EditText editTextTextPersonName4 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPersonName4 == null) {
-        break missingId;
-      }
-
       id = R.id.imageView;
       ImageView imageView = ViewBindings.findChildViewById(rootView, id);
       if (imageView == null) {
+        break missingId;
+      }
+
+      id = R.id.registrar_celular;
+      EditText registrarCelular = ViewBindings.findChildViewById(rootView, id);
+      if (registrarCelular == null) {
+        break missingId;
+      }
+
+      id = R.id.registrar_email;
+      EditText registrarEmail = ViewBindings.findChildViewById(rootView, id);
+      if (registrarEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.registrar_password;
+      EditText registrarPassword = ViewBindings.findChildViewById(rootView, id);
+      if (registrarPassword == null) {
+        break missingId;
+      }
+
+      id = R.id.registro_apellido;
+      EditText registroApellido = ViewBindings.findChildViewById(rootView, id);
+      if (registroApellido == null) {
+        break missingId;
+      }
+
+      id = R.id.registro_nombre;
+      EditText registroNombre = ViewBindings.findChildViewById(rootView, id);
+      if (registroNombre == null) {
         break missingId;
       }
 
@@ -178,9 +178,9 @@ public final class ActivitySignupBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySignupBinding((ConstraintLayout) rootView, btnRegistrarse, editTextPhone,
-          editTextTextEmailAddress2, editTextTextPassword2, editTextTextPersonName3,
-          editTextTextPersonName4, imageView, textView, textView2, textView3, textView4, textView5);
+      return new ActivitySignupBinding((ConstraintLayout) rootView, btnRegistrarse, imageView,
+          registrarCelular, registrarEmail, registrarPassword, registroApellido, registroNombre,
+          textView, textView2, textView3, textView4, textView5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
