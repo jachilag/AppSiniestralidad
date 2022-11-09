@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "321809716175",
-    "project_id": "prueba-2586c",
-    "storage_bucket": "prueba-2586c.appspot.com"
+    "project_number": "39283168617",
+    "project_id": "prueba2-88519",
+    "storage_bucket": "prueba2-88519.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:321809716175:android:e842b27a32bc6db900f8ba",
+        "mobilesdk_app_id": "1:39283168617:android:2e80977b723ebd7e3d99f8",
         "android_client_info": {
           "package_name": "com.example.appsiniestralidadkotlin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "321809716175-fva52qkmcc91531h7onppqv76qpnv5lo.apps.googleusercontent.com",
+          "client_id": "39283168617-s8c9i9ql0e7d7hntos7m2odef4ck38db.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDL8YRgzPwjrb78qTQdfPoyFI0ZCN-taqc"
+          "current_key": "AIzaSyA58SfhGvNPiOvsS7WB0DXOsaIsf8Z5CME"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "321809716175-fva52qkmcc91531h7onppqv76qpnv5lo.apps.googleusercontent.com",
+              "client_id": "39283168617-s8c9i9ql0e7d7hntos7m2odef4ck38db.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

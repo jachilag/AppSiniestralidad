@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <gradient
-        android:startColor="@color/color_fodorange"
-        android:centerColor="@color/color_fondyellow"
-        android:endColor="@color/color_fodorange"
+        android:startColor="@color/black"
+        android:centerColor="@color/white"
+        android:endColor="@color/black"
         android:type="linear"
         android:angle="45"
-        android:centerX="35%"
-
-
-        >
-
+        android:centerX="35%"        >
     </gradient>
-
-
-
-
 </shape>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.appsiniestralidadkotlin.view.ui.fragments.menuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_reportarFragment"
+            app:destination="@id/reportarFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_configuracionesFragment"
+            app:destination="@id/configuracionesFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_noticiasFragment"
+            app:destination="@id/noticiasFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_emergenciasFragment"
+            app:destination="@id/emergenciasFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_ayudaFragment"
+            app:destination="@id/ayudaFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_configuracionesFragment2"
+            app:destination="@id/configuracionesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/configuracionesFragment"
+        android:name="com.example.appsiniestralidadkotlin.view.ui.fragments.configuracionesFragment"
+        android:label="configuracionesFragment" />
+    <fragment
+        android:id="@+id/ayudaFragment"
+        android:name="com.example.appsiniestralidadkotlin.view.ui.fragments.ayudaFragment"
+        android:label="ayudaFragment" />
+    <fragment
+        android:id="@+id/emergenciasFragment"
+        android:name="com.example.appsiniestralidadkotlin.view.ui.fragments.emergenciasFragment"
+        android:label="emergenciasFragment" />
+    <fragment
+        android:id="@+id/noticiasFragment"
+        android:name="com.example.appsiniestralidadkotlin.view.ui.fragments.noticiasFragment"
+        android:label="noticiasFragment" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.appsiniestralidadkotlin.view.ui.fragments.perfilFragment"
+        android:label="perfilFragment" />
+    <fragment
+        android:id="@+id/reportarFragment"
+        android:name="com.example.appsiniestralidadkotlin.view.ui.fragments.reportarFragment"
+        android:label="reportarFragment" />
+</navigation>

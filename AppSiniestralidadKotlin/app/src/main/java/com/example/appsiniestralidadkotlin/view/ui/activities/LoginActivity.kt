@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.appsiniestralidadkotlin.R
 import com.example.appsiniestralidadkotlin.databinding.ActivityMainBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseAuth.AuthStateListener
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
@@ -22,7 +21,7 @@ class LoginActivity: AppCompatActivity() {
     lateinit var iniGoogle: Button
     lateinit var iniFacebook:Button
     lateinit var firebaseAuth: FirebaseAuth
-    lateinit var authStateListener:AuthStateListener
+    //lateinit var authStateListener:AuthStateListener
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,12 +40,13 @@ class LoginActivity: AppCompatActivity() {
 
         home = findViewById(R.id.btn_log_ini)
         home.setOnClickListener {
-            login(email.text.toString(),password.text.toString())
+//           startActivity(Intent(this,HomeActivity::class.java))
+           login(email.text.toString(),password.text.toString())
         }
 
         recuperar = findViewById(R.id.textView_olvidar)
         recuperar.setOnClickListener {
-            Toast.makeText(this, "Recuperando Contraseña..", Toast.LENGTH_LONG).show()
+            startActivity(Intent(this,RestoreActivity::class.java))
         }
 
         iniGoogle = findViewById(R.id.btn_log_google)

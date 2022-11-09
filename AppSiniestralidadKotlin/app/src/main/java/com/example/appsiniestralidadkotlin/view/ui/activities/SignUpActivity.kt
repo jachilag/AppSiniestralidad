@@ -12,11 +12,10 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
 class SignUpActivity: AppCompatActivity() {
-    lateinit var firebaseAuth: FirebaseAuth
     lateinit var authStateListener: FirebaseAuth.AuthStateListener
+    lateinit var firebaseAuth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
-
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signup)
 
@@ -36,8 +35,7 @@ class SignUpActivity: AppCompatActivity() {
                 val user = firebaseAuth.currentUser
                 startActivity(Intent(this,LoginActivity::class.java))
             }else{
-                Toast.makeText(baseContext,"Error", Toast.LENGTH_LONG).show()
-
+                Toast.makeText(applicationContext,"Error", Toast.LENGTH_LONG).show()
             }
             }
 

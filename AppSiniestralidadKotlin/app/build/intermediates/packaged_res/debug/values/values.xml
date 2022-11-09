@@ -12,14 +12,23 @@
     <color name="purple">#5D2EE6</color>
     <color name="verde_aguamarina">#00A87D</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="Boton_recuperar">Recuperar</string>
     <string name="Boton_registrar">REGISTRAR</string>
+    <string name="animal">Animal</string>
     <string name="app_name">App Siniestralidad</string>
+    <string name="automovil">Automovil</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="bus">Bus</string>
+    <string name="ciclista">Ciclista</string>
+    <string name="configuraciones">Configuraciones</string>
     <string name="default_web_client_id" translatable="false">899600341217-lhqbu72otuc76mgl75b753sju9rda3oq.apps.googleusercontent.com</string>
+    <string name="email_recuperacion">Escriba su correo de recuperacion de Contraseña</string>
     <string name="gcm_defaultSenderId" translatable="false">899600341217</string>
     <string name="google_api_key" translatable="false">AIzaSyBdeS_NFD2MHH6m8UiPQUROYj7jH-IKrRc</string>
     <string name="google_app_id" translatable="false">1:899600341217:android:55ba2294a20b5626a9ffa0</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBdeS_NFD2MHH6m8UiPQUROYj7jH-IKrRc</string>
     <string name="google_storage_bucket" translatable="false">prueba-7b7fb.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hint_apellidos">Escribe tus apellidos</string>
     <string name="hint_celular">Numero de celular</string>
     <string name="hint_contrasena">Escribe tu contraseña</string>
@@ -29,8 +38,14 @@
     <string name="inicio_sesion">INICIAR SESIÓN</string>
     <string name="login_facebook">LOGIN WITH FACEBOOK</string>
     <string name="login_google">LOGIN WITH GOOGLE</string>
+    <string name="miPerfil">Mi Perfil</string>
+    <string name="motociclista">Motociclista</string>
+    <string name="noticias">Ultimos Reportes</string>
+    <string name="numerostelefono">Lineas de Emergencia</string>
     <string name="olvidar_password">¿Olvidó su contraseña?</string>
+    <string name="peaton">Peaton</string>
     <string name="project_id" translatable="false">prueba-7b7fb</string>
+    <string name="reportar">Reportar Accidente</string>
     <string name="search">Buscar</string>
     <string name="settings">Configuraciones</string>
     <string name="texto_registrar">Registrarse</string>
