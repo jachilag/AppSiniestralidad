@@ -71,6 +71,7 @@ id nav_home
 id nav_host_fragment
 id nav_search
 id nav_settings
+id noticias
 id noticiasFragment
 id perfilFragment
 id registrar_celular

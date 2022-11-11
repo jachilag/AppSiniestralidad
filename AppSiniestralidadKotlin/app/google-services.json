@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "39283168617",
-    "project_id": "prueba2-88519",
-    "storage_bucket": "prueba2-88519.appspot.com"
+    "project_number": "845001056490",
+    "project_id": "siniestralidad-grupo1",
+    "storage_bucket": "siniestralidad-grupo1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:39283168617:android:2e80977b723ebd7e3d99f8",
+        "mobilesdk_app_id": "1:845001056490:android:7a205ed8051731e59fb793",
         "android_client_info": {
           "package_name": "com.example.appsiniestralidadkotlin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "39283168617-s8c9i9ql0e7d7hntos7m2odef4ck38db.apps.googleusercontent.com",
+          "client_id": "845001056490-oklrekh4n07lgap4vtq2abip59la8m4o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appsiniestralidadkotlin",
+            "certificate_hash": "1082f5a52f0bb4f71a50dc62d131fcc767d7ff6d"
+          }
+        },
+        {
+          "client_id": "845001056490-p78ltop4ireo9utcf9n7elkonbvmjmho.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA58SfhGvNPiOvsS7WB0DXOsaIsf8Z5CME"
+          "current_key": "AIzaSyATdFj4Ev3l4ya3oj-jupstvZHRrMGjF28"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "39283168617-s8c9i9ql0e7d7hntos7m2odef4ck38db.apps.googleusercontent.com",
+              "client_id": "845001056490-p78ltop4ireo9utcf9n7elkonbvmjmho.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

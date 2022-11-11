@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">39283168617-s8c9i9ql0e7d7hntos7m2odef4ck38db.apps.googleusercontent.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">39283168617</string>
-    <string name="google_api_key" translatable="false">AIzaSyA58SfhGvNPiOvsS7WB0DXOsaIsf8Z5CME</string>
-    <string name="google_app_id" translatable="false">1:39283168617:android:2e80977b723ebd7e3d99f8</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA58SfhGvNPiOvsS7WB0DXOsaIsf8Z5CME</string>
-    <string name="google_storage_bucket" translatable="false">prueba2-88519.appspot.com</string>
-    <string name="project_id" translatable="false">prueba2-88519</string>
+    <string name="default_web_client_id" translatable="false">845001056490-p78ltop4ireo9utcf9n7elkonbvmjmho.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">845001056490</string>
+    <string name="google_api_key" translatable="false">AIzaSyATdFj4Ev3l4ya3oj-jupstvZHRrMGjF28</string>
+    <string name="google_app_id" translatable="false">1:845001056490:android:7a205ed8051731e59fb793</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyATdFj4Ev3l4ya3oj-jupstvZHRrMGjF28</string>
+    <string name="google_storage_bucket" translatable="false">siniestralidad-grupo1.appspot.com</string>
+    <string name="project_id" translatable="false">siniestralidad-grupo1</string>
 </resources>

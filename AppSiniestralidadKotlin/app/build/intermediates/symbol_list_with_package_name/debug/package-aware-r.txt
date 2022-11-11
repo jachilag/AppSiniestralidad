@@ -3002,6 +3002,7 @@ id noState
 id none
 id normal
 id north
+id noticias
 id noticiasFragment
 id notification_background
 id notification_main_column

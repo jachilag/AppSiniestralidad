@@ -33,6 +33,7 @@ class SignUpActivity: AppCompatActivity() {
             .addOnCompleteListener(this){
                     Task->if(Task.isSuccessful){
                 val user = firebaseAuth.currentUser
+                Toast.makeText(applicationContext,"USUARIO REGISTRADO", Toast.LENGTH_LONG).show()
                 startActivity(Intent(this,LoginActivity::class.java))
             }else{
                 Toast.makeText(applicationContext,"Error", Toast.LENGTH_LONG).show()

@@ -40,7 +40,6 @@ class LoginActivity: AppCompatActivity() {
 
         home = findViewById(R.id.btn_log_ini)
         home.setOnClickListener {
-//           startActivity(Intent(this,HomeActivity::class.java))
            login(email.text.toString(),password.text.toString())
         }
 
@@ -69,9 +68,7 @@ class LoginActivity: AppCompatActivity() {
                 startActivity(Intent(this,HomeActivity::class.java))
             }else{
                 Toast.makeText(baseContext,"Error",Toast.LENGTH_LONG).show()
-
             }
             }
-
     }
 }
