@@ -40,6 +40,10 @@
         "source": "com.example.appsiniestralidadkotlin.app-main-58:/layout/activity_restore.xml"
     },
     {
+        "merged": "com.example.appsiniestralidadkotlin.app-mergeDebugResources-55:/layout/prueba.xml",
+        "source": "com.example.appsiniestralidadkotlin.app-main-58:/layout/prueba.xml"
+    },
+    {
         "merged": "com.example.appsiniestralidadkotlin.app-mergeDebugResources-55:/layout/fragment_emergencias.xml",
         "source": "com.example.appsiniestralidadkotlin.app-main-58:/layout/fragment_emergencias.xml"
     },

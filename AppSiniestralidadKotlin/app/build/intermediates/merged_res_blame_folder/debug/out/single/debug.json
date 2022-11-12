@@ -40,6 +40,10 @@
         "source": "com.example.appsiniestralidadkotlin.app-main-58:/drawable-v24/animal.png"
     },
     {
+        "merged": "com.example.appsiniestralidadkotlin.app-merged_res-56:/layout_prueba.xml.flat",
+        "source": "com.example.appsiniestralidadkotlin.app-main-58:/layout/prueba.xml"
+    },
+    {
         "merged": "com.example.appsiniestralidadkotlin.app-merged_res-56:/layout_activity_signup.xml.flat",
         "source": "com.example.appsiniestralidadkotlin.app-main-58:/layout/activity_signup.xml"
     },
@@ -129,7 +133,7 @@
     },
     {
         "merged": "com.example.appsiniestralidadkotlin.app-merged_res-56:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.appsiniestralidadkotlin.app-main-58:/drawable/ic_launcher_background.xml"
+        "source": "com.example.appsiniestralidadkotlin.app-debug-57:/drawable/ic_launcher_background.xml"
     },
     {
         "merged": "com.example.appsiniestralidadkotlin.app-merged_res-56:/mipmap-mdpi_ic_launcher_foreground.png.flat",

@@ -42,6 +42,7 @@ id action_menuFragment_to_perfilFragment
 id action_menuFragment_to_reportarFragment
 id animation_view
 id ayudaFragment
+id bottom_navigation
 id btn_log_facebook
 id btn_log_google
 id btn_log_ini
@@ -100,6 +101,7 @@ layout fragment_menu
 layout fragment_noticias
 layout fragment_perfil
 layout fragment_reportar
+layout prueba
 menu navigation_bar
 mipmap ic_launcher
 mipmap ic_launcher_foreground
