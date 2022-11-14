@@ -36,5 +36,12 @@
     <string name="email_recuperacion">Escriba su correo de recuperacion de Contraseña</string>
     <string name="Boton_recuperar">Recuperar</string>
 
-
+    <string name="facebook_app_id">1183897232550435</string>
+    <string name="fb_login_protocol_scheme">fb1183897232550435</string>
+    <string name="facebook_client_token">065f93031f1529ce71aa0fd28474fbde</string>
+    <string name="titulo_nacimiento">Fecha de Nacimiento</string>
+    <string name="fecha_nacimiento">Fecha de Nacimiento</string>
+    <string name="Boton_perfil">ACTUALIZAR</string>
+    <string name="titulo_ciudad">Ciudad de Residencia</string>
+    <string name="hint_ciudad">Ciudad</string>
 </resources>

@@ -20,7 +20,7 @@ class SignUpActivity: AppCompatActivity() {
         setContentView(R.layout.activity_signup)
 
         firebaseAuth = Firebase.auth
-        var email = findViewById<EditText>(R.id.registrar_email)
+        var email = findViewById<EditText>(R.id.register_birthday)
         var password = findViewById<EditText>(R.id.registrar_password)
 
         var register: Button = findViewById(R.id.btn_registrarse)

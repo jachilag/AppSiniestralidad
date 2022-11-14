@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvSiniestro"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/blue_king"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        
+        <ImageView
+            android:id="@+id/iconoSiniestro"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/tituloSiniestro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Siniestro: "
+            android:layout_toRightOf="@+id/iconoSiniestro">
+        </TextView>
+        <TextView
+            android:id="@+id/tituloReportero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Reportado por: "
+            android:layout_toRightOf="@+id/iconoSiniestro"
+            android:layout_below="@+id/tituloSiniestro">
+        </TextView>
+        <TextView
+            android:id="@+id/tituloFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Fecha: "
+            android:layout_toRightOf="@+id/iconoSiniestro"
+            android:layout_below="@+id/tituloReportero">
+        </TextView>
+        <TextView
+            android:id="@+id/tituloUbicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Ubicacion GPS: "
+            android:layout_toRightOf="@+id/iconoSiniestro"
+            android:layout_below="@+id/tituloFecha">
+        </TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -12,4 +12,5 @@
     <color name="gris_medio">#8c8c8c</color>
     <color name="color_fodorange">#f37335</color>
     <color name="color_fondyellow">#fdc830</color>
+    <color name="transparent">#00000000 </color>
 </resources>

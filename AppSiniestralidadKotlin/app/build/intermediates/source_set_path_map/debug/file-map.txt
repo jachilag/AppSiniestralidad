@@ -1,59 +1,62 @@
 com.example.appsiniestralidadkotlin.app-navigation-runtime-ktx-2.5.3-0 C:\Users\Jonathan\.gradle\caches\transforms-3\05f3db6216977a066330d20e3b8408cd\transformed\navigation-runtime-ktx-2.5.3\res
 com.example.appsiniestralidadkotlin.app-navigation-common-ktx-2.5.3-1 C:\Users\Jonathan\.gradle\caches\transforms-3\06ddfe1ecfe1e6a6ba9c87518df7ccaa\transformed\navigation-common-ktx-2.5.3\res
-com.example.appsiniestralidadkotlin.app-appcompat-1.2.0-2 C:\Users\Jonathan\.gradle\caches\transforms-3\0b7622b1b27d573b2c42889b086bc9af\transformed\appcompat-1.2.0\res
-com.example.appsiniestralidadkotlin.app-navigation-common-2.5.3-3 C:\Users\Jonathan\.gradle\caches\transforms-3\0cd079e6a1e59d175c340821b95d4deb\transformed\navigation-common-2.5.3\res
-com.example.appsiniestralidadkotlin.app-fragment-1.5.4-4 C:\Users\Jonathan\.gradle\caches\transforms-3\10b4c4de3b09187a6361ee49910339a6\transformed\fragment-1.5.4\res
-com.example.appsiniestralidadkotlin.app-core-1.10.3-5 C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\res
-com.example.appsiniestralidadkotlin.app-startup-runtime-1.0.0-6 C:\Users\Jonathan\.gradle\caches\transforms-3\20d0deb6f8002b048a4a145f45a5a21d\transformed\startup-runtime-1.0.0\res
-com.example.appsiniestralidadkotlin.app-firebase-common-20.2.0-7 C:\Users\Jonathan\.gradle\caches\transforms-3\22711f26e7db729cbf3a097f892e374b\transformed\firebase-common-20.2.0\res
-com.example.appsiniestralidadkotlin.app-cardview-1.0.0-8 C:\Users\Jonathan\.gradle\caches\transforms-3\25512a70cc968653003d38f2b67a2926\transformed\cardview-1.0.0\res
-com.example.appsiniestralidadkotlin.app-browser-1.4.0-9 C:\Users\Jonathan\.gradle\caches\transforms-3\2aa0febf7fad7aad93c8615c2fa50e35\transformed\browser-1.4.0\res
-com.example.appsiniestralidadkotlin.app-fragment-ktx-1.5.4-10 C:\Users\Jonathan\.gradle\caches\transforms-3\2dcb1a61cf8a2d08d44b5efdbb3d4cc3\transformed\fragment-ktx-1.5.4\res
-com.example.appsiniestralidadkotlin.app-activity-1.5.1-11 C:\Users\Jonathan\.gradle\caches\transforms-3\33053a7d5fedcb79b962e69fdc8f1586\transformed\activity-1.5.1\res
-com.example.appsiniestralidadkotlin.app-navigation-ui-2.5.3-12 C:\Users\Jonathan\.gradle\caches\transforms-3\3958091d124e762eb5a904555951eaa0\transformed\navigation-ui-2.5.3\res
-com.example.appsiniestralidadkotlin.app-navigation-runtime-2.5.3-13 C:\Users\Jonathan\.gradle\caches\transforms-3\3d5b24f3f74227363c24c63e59581fc9\transformed\navigation-runtime-2.5.3\res
-com.example.appsiniestralidadkotlin.app-activity-ktx-1.5.1-14 C:\Users\Jonathan\.gradle\caches\transforms-3\4131541fb001ddfd7bc92a4e221e118f\transformed\activity-ktx-1.5.1\res
-com.example.appsiniestralidadkotlin.app-recyclerview-1.1.0-15 C:\Users\Jonathan\.gradle\caches\transforms-3\4158f7333396a30fc700b688bffb7e8e\transformed\recyclerview-1.1.0\res
-com.example.appsiniestralidadkotlin.app-play-services-base-18.0.1-16 C:\Users\Jonathan\.gradle\caches\transforms-3\4a8044bdb47b936680d18ad2222cce9a\transformed\play-services-base-18.0.1\res
-com.example.appsiniestralidadkotlin.app-lifecycle-viewmodel-savedstate-2.5.1-17 C:\Users\Jonathan\.gradle\caches\transforms-3\50169131df53a9688948401aee12838a\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
-com.example.appsiniestralidadkotlin.app-drawerlayout-1.1.1-18 C:\Users\Jonathan\.gradle\caches\transforms-3\55e54fff288ea17cae3081780ff08c49\transformed\drawerlayout-1.1.1\res
-com.example.appsiniestralidadkotlin.app-coordinatorlayout-1.1.0-19 C:\Users\Jonathan\.gradle\caches\transforms-3\5b0216f9884e91f83fb09d49fd21734a\transformed\coordinatorlayout-1.1.0\res
-com.example.appsiniestralidadkotlin.app-savedstate-1.2.0-20 C:\Users\Jonathan\.gradle\caches\transforms-3\5b06fd80e526ac174c778c976c730113\transformed\savedstate-1.2.0\res
-com.example.appsiniestralidadkotlin.app-lifecycle-viewmodel-ktx-2.5.1-21 C:\Users\Jonathan\.gradle\caches\transforms-3\60de98343ecb679e2b67984503dd26eb\transformed\lifecycle-viewmodel-ktx-2.5.1\res
-com.example.appsiniestralidadkotlin.app-material-1.5.0-22 C:\Users\Jonathan\.gradle\caches\transforms-3\6db916f402e92f0b60aab80dd6e37517\transformed\material-1.5.0\res
-com.example.appsiniestralidadkotlin.app-lifecycle-livedata-core-2.5.1-23 C:\Users\Jonathan\.gradle\caches\transforms-3\6dff95917baba374c7c14fbeff84e062\transformed\lifecycle-livedata-core-2.5.1\res
-com.example.appsiniestralidadkotlin.app-navigation-dynamic-features-fragment-2.5.3-24 C:\Users\Jonathan\.gradle\caches\transforms-3\715596086c70d5f2dc40243a799f93d6\transformed\navigation-dynamic-features-fragment-2.5.3\res
-com.example.appsiniestralidadkotlin.app-lifecycle-process-2.4.0-25 C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\res
-com.example.appsiniestralidadkotlin.app-lifecycle-service-2.4.0-26 C:\Users\Jonathan\.gradle\caches\transforms-3\7c8769ae3ea26e3c0bab5226d10ee4f9\transformed\lifecycle-service-2.4.0\res
-com.example.appsiniestralidadkotlin.app-appcompat-resources-1.4.1-27 C:\Users\Jonathan\.gradle\caches\transforms-3\7f920e05c7a2d96d124a6e64217b6850\transformed\appcompat-resources-1.4.1\res
-com.example.appsiniestralidadkotlin.app-navigation-fragment-ktx-2.5.3-28 C:\Users\Jonathan\.gradle\caches\transforms-3\80f8bd314da9a72acb06adbc48bc35e4\transformed\navigation-fragment-ktx-2.5.3\res
-com.example.appsiniestralidadkotlin.app-play-services-basement-18.1.0-29 C:\Users\Jonathan\.gradle\caches\transforms-3\897d0b8f4848d71a6e00f3430aaa62ef\transformed\play-services-basement-18.1.0\res
-com.example.appsiniestralidadkotlin.app-lifecycle-livedata-2.4.0-30 C:\Users\Jonathan\.gradle\caches\transforms-3\8cde76645c482419eb4caa90900daa3e\transformed\lifecycle-livedata-2.4.0\res
-com.example.appsiniestralidadkotlin.app-lottie-3.4.2-31 C:\Users\Jonathan\.gradle\caches\transforms-3\921a2722077cee1a5615d5226f788f68\transformed\lottie-3.4.2\res
-com.example.appsiniestralidadkotlin.app-transition-1.4.1-32 C:\Users\Jonathan\.gradle\caches\transforms-3\976869d69f15208ca2fd22ab854e1086\transformed\transition-1.4.1\res
-com.example.appsiniestralidadkotlin.app-savedstate-ktx-1.2.0-33 C:\Users\Jonathan\.gradle\caches\transforms-3\979c9bfaac0575b15f375be271ba3eae\transformed\savedstate-ktx-1.2.0\res
-com.example.appsiniestralidadkotlin.app-core-ktx-1.7.0-34 C:\Users\Jonathan\.gradle\caches\transforms-3\9b72ad94f0603d00f4bf36d3791d20b4\transformed\core-ktx-1.7.0\res
-com.example.appsiniestralidadkotlin.app-navigation-ui-ktx-2.5.3-35 C:\Users\Jonathan\.gradle\caches\transforms-3\a1e6b4b404932ff6a83ce8424ef35f44\transformed\navigation-ui-ktx-2.5.3\res
-com.example.appsiniestralidadkotlin.app-window-1.0.0-36 C:\Users\Jonathan\.gradle\caches\transforms-3\a8f95f231c1bb1d95e8586e779e79593\transformed\window-1.0.0\res
-com.example.appsiniestralidadkotlin.app-databinding-adapters-7.3.1-37 C:\Users\Jonathan\.gradle\caches\transforms-3\a94dbe6c5ea98becca25837133a4f1d8\transformed\databinding-adapters-7.3.1\res
-com.example.appsiniestralidadkotlin.app-lifecycle-livedata-core-ktx-2.5.1-38 C:\Users\Jonathan\.gradle\caches\transforms-3\b124c6630ab6ad55b1b8fd50dc3bd7c9\transformed\lifecycle-livedata-core-ktx-2.5.1\res
-com.example.appsiniestralidadkotlin.app-core-1.8.0-39 C:\Users\Jonathan\.gradle\caches\transforms-3\bb29823574370f1bac0a184f0f3b9285\transformed\core-1.8.0\res
-com.example.appsiniestralidadkotlin.app-lifecycle-viewmodel-2.5.1-40 C:\Users\Jonathan\.gradle\caches\transforms-3\d808aeb4ccd62e846d0060fc6a86e8cd\transformed\lifecycle-viewmodel-2.5.1\res
-com.example.appsiniestralidadkotlin.app-navigation-fragment-2.5.3-41 C:\Users\Jonathan\.gradle\caches\transforms-3\e61218df7499d165b26d8666821cd602\transformed\navigation-fragment-2.5.3\res
-com.example.appsiniestralidadkotlin.app-slidingpanelayout-1.2.0-42 C:\Users\Jonathan\.gradle\caches\transforms-3\e853e1c7b9a22a2accf1949bf4353c73\transformed\slidingpanelayout-1.2.0\res
-com.example.appsiniestralidadkotlin.app-constraintlayout-2.1.3-43 C:\Users\Jonathan\.gradle\caches\transforms-3\e8fe2d028895f932b6a1af5afbb1fe04\transformed\constraintlayout-2.1.3\res
-com.example.appsiniestralidadkotlin.app-databinding-runtime-7.3.1-44 C:\Users\Jonathan\.gradle\caches\transforms-3\ea9e77e95af5e15b8d23a527e10d944e\transformed\databinding-runtime-7.3.1\res
-com.example.appsiniestralidadkotlin.app-annotation-experimental-1.1.0-45 C:\Users\Jonathan\.gradle\caches\transforms-3\eb262dfd93c706070038accd9b0ed8f1\transformed\annotation-experimental-1.1.0\res
-com.example.appsiniestralidadkotlin.app-viewpager2-1.0.0-46 C:\Users\Jonathan\.gradle\caches\transforms-3\f3efc15006fcf9d880edefcdd3263ccb\transformed\viewpager2-1.0.0\res
-com.example.appsiniestralidadkotlin.app-lifecycle-runtime-ktx-2.5.1-47 C:\Users\Jonathan\.gradle\caches\transforms-3\f4ff538747b712c6854bdc5030eaae8e\transformed\lifecycle-runtime-ktx-2.5.1\res
-com.example.appsiniestralidadkotlin.app-navigation-dynamic-features-runtime-2.5.3-48 C:\Users\Jonathan\.gradle\caches\transforms-3\fbdffcae0fe83a2e1f788f280e34f047\transformed\navigation-dynamic-features-runtime-2.5.3\res
-com.example.appsiniestralidadkotlin.app-lifecycle-runtime-2.5.1-49 C:\Users\Jonathan\.gradle\caches\transforms-3\fd60d9071a52e7593064609dc59fb263\transformed\lifecycle-runtime-2.5.1\res
-com.example.appsiniestralidadkotlin.app-google-services-50 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\build\generated\res\google-services\debug
-com.example.appsiniestralidadkotlin.app-pngs-51 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\build\generated\res\pngs\debug
-com.example.appsiniestralidadkotlin.app-resValues-52 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\build\generated\res\resValues\debug
-com.example.appsiniestralidadkotlin.app-rs-53 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\build\generated\res\rs\debug
-com.example.appsiniestralidadkotlin.app-packageDebugResources-54 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.appsiniestralidadkotlin.app-packageDebugResources-55 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.appsiniestralidadkotlin.app-merged_res-56 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\build\intermediates\merged_res\debug
-com.example.appsiniestralidadkotlin.app-debug-57 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\debug\res
-com.example.appsiniestralidadkotlin.app-main-58 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\res
+com.example.appsiniestralidadkotlin.app-facebook-login-15.1.0-2 C:\Users\Jonathan\.gradle\caches\transforms-3\0af614b78503e20687cad6c598b51d3b\transformed\facebook-login-15.1.0\res
+com.example.appsiniestralidadkotlin.app-appcompat-1.2.0-3 C:\Users\Jonathan\.gradle\caches\transforms-3\0b7622b1b27d573b2c42889b086bc9af\transformed\appcompat-1.2.0\res
+com.example.appsiniestralidadkotlin.app-navigation-common-2.5.3-4 C:\Users\Jonathan\.gradle\caches\transforms-3\0cd079e6a1e59d175c340821b95d4deb\transformed\navigation-common-2.5.3\res
+com.example.appsiniestralidadkotlin.app-fragment-1.5.4-5 C:\Users\Jonathan\.gradle\caches\transforms-3\10b4c4de3b09187a6361ee49910339a6\transformed\fragment-1.5.4\res
+com.example.appsiniestralidadkotlin.app-core-1.10.3-6 C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\res
+com.example.appsiniestralidadkotlin.app-startup-runtime-1.0.0-7 C:\Users\Jonathan\.gradle\caches\transforms-3\20d0deb6f8002b048a4a145f45a5a21d\transformed\startup-runtime-1.0.0\res
+com.example.appsiniestralidadkotlin.app-firebase-common-20.2.0-8 C:\Users\Jonathan\.gradle\caches\transforms-3\22711f26e7db729cbf3a097f892e374b\transformed\firebase-common-20.2.0\res
+com.example.appsiniestralidadkotlin.app-cardview-1.0.0-9 C:\Users\Jonathan\.gradle\caches\transforms-3\25512a70cc968653003d38f2b67a2926\transformed\cardview-1.0.0\res
+com.example.appsiniestralidadkotlin.app-browser-1.4.0-10 C:\Users\Jonathan\.gradle\caches\transforms-3\2aa0febf7fad7aad93c8615c2fa50e35\transformed\browser-1.4.0\res
+com.example.appsiniestralidadkotlin.app-fragment-ktx-1.5.4-11 C:\Users\Jonathan\.gradle\caches\transforms-3\2dcb1a61cf8a2d08d44b5efdbb3d4cc3\transformed\fragment-ktx-1.5.4\res
+com.example.appsiniestralidadkotlin.app-activity-1.5.1-12 C:\Users\Jonathan\.gradle\caches\transforms-3\33053a7d5fedcb79b962e69fdc8f1586\transformed\activity-1.5.1\res
+com.example.appsiniestralidadkotlin.app-navigation-ui-2.5.3-13 C:\Users\Jonathan\.gradle\caches\transforms-3\3958091d124e762eb5a904555951eaa0\transformed\navigation-ui-2.5.3\res
+com.example.appsiniestralidadkotlin.app-media-1.0.0-14 C:\Users\Jonathan\.gradle\caches\transforms-3\3a66d4f5ec84fd1156f3a141a6981c4a\transformed\media-1.0.0\res
+com.example.appsiniestralidadkotlin.app-navigation-runtime-2.5.3-15 C:\Users\Jonathan\.gradle\caches\transforms-3\3d5b24f3f74227363c24c63e59581fc9\transformed\navigation-runtime-2.5.3\res
+com.example.appsiniestralidadkotlin.app-activity-ktx-1.5.1-16 C:\Users\Jonathan\.gradle\caches\transforms-3\4131541fb001ddfd7bc92a4e221e118f\transformed\activity-ktx-1.5.1\res
+com.example.appsiniestralidadkotlin.app-recyclerview-1.1.0-17 C:\Users\Jonathan\.gradle\caches\transforms-3\4158f7333396a30fc700b688bffb7e8e\transformed\recyclerview-1.1.0\res
+com.example.appsiniestralidadkotlin.app-play-services-base-18.0.1-18 C:\Users\Jonathan\.gradle\caches\transforms-3\4a8044bdb47b936680d18ad2222cce9a\transformed\play-services-base-18.0.1\res
+com.example.appsiniestralidadkotlin.app-lifecycle-viewmodel-savedstate-2.5.1-19 C:\Users\Jonathan\.gradle\caches\transforms-3\50169131df53a9688948401aee12838a\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
+com.example.appsiniestralidadkotlin.app-drawerlayout-1.1.1-20 C:\Users\Jonathan\.gradle\caches\transforms-3\55e54fff288ea17cae3081780ff08c49\transformed\drawerlayout-1.1.1\res
+com.example.appsiniestralidadkotlin.app-coordinatorlayout-1.1.0-21 C:\Users\Jonathan\.gradle\caches\transforms-3\5b0216f9884e91f83fb09d49fd21734a\transformed\coordinatorlayout-1.1.0\res
+com.example.appsiniestralidadkotlin.app-savedstate-1.2.0-22 C:\Users\Jonathan\.gradle\caches\transforms-3\5b06fd80e526ac174c778c976c730113\transformed\savedstate-1.2.0\res
+com.example.appsiniestralidadkotlin.app-facebook-common-15.1.0-23 C:\Users\Jonathan\.gradle\caches\transforms-3\5b96e20962f2df2a858588bbab7f516b\transformed\facebook-common-15.1.0\res
+com.example.appsiniestralidadkotlin.app-lifecycle-viewmodel-ktx-2.5.1-24 C:\Users\Jonathan\.gradle\caches\transforms-3\60de98343ecb679e2b67984503dd26eb\transformed\lifecycle-viewmodel-ktx-2.5.1\res
+com.example.appsiniestralidadkotlin.app-material-1.5.0-25 C:\Users\Jonathan\.gradle\caches\transforms-3\6db916f402e92f0b60aab80dd6e37517\transformed\material-1.5.0\res
+com.example.appsiniestralidadkotlin.app-lifecycle-livedata-core-2.5.1-26 C:\Users\Jonathan\.gradle\caches\transforms-3\6dff95917baba374c7c14fbeff84e062\transformed\lifecycle-livedata-core-2.5.1\res
+com.example.appsiniestralidadkotlin.app-navigation-dynamic-features-fragment-2.5.3-27 C:\Users\Jonathan\.gradle\caches\transforms-3\715596086c70d5f2dc40243a799f93d6\transformed\navigation-dynamic-features-fragment-2.5.3\res
+com.example.appsiniestralidadkotlin.app-lifecycle-process-2.4.0-28 C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\res
+com.example.appsiniestralidadkotlin.app-lifecycle-service-2.4.0-29 C:\Users\Jonathan\.gradle\caches\transforms-3\7c8769ae3ea26e3c0bab5226d10ee4f9\transformed\lifecycle-service-2.4.0\res
+com.example.appsiniestralidadkotlin.app-appcompat-resources-1.4.1-30 C:\Users\Jonathan\.gradle\caches\transforms-3\7f920e05c7a2d96d124a6e64217b6850\transformed\appcompat-resources-1.4.1\res
+com.example.appsiniestralidadkotlin.app-navigation-fragment-ktx-2.5.3-31 C:\Users\Jonathan\.gradle\caches\transforms-3\80f8bd314da9a72acb06adbc48bc35e4\transformed\navigation-fragment-ktx-2.5.3\res
+com.example.appsiniestralidadkotlin.app-play-services-basement-18.1.0-32 C:\Users\Jonathan\.gradle\caches\transforms-3\897d0b8f4848d71a6e00f3430aaa62ef\transformed\play-services-basement-18.1.0\res
+com.example.appsiniestralidadkotlin.app-lifecycle-livedata-2.4.0-33 C:\Users\Jonathan\.gradle\caches\transforms-3\8cde76645c482419eb4caa90900daa3e\transformed\lifecycle-livedata-2.4.0\res
+com.example.appsiniestralidadkotlin.app-lottie-3.4.2-34 C:\Users\Jonathan\.gradle\caches\transforms-3\921a2722077cee1a5615d5226f788f68\transformed\lottie-3.4.2\res
+com.example.appsiniestralidadkotlin.app-transition-1.4.1-35 C:\Users\Jonathan\.gradle\caches\transforms-3\976869d69f15208ca2fd22ab854e1086\transformed\transition-1.4.1\res
+com.example.appsiniestralidadkotlin.app-savedstate-ktx-1.2.0-36 C:\Users\Jonathan\.gradle\caches\transforms-3\979c9bfaac0575b15f375be271ba3eae\transformed\savedstate-ktx-1.2.0\res
+com.example.appsiniestralidadkotlin.app-core-ktx-1.7.0-37 C:\Users\Jonathan\.gradle\caches\transforms-3\9b72ad94f0603d00f4bf36d3791d20b4\transformed\core-ktx-1.7.0\res
+com.example.appsiniestralidadkotlin.app-navigation-ui-ktx-2.5.3-38 C:\Users\Jonathan\.gradle\caches\transforms-3\a1e6b4b404932ff6a83ce8424ef35f44\transformed\navigation-ui-ktx-2.5.3\res
+com.example.appsiniestralidadkotlin.app-window-1.0.0-39 C:\Users\Jonathan\.gradle\caches\transforms-3\a8f95f231c1bb1d95e8586e779e79593\transformed\window-1.0.0\res
+com.example.appsiniestralidadkotlin.app-databinding-adapters-7.3.1-40 C:\Users\Jonathan\.gradle\caches\transforms-3\a94dbe6c5ea98becca25837133a4f1d8\transformed\databinding-adapters-7.3.1\res
+com.example.appsiniestralidadkotlin.app-lifecycle-livedata-core-ktx-2.5.1-41 C:\Users\Jonathan\.gradle\caches\transforms-3\b124c6630ab6ad55b1b8fd50dc3bd7c9\transformed\lifecycle-livedata-core-ktx-2.5.1\res
+com.example.appsiniestralidadkotlin.app-core-1.8.0-42 C:\Users\Jonathan\.gradle\caches\transforms-3\bb29823574370f1bac0a184f0f3b9285\transformed\core-1.8.0\res
+com.example.appsiniestralidadkotlin.app-lifecycle-viewmodel-2.5.1-43 C:\Users\Jonathan\.gradle\caches\transforms-3\d808aeb4ccd62e846d0060fc6a86e8cd\transformed\lifecycle-viewmodel-2.5.1\res
+com.example.appsiniestralidadkotlin.app-navigation-fragment-2.5.3-44 C:\Users\Jonathan\.gradle\caches\transforms-3\e61218df7499d165b26d8666821cd602\transformed\navigation-fragment-2.5.3\res
+com.example.appsiniestralidadkotlin.app-slidingpanelayout-1.2.0-45 C:\Users\Jonathan\.gradle\caches\transforms-3\e853e1c7b9a22a2accf1949bf4353c73\transformed\slidingpanelayout-1.2.0\res
+com.example.appsiniestralidadkotlin.app-constraintlayout-2.1.3-46 C:\Users\Jonathan\.gradle\caches\transforms-3\e8fe2d028895f932b6a1af5afbb1fe04\transformed\constraintlayout-2.1.3\res
+com.example.appsiniestralidadkotlin.app-databinding-runtime-7.3.1-47 C:\Users\Jonathan\.gradle\caches\transforms-3\ea9e77e95af5e15b8d23a527e10d944e\transformed\databinding-runtime-7.3.1\res
+com.example.appsiniestralidadkotlin.app-annotation-experimental-1.1.0-48 C:\Users\Jonathan\.gradle\caches\transforms-3\eb262dfd93c706070038accd9b0ed8f1\transformed\annotation-experimental-1.1.0\res
+com.example.appsiniestralidadkotlin.app-viewpager2-1.0.0-49 C:\Users\Jonathan\.gradle\caches\transforms-3\f3efc15006fcf9d880edefcdd3263ccb\transformed\viewpager2-1.0.0\res
+com.example.appsiniestralidadkotlin.app-lifecycle-runtime-ktx-2.5.1-50 C:\Users\Jonathan\.gradle\caches\transforms-3\f4ff538747b712c6854bdc5030eaae8e\transformed\lifecycle-runtime-ktx-2.5.1\res
+com.example.appsiniestralidadkotlin.app-navigation-dynamic-features-runtime-2.5.3-51 C:\Users\Jonathan\.gradle\caches\transforms-3\fbdffcae0fe83a2e1f788f280e34f047\transformed\navigation-dynamic-features-runtime-2.5.3\res
+com.example.appsiniestralidadkotlin.app-lifecycle-runtime-2.5.1-52 C:\Users\Jonathan\.gradle\caches\transforms-3\fd60d9071a52e7593064609dc59fb263\transformed\lifecycle-runtime-2.5.1\res
+com.example.appsiniestralidadkotlin.app-google-services-53 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\build\generated\res\google-services\debug
+com.example.appsiniestralidadkotlin.app-pngs-54 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\build\generated\res\pngs\debug
+com.example.appsiniestralidadkotlin.app-resValues-55 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\build\generated\res\resValues\debug
+com.example.appsiniestralidadkotlin.app-rs-56 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\build\generated\res\rs\debug
+com.example.appsiniestralidadkotlin.app-packageDebugResources-57 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.appsiniestralidadkotlin.app-packageDebugResources-58 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.appsiniestralidadkotlin.app-merged_res-59 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\build\intermediates\merged_res\debug
+com.example.appsiniestralidadkotlin.app-debug-60 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\debug\res
+com.example.appsiniestralidadkotlin.app-main-61 C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\res

@@ -330,6 +330,20 @@ attr colorSurfaceVariant
 attr colorSwitchThumbNormal
 attr colorTertiary
 attr colorTertiaryContainer
+attr com_facebook_auxiliary_view_position
+attr com_facebook_confirm_logout
+attr com_facebook_foreground_color
+attr com_facebook_horizontal_alignment
+attr com_facebook_is_cropped
+attr com_facebook_login_button_radius
+attr com_facebook_login_button_transparency
+attr com_facebook_login_text
+attr com_facebook_logout_text
+attr com_facebook_object_id
+attr com_facebook_object_type
+attr com_facebook_preset_size
+attr com_facebook_style
+attr com_facebook_tooltip_mode
 attr commitIcon
 attr constraintRotate
 attr constraintSet
@@ -1300,6 +1314,19 @@ color cardview_shadow_start_color
 color checkbox_themeable_attribute_color
 color color_fodorange
 color color_fondyellow
+color com_facebook_blue
+color com_facebook_button_background_color
+color com_facebook_button_background_color_disabled
+color com_facebook_button_background_color_pressed
+color com_facebook_button_text_color
+color com_facebook_device_auth_text
+color com_facebook_likeboxcountview_border_color
+color com_facebook_likeboxcountview_text_color
+color com_facebook_likeview_text_color
+color com_facebook_primary_button_disabled_text_color
+color com_facebook_primary_button_pressed_text_color
+color com_facebook_primary_button_text_color
+color com_smart_login_code
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -1830,6 +1857,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color pinkk
 color primary_dark_material_dark
 color primary_dark_material_light
@@ -1858,6 +1886,7 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color transparent
 color verde_aguamarina
 color white
 dimen abc_action_bar_content_inset_material
@@ -1946,6 +1975,22 @@ dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
 dimen clock_face_margin_start
+dimen com_facebook_auth_dialog_corner_radius
+dimen com_facebook_auth_dialog_corner_radius_oversized
+dimen com_facebook_button_corner_radius
+dimen com_facebook_button_login_corner_radius
+dimen com_facebook_likeboxcountview_border_radius
+dimen com_facebook_likeboxcountview_border_width
+dimen com_facebook_likeboxcountview_caret_height
+dimen com_facebook_likeboxcountview_caret_width
+dimen com_facebook_likeboxcountview_text_padding
+dimen com_facebook_likeboxcountview_text_size
+dimen com_facebook_likeview_edge_padding
+dimen com_facebook_likeview_internal_padding
+dimen com_facebook_likeview_text_size
+dimen com_facebook_profilepictureview_preset_size_large
+dimen com_facebook_profilepictureview_preset_size_normal
+dimen com_facebook_profilepictureview_preset_size_small
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -2422,6 +2467,10 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 dimen sliding_pane_detail_pane_width
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen test_dimen
 dimen test_mtrl_calendar_day_cornerSize
 dimen test_navigation_bar_active_item_max_width
@@ -2545,6 +2594,25 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable bus
 drawable carblue
+drawable com_facebook_auth_dialog_background
+drawable com_facebook_auth_dialog_cancel_background
+drawable com_facebook_auth_dialog_header_background
+drawable com_facebook_button_background
+drawable com_facebook_button_icon
+drawable com_facebook_button_like_background
+drawable com_facebook_button_like_icon_selected
+drawable com_facebook_close
+drawable com_facebook_favicon_blue
+drawable com_facebook_profile_picture_blank_portrait
+drawable com_facebook_profile_picture_blank_square
+drawable com_facebook_tooltip_black_background
+drawable com_facebook_tooltip_black_bottomnub
+drawable com_facebook_tooltip_black_topnub
+drawable com_facebook_tooltip_black_xout
+drawable com_facebook_tooltip_blue_background
+drawable com_facebook_tooltip_blue_bottomnub
+drawable com_facebook_tooltip_blue_topnub
+drawable com_facebook_tooltip_blue_xout
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2687,6 +2755,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action0
 id actionDown
 id actionDownUp
 id actionUp
@@ -2751,19 +2820,22 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id box_count
 id browser_actions_header_text
 id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btn_log_facebook
 id btn_log_google
 id btn_log_ini
+id btn_perfil
 id btn_recuperar
 id btn_registrarse
+id button
 id buttonPanel
 id cache_measures
 id callMeasure
+id cancel_action
 id cancel_button
 id carryVelocity
 id center
@@ -2787,9 +2859,20 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id com_facebook_body_frame
+id com_facebook_button_xout
+id com_facebook_device_auth_instructions
+id com_facebook_fragment_container
+id com_facebook_login_fragment_progress_bar
+id com_facebook_smart_instructions_0
+id com_facebook_smart_instructions_or
+id com_facebook_tooltip_bubble_view_bottom_pointer
+id com_facebook_tooltip_bubble_view_text_body
+id com_facebook_tooltip_bubble_view_top_pointer
 id compress
 id configuracionesFragment
 id confirm_button
+id confirmation_code
 id constraint
 id container
 id content
@@ -2803,6 +2886,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id cvSiniestro
 id dark
 id dataBinding
 id date_picker_actions
@@ -2826,6 +2910,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id display_always
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -2839,12 +2924,12 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editTextTextPassword2
 id edit_query
 id elastic
 id emergenciasFragment
 id end
 id endToStart
+id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
@@ -2887,6 +2972,7 @@ id horizontal_only
 id icon
 id icon_group
 id icon_only
+id iconoSiniestro
 id ifRoom
 id ignore
 id ignoreRequest
@@ -2901,6 +2987,7 @@ id img_news
 id immediateStop
 id included
 id info
+id inline
 id installation_progress
 id invisible
 id inward
@@ -2909,6 +2996,7 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id labeled
+id large
 id layout
 id left
 id leftToRight
@@ -2920,6 +3008,7 @@ id linear
 id listMode
 id list_item
 id locale
+id login_button_facebook
 id login_email
 id login_password
 id lottie_layer_name
@@ -2946,6 +3035,7 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id media_actions
 id menuFragment
 id message
 id middle
@@ -2998,12 +3088,12 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id never_display
 id noScroll
 id noState
 id none
 id normal
 id north
-id noticias
 id noticiasFragment
 id notification_background
 id notification_main_column
@@ -3013,10 +3103,12 @@ id on
 id onAttachStateChangeListener
 id onDateChanged
 id onInterceptTouchReturnSwipe
+id open_graph
 id outline
 id outward
 id overshoot
 id packed
+id page
 id parallax
 id parent
 id parentPanel
@@ -3032,6 +3124,7 @@ id pin
 id position
 id postLayout
 id progress_action
+id progress_bar
 id progress_circular
 id progress_horizontal
 id progress_icon
@@ -3039,8 +3132,8 @@ id progress_title
 id radio
 id ratio
 id rectangles
+id register_birthday
 id registrar_celular
-id registrar_email
 id registrar_password
 id registro_apellido
 id registro_nombre
@@ -3055,6 +3148,7 @@ id right_side
 id rounded
 id row_index_key
 id rtl
+id rv_noticias
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3064,6 +3158,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
 id scrollable
 id search_badge
 id search_bar
@@ -3090,6 +3185,7 @@ id skipped
 id slide
 id sliding_pane_detail_container
 id sliding_pane_layout
+id small
 id snackbar_action
 id snackbar_text
 id snap
@@ -3098,6 +3194,7 @@ id software
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinner_ciudad
 id spline
 id split_action_bar
 id spread
@@ -3114,6 +3211,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id status_bar_latest_event_content
 id stop
 id stretch
 id submenuarrow
@@ -3166,6 +3264,10 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id tituloFecha
+id tituloReportero
+id tituloSiniestro
+id tituloUbicacion
 id toggle
 id top
 id topPanel
@@ -3180,6 +3282,7 @@ id transition_transform
 id triangle
 id unchecked
 id uniform
+id unknown
 id unlabeled
 id up
 id useLogo
@@ -3296,6 +3399,12 @@ layout activity_restore
 layout activity_signup
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
+layout card_view_siniestro
+layout com_facebook_activity_layout
+layout com_facebook_device_auth_dialog_fragment
+layout com_facebook_login_fragment
+layout com_facebook_smart_device_dialog_fragment
+layout com_facebook_tooltip_bubble
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3368,8 +3477,17 @@ layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout prueba
@@ -3401,6 +3519,7 @@ plurals mtrl_badge_content_description
 raw animacion
 raw firebase_common_keep
 raw keep
+string Boton_perfil
 string Boton_recuperar
 string Boton_registrar
 string abc_action_bar_home_description
@@ -3445,6 +3564,29 @@ string character_counter_pattern
 string chip_text
 string ciclista
 string clear_text_end_icon_content_description
+string com_facebook_device_auth_instructions
+string com_facebook_image_download_unknown_error
+string com_facebook_internet_permission_error_message
+string com_facebook_internet_permission_error_title
+string com_facebook_like_button_liked
+string com_facebook_like_button_not_liked
+string com_facebook_loading
+string com_facebook_loginview_cancel_action
+string com_facebook_loginview_log_in_button
+string com_facebook_loginview_log_in_button_continue
+string com_facebook_loginview_log_in_button_long
+string com_facebook_loginview_log_out_action
+string com_facebook_loginview_log_out_button
+string com_facebook_loginview_logged_in_as
+string com_facebook_loginview_logged_in_using_facebook
+string com_facebook_send_button_text
+string com_facebook_share_button_text
+string com_facebook_smart_device_instructions
+string com_facebook_smart_device_instructions_or
+string com_facebook_smart_login_confirmation_cancel
+string com_facebook_smart_login_confirmation_continue_as
+string com_facebook_smart_login_confirmation_title
+string com_facebook_tooltip_default
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -3471,9 +3613,13 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string facebook_app_id
+string facebook_client_token
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
+string fb_login_protocol_scheme
+string fecha_nacimiento
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -3483,6 +3629,7 @@ string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string hint_apellidos
 string hint_celular
+string hint_ciudad
 string hint_contrasena
 string hint_email
 string hint_nombres
@@ -3601,8 +3748,10 @@ string status_bar_notification_info_overflow
 string texto_registrar
 string titulo_apellidos
 string titulo_celular
+string titulo_ciudad
 string titulo_contrasena
 string titulo_email
+string titulo_nacimiento
 string titulo_nombres
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -4024,9 +4173,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Design_CollapsingToolbar_Expanded
 style TextAppearance_Design_Counter
 style TextAppearance_Design_Counter_Overflow
@@ -4624,6 +4778,13 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style com_facebook_activity_theme
+style com_facebook_auth_dialog
+style com_facebook_auth_dialog_instructions_textview
+style com_facebook_button
+style com_facebook_button_like
+style com_facebook_loginview_default_style
+style tooltip_bubble_text
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -4793,6 +4954,9 @@ styleable ViewBackgroundHelper android_background backgroundTint backgroundTintM
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
+styleable com_facebook_like_view com_facebook_auxiliary_view_position com_facebook_foreground_color com_facebook_horizontal_alignment com_facebook_object_id com_facebook_object_type com_facebook_style
+styleable com_facebook_login_view com_facebook_confirm_logout com_facebook_login_button_radius com_facebook_login_button_transparency com_facebook_login_text com_facebook_logout_text com_facebook_tooltip_mode
+styleable com_facebook_profile_picture_view com_facebook_is_cropped com_facebook_preset_size
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules

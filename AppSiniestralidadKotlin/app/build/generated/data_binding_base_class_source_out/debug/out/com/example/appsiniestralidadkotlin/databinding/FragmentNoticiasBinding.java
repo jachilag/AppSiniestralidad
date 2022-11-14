@@ -20,11 +20,12 @@ public final class FragmentNoticiasBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final RecyclerView noticias;
+  public final RecyclerView rvNoticias;
 
-  private FragmentNoticiasBinding(@NonNull LinearLayout rootView, @NonNull RecyclerView noticias) {
+  private FragmentNoticiasBinding(@NonNull LinearLayout rootView,
+      @NonNull RecyclerView rvNoticias) {
     this.rootView = rootView;
-    this.noticias = noticias;
+    this.rvNoticias = rvNoticias;
   }
 
   @Override
@@ -54,13 +55,13 @@ public final class FragmentNoticiasBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.noticias;
-      RecyclerView noticias = ViewBindings.findChildViewById(rootView, id);
-      if (noticias == null) {
+      id = R.id.rv_noticias;
+      RecyclerView rvNoticias = ViewBindings.findChildViewById(rootView, id);
+      if (rvNoticias == null) {
         break missingId;
       }
 
-      return new FragmentNoticiasBinding((LinearLayout) rootView, noticias);
+      return new FragmentNoticiasBinding((LinearLayout) rootView, rvNoticias);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

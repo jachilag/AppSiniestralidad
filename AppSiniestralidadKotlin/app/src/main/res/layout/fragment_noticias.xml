@@ -8,11 +8,6 @@
     android:orientation="vertical"
     tools:context=".view.ui.fragments.noticiasFragment">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -44,10 +39,8 @@
                 android:textStyle="bold">
             </TextView>
         </RelativeLayout>
-    </LinearLayout>
-
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/noticias"
+        android:id="@+id/rv_noticias"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >

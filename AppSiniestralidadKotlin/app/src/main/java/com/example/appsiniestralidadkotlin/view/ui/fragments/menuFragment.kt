@@ -55,6 +55,11 @@ class menuFragment : Fragment() {
             findNavController().navigate(R.id.action_menuFragment_to_ayudaFragment)
         }
 
+        val otro = view.findViewById<CardView>(R.id.fragAyuda)
+        otro.setOnClickListener {
+            findNavController().navigate(R.id.action_menuFragment_to_ayudaFragment)
+        }
+
 
     }
 }
