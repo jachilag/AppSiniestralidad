@@ -43,6 +43,7 @@ id action_menuFragment_to_perfilFragment
 id action_menuFragment_to_reportarFragment
 id animation_view
 id ayudaFragment
+id bar_superior
 id bottom_navigation
 id btn_log_google
 id btn_log_ini
@@ -85,6 +86,7 @@ id registro_nombre
 id reportarFragment
 id rv_noticias
 id scrollView2
+id scroll_menu
 id spinner_ciudad
 id textView
 id textView2

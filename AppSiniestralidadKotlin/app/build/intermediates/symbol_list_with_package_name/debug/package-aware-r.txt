@@ -2858,6 +2858,7 @@ id autoCompleteToEnd
 id autoCompleteToStart
 id automatic
 id ayudaFragment
+id bar_superior
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3216,6 +3217,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollView2
+id scroll_menu
 id scrollable
 id search_badge
 id search_bar

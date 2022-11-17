@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
@@ -18,7 +20,10 @@ import java.lang.String;
 
 public final class FragmentMenuBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final RelativeLayout rootView;
+
+  @NonNull
+  public final LinearLayout barSuperior;
 
   @NonNull
   public final CardView fragAyuda;
@@ -56,13 +61,19 @@ public final class FragmentMenuBinding implements ViewBinding {
   @NonNull
   public final ImageView imgNews;
 
-  private FragmentMenuBinding(@NonNull LinearLayout rootView, @NonNull CardView fragAyuda,
-      @NonNull CardView fragConfiguraciones, @NonNull CardView fragEmergencias,
-      @NonNull CardView fragNoticias, @NonNull CardView fragPerfil, @NonNull CardView fragReportar,
+  @NonNull
+  public final ScrollView scrollMenu;
+
+  private FragmentMenuBinding(@NonNull RelativeLayout rootView, @NonNull LinearLayout barSuperior,
+      @NonNull CardView fragAyuda, @NonNull CardView fragConfiguraciones,
+      @NonNull CardView fragEmergencias, @NonNull CardView fragNoticias,
+      @NonNull CardView fragPerfil, @NonNull CardView fragReportar,
       @NonNull ImageView imgAvatarVerde, @NonNull ImageView imgConfiguraciones,
       @NonNull ImageView imgCrashcar, @NonNull ImageView imgHelp,
-      @NonNull ImageView imgLineaemergencia, @NonNull ImageView imgNews) {
+      @NonNull ImageView imgLineaemergencia, @NonNull ImageView imgNews,
+      @NonNull ScrollView scrollMenu) {
     this.rootView = rootView;
+    this.barSuperior = barSuperior;
     this.fragAyuda = fragAyuda;
     this.fragConfiguraciones = fragConfiguraciones;
     this.fragEmergencias = fragEmergencias;
@@ -75,11 +86,12 @@ public final class FragmentMenuBinding implements ViewBinding {
     this.imgHelp = imgHelp;
     this.imgLineaemergencia = imgLineaemergencia;
     this.imgNews = imgNews;
+    this.scrollMenu = scrollMenu;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -104,6 +116,12 @@ public final class FragmentMenuBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.bar_superior;
+      LinearLayout barSuperior = ViewBindings.findChildViewById(rootView, id);
+      if (barSuperior == null) {
+        break missingId;
+      }
+
       id = R.id.fragAyuda;
       CardView fragAyuda = ViewBindings.findChildViewById(rootView, id);
       if (fragAyuda == null) {
@@ -176,9 +194,16 @@ public final class FragmentMenuBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentMenuBinding((LinearLayout) rootView, fragAyuda, fragConfiguraciones,
-          fragEmergencias, fragNoticias, fragPerfil, fragReportar, imgAvatarVerde,
-          imgConfiguraciones, imgCrashcar, imgHelp, imgLineaemergencia, imgNews);
+      id = R.id.scroll_menu;
+      ScrollView scrollMenu = ViewBindings.findChildViewById(rootView, id);
+      if (scrollMenu == null) {
+        break missingId;
+      }
+
+      return new FragmentMenuBinding((RelativeLayout) rootView, barSuperior, fragAyuda,
+          fragConfiguraciones, fragEmergencias, fragNoticias, fragPerfil, fragReportar,
+          imgAvatarVerde, imgConfiguraciones, imgCrashcar, imgHelp, imgLineaemergencia, imgNews,
+          scrollMenu);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

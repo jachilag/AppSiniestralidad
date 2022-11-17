@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,263 +9,252 @@
     tools:context=".view.ui.fragments.menuFragment">
 
     <LinearLayout
+        android:id="@+id/bar_superior"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:background="@drawable/theme_gradients_background"
+        android:orientation="horizontal"
+        >
 
-        <RelativeLayout
+        <TextView
+            android:layout_width="281dp"
+            android:layout_height="115dp"
+            android:gravity="center"
+            android:text="Bienvenido"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:layout_width="111dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/ic_launcher"></ImageView>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="120dp"
+        >
+
+        <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/theme_gradients_background"
-            >
+            android:layout_below="@+id/bar_superior"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:columnCount="2"
+            android:rowCount="3">
 
-            <ImageView
-                android:layout_width="111dp"
-                android:layout_height="120dp"
-                android:layout_alignParentRight="true"
-                android:src="@mipmap/ic_launcher"
-
-                ></ImageView>
-
-            <TextView
-                android:layout_width="281dp"
-                android:layout_height="115dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="-11dp"
-                android:layout_marginEnd="101dp"
-                android:gravity="center"
-                android:text="Bienvenido"
-                android:textColor="@color/black"
-                android:textSize="40sp"
-                android:textStyle="bold">
-            </TextView>
-        </RelativeLayout>
-
-
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
-            <GridLayout
-                android:layout_width="match_parent"
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fragPerfil"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:columnCount="2"
-                android:rowCount="3"
-                >
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
-                    android:layout_row="1"
-                    android:elevation="5dp"
-                    android:layout_margin="10dp"
-                    android:id="@+id/fragPerfil"
-                    >
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center"
-                        android:padding="15dp"
-                        >
+                android:layout_row="2"
+                android:layout_columnWeight="2"
+                android:layout_margin="5dp"
+                android:elevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
                     <ImageView
                         android:id="@+id/img_avatarVerde"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/avatarverde"
-                        ></ImageView>
+                        android:src="@drawable/avatarverde"></ImageView>
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:textAlignment="center"
                         android:text="@string/miPerfil"
-                        ></TextView>
-                    </LinearLayout>
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
-                    android:layout_row="1"
-                    android:elevation="5dp"
-                    android:layout_margin="10dp"
-                    android:id="@+id/fragReportar"
-                    >
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center"
-                        android:padding="15dp"
-                        >
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fragReportar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_columnWeight="2"
+                android:layout_margin="5dp"
+                android:elevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
                     <ImageView
                         android:id="@+id/img_crashcar"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/crashcar"
-                        ></ImageView>
+                        android:src="@drawable/crashcar"></ImageView>
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:textAlignment="center"
                         android:text="@string/reportar"
-                        >
-                    </TextView>
-                    </LinearLayout>
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
-                    android:layout_row="1"
-                    android:elevation="5dp"
-                    android:layout_margin="10dp"
-                    android:id="@+id/fragNoticias"
-                    >
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center"
-                        android:padding="15dp"
-                        >
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fragNoticias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_columnWeight="2"
+                android:layout_margin="5dp"
+                android:elevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
                     <ImageView
                         android:id="@+id/img_news"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/news"
-                        ></ImageView>
+                        android:src="@drawable/news"></ImageView>
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:textAlignment="center"
                         android:text="@string/noticias"
-                        >
-                    </TextView>
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"></TextView>
                 </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
-                    android:layout_row="1"
-                    android:elevation="5dp"
-                    android:layout_margin="10dp"
-                    android:id="@+id/fragConfiguraciones"
-                    >
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center"
-                        android:padding="15dp"
-                        >
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fragConfiguraciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_columnWeight="2"
+                android:layout_margin="5dp"
+                android:elevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
                     <ImageView
                         android:id="@+id/img_configuraciones"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/settings"
-                        ></ImageView>
+                        android:src="@drawable/settings"></ImageView>
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:textAlignment="center"
                         android:text="@string/configuraciones"
-                        >
-                    </TextView>
-                    </LinearLayout>
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
-                    android:layout_row="1"
-                    android:elevation="5dp"
-                    android:layout_margin="10dp"
-                    android:id="@+id/fragEmergencias"
-                    >
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center"
-                        android:padding="15dp"
-                        >
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fragEmergencias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_columnWeight="2"
+                android:layout_margin="5dp"
+                android:elevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
                     <ImageView
                         android:id="@+id/img_lineaemergencia"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/lineaemergencia"
-                        ></ImageView>
+                        android:src="@drawable/lineaemergencia"></ImageView>
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:textAlignment="center"
                         android:text="@string/numerostelefono"
-                        >
-                    </TextView>
-                    </LinearLayout>
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
-                    android:layout_row="1"
-                    android:elevation="5dp"
-                    android:layout_margin="10dp"
-                    android:id="@+id/fragAyuda"
-                    >
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center"
-                        android:padding="15dp"
-                        >
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fragAyuda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_columnWeight="2"
+                android:layout_margin="5dp"
+                android:elevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
                     <ImageView
                         android:id="@+id/img_help"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/help"
-                        ></ImageView>
+                        android:src="@drawable/help"></ImageView>
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
+                        android:text="@string/ayuda"
                         android:textAlignment="center"
-                        android:text="@string/ayuda">
-                    </TextView>
-                    </LinearLayout>
+                        android:textSize="18sp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            </GridLayout>
-        </ScrollView>
-    </LinearLayout>
-</LinearLayout>
+        </GridLayout>
+    </ScrollView>
+
+</RelativeLayout>
