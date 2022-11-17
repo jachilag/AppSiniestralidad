@@ -29,6 +29,9 @@ class Repository {
         return  mutableLiveData
     }
 
+ //funcion encontrada en el siguiente enlace:
+//https://medium.com/@josealbertoarangos/c%C3%B3mo-cargar-una-imagen-de-google-drive-en-un-imageview-en-android-c0818efa3c07
+
     fun generateUrl(s: String): String? {
         val p = s.split("/").toTypedArray()
         return "https://drive.google.com/uc?export=download&id=" + p[5]

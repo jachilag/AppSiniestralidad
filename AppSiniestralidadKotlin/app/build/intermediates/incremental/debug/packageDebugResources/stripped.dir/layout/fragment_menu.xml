@@ -48,7 +48,7 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             >
             <GridLayout
                 android:layout_width="match_parent"
@@ -72,25 +72,24 @@
                         android:gravity="center"
                         android:padding="15dp"
                         >
-                        <ImageView
-                            android:id="@+id/img_avatarVerde"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/avatarverde"
-                            ></ImageView>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:textAlignment="center"
-                            android:text="@string/miPerfil"
-                            >
-                        </TextView>
+                    <ImageView
+                        android:id="@+id/img_avatarVerde"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/avatarverde"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="@string/miPerfil"
+                        ></TextView>
                     </LinearLayout>
-                </androidx.cardview.widget.CardView>
 
+                </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -107,25 +106,25 @@
                         android:gravity="center"
                         android:padding="15dp"
                         >
-                        <ImageView
-                            android:id="@+id/img_crashcar"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/crashcar"
-                            ></ImageView>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:textAlignment="center"
-                            android:text="@string/reportar"
-                            >
-                        </TextView>
+                    <ImageView
+                        android:id="@+id/img_crashcar"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/crashcar"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="@string/reportar"
+                        >
+                    </TextView>
                     </LinearLayout>
-                </androidx.cardview.widget.CardView>
 
+                </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -142,25 +141,25 @@
                         android:gravity="center"
                         android:padding="15dp"
                         >
-                        <ImageView
-                            android:id="@+id/img_news"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/news"
-                            ></ImageView>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:textAlignment="center"
-                            android:text="@string/noticias"
-                            >
-                        </TextView>
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
+                    <ImageView
+                        android:id="@+id/img_news"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/news"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="@string/noticias"
+                        >
+                    </TextView>
+                </LinearLayout>
 
+                </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -177,25 +176,25 @@
                         android:gravity="center"
                         android:padding="15dp"
                         >
-                        <ImageView
-                            android:id="@+id/img_configuraciones"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/settings"
-                            ></ImageView>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:textAlignment="center"
-                            android:text="@string/configuraciones"
-                            >
-                        </TextView>
+                    <ImageView
+                        android:id="@+id/img_configuraciones"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/settings"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="@string/configuraciones"
+                        >
+                    </TextView>
                     </LinearLayout>
-                </androidx.cardview.widget.CardView>
 
+                </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -212,25 +211,25 @@
                         android:gravity="center"
                         android:padding="15dp"
                         >
-                        <ImageView
-                            android:id="@+id/img_lineaemergencia"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/lineaemergencia"
-                            ></ImageView>
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:textAlignment="center"
-                            android:text="@string/numerostelefono"
-                            >
-                        </TextView>
+                    <ImageView
+                        android:id="@+id/img_lineaemergencia"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/lineaemergencia"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="@string/numerostelefono"
+                        >
+                    </TextView>
                     </LinearLayout>
-                </androidx.cardview.widget.CardView>
 
+                </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -247,23 +246,25 @@
                         android:gravity="center"
                         android:padding="15dp"
                         >
-                        <ImageView
-                            android:id="@+id/img_help"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/help"
-                            ></ImageView>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:textAlignment="center"
-                            android:text="@string/ayuda">
-                        </TextView>
+                    <ImageView
+                        android:id="@+id/img_help"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/help"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="@string/ayuda">
+                    </TextView>
                     </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
+
             </GridLayout>
         </ScrollView>
     </LinearLayout>

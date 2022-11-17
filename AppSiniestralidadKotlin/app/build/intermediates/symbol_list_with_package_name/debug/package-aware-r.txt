@@ -120,6 +120,7 @@ attr alpha
 attr alphabeticModifiers
 attr altSrc
 attr alwaysExpand
+attr ambientEnabled
 attr animateCircleAngleTo
 attr animateRelativeTo
 attr animationMode
@@ -206,6 +207,13 @@ attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
+attr cameraBearing
+attr cameraMaxZoomPreference
+attr cameraMinZoomPreference
+attr cameraTargetLat
+attr cameraTargetLng
+attr cameraTilt
+attr cameraZoom
 attr cardBackgroundColor
 attr cardCornerRadius
 attr cardElevation
@@ -645,6 +653,10 @@ attr labelBehavior
 attr labelStyle
 attr labelVisibilityMode
 attr lastBaselineToBottomHeight
+attr latLngBoundsNorthEastLatitude
+attr latLngBoundsNorthEastLongitude
+attr latLngBoundsSouthWestLatitude
+attr latLngBoundsSouthWestLongitude
 attr launchSingleTop
 attr layout
 attr layoutDescription
@@ -740,6 +752,7 @@ attr listPreferredItemPaddingEnd
 attr listPreferredItemPaddingLeft
 attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
+attr liteMode
 attr logo
 attr logoDescription
 attr lottieAnimationViewStyle
@@ -759,6 +772,8 @@ attr lottie_repeatMode
 attr lottie_scale
 attr lottie_speed
 attr lottie_url
+attr mapId
+attr mapType
 attr marginHorizontal
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogButtonSpacerVisibility
@@ -1206,10 +1221,19 @@ attr triggerId
 attr triggerReceiver
 attr triggerSlack
 attr ttcIndex
+attr uiCompass
+attr uiMapToolbar
+attr uiRotateGestures
+attr uiScrollGestures
+attr uiScrollGesturesDuringRotateOrZoom
+attr uiTiltGestures
+attr uiZoomControls
+attr uiZoomGestures
 attr upDuration
 attr uri
 attr useCompatPadding
 attr useMaterialThemeColors
+attr useViewLifecycle
 attr values
 attr verticalOffset
 attr verticalOffsetWithText
@@ -1240,6 +1264,7 @@ attr windowNoTitle
 attr yearSelectedStyle
 attr yearStyle
 attr yearTodayStyle
+attr zOrderOnTop
 bool abc_action_bar_embed_tabs
 bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
@@ -2584,16 +2609,19 @@ drawable avatarverde
 drawable avd_hide_password
 drawable avd_show_password
 drawable bike
+drawable bonuspack_bubble
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
 drawable btn_checkbox_unchecked_to_checked_mtrl_animation
+drawable btn_moreinfo
 drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable bus
 drawable carblue
+drawable center
 drawable com_facebook_auth_dialog_background
 drawable com_facebook_auth_dialog_cancel_background
 drawable com_facebook_auth_dialog_header_background
@@ -2648,6 +2676,10 @@ drawable ic_launcher_foreground
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
+drawable ic_menu_compass
+drawable ic_menu_mapmode
+drawable ic_menu_mylocation
+drawable ic_menu_offline
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -2665,6 +2697,8 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable marker_default
+drawable marker_default_focused_base
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2675,6 +2709,8 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable moreinfo_arrow
+drawable moreinfo_arrow_pressed
 drawable motorcycle
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
@@ -2687,7 +2723,9 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_overlay
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable navto_small
 drawable news
+drawable next
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -2700,13 +2738,25 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable osm_ic_center_map
+drawable osm_ic_follow_me
+drawable osm_ic_follow_me_on
+drawable osm_ic_ic_map_ortho
+drawable person
 drawable personwalking
+drawable previous
+drawable round_navigation_white_48
 drawable settings
+drawable sharp_add_black_36
+drawable sharp_remove_black_36
 drawable test_custom_background
 drawable theme_gradients_background
 drawable theme_gradients_background_blue
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable twotone_navigation_black_48
+drawable zoom_in
+drawable zoom_out
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2831,6 +2881,11 @@ id btn_log_ini
 id btn_perfil
 id btn_recuperar
 id btn_registrarse
+id bubble_description
+id bubble_image
+id bubble_moreinfo
+id bubble_subdescription
+id bubble_title
 id button
 id buttonPanel
 id cache_measures
@@ -2969,6 +3024,7 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id hybrid
 id icon
 id icon_group
 id icon_only
@@ -3149,6 +3205,7 @@ id rounded
 id row_index_key
 id rtl
 id rv_noticias
+id satellite
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3231,6 +3288,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id terrain
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -3397,6 +3455,7 @@ layout activity_login
 layout activity_main
 layout activity_restore
 layout activity_signup
+layout bonuspack_bubble
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout card_view_siniestro
@@ -3549,12 +3608,17 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string about
+string about_message
 string androidx_startup
 string animal
 string app_name
 string appbar_scrolling_view_behavior
 string automovil
 string ayuda
+string base
+string base_nl
+string bing
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string bus
@@ -3605,8 +3669,10 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string compass
 string configuraciones
 string copy_toast_msg
+string cyclemap
 string default_web_client_id
 string email_recuperacion
 string error_icon_content_description
@@ -3620,6 +3686,19 @@ string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
 string fb_login_protocol_scheme
 string fecha_nacimiento
+string fiets_nl
+string first_fix_message
+string format_distance_feet
+string format_distance_kilometers
+string format_distance_meters
+string format_distance_miles
+string format_distance_nautical_miles
+string format_distance_only_foot
+string format_distance_only_kilometer
+string format_distance_only_meter
+string format_distance_only_mile
+string format_distance_only_nautical_mile
+string format_distance_value_unit
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -3627,6 +3706,7 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
+string hills
 string hint_apellidos
 string hint_celular
 string hint_ciudad
@@ -3667,6 +3747,11 @@ string m3_sys_typescale_label_small_font
 string m3_sys_typescale_title_large_font
 string m3_sys_typescale_title_medium_font
 string m3_sys_typescale_title_small_font
+string map_mode
+string mapbox
+string mapnik
+string mapquest_aerial
+string mapquest_osm
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -3725,10 +3810,12 @@ string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string mtrl_timepicker_confirm
+string my_location
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string noticias
 string numerostelefono
+string offline
 string ok
 string olvidar_password
 string password_toggle_content_description
@@ -3739,11 +3826,20 @@ string path_password_strike_through
 string peaton
 string progress
 string project_id
+string public_transport
 string reportar
 string retry
+string roads_nl
+string samples
 string search
 string search_menu_title
+string set_mode_hide_me
+string set_mode_offline
+string set_mode_online
+string set_mode_show_me
 string settings
+string snapshot
+string states
 string status_bar_notification_info_overflow
 string texto_registrar
 string titulo_apellidos
@@ -3753,6 +3849,8 @@ string titulo_contrasena
 string titulo_email
 string titulo_nacimiento
 string titulo_nombres
+string topo
+string unknown
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
@@ -4870,6 +4968,7 @@ styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionL
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
 styleable LottieAnimationView lottie_autoPlay lottie_cacheComposition lottie_colorFilter lottie_enableMergePathsForKitKatAndAbove lottie_fallbackRes lottie_fileName lottie_imageAssetsFolder lottie_loop lottie_progress lottie_rawRes lottie_renderMode lottie_repeatCount lottie_repeatMode lottie_scale lottie_speed lottie_url
+styleable MapAttrs ambientEnabled backgroundColor cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapId mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogButtonSpacerVisibility materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType

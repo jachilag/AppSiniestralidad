@@ -1,234 +1,234 @@
 [
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable-v24_lineaemergencia.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable-v24\\lineaemergencia.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable_ic_outline_home.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable\\ic_outline_home.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\layout_fragment_ayuda.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\layout\\fragment_ayuda.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-pngs-56:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.appsiniestralidadkotlin.app-merged_res-59:/layout_fragment_menu.xml.flat",
-        "source": "com.example.appsiniestralidadkotlin.app-main-61:/layout/fragment_menu.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable-v24_bike.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable-v24\\bike.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\layout_fragment_reportar.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\layout\\fragment_reportar.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\layout_fragment_emergencias.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\layout\\fragment_emergencias.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable_ic_outline_home.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable\\ic_outline_home.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\layout_fragment_reportar.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\layout\\fragment_reportar.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\layout_fragment_configuraciones.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\layout\\fragment_configuraciones.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable_ic_outline_settings.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable\\ic_outline_settings.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable-v24_help.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable-v24\\help.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\layout\\activity_home.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable-v24_avatarverde.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable-v24\\avatarverde.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable-v24_settings.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable-v24\\settings.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\layout_fragment_menu.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\layout\\fragment_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\layout_prueba.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\layout\\prueba.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable_ic_outline_settings.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable\\ic_outline_settings.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\layout_fragment_menu.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\layout\\fragment_menu.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable-v24_avatarverde.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable-v24\\avatarverde.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable_theme_gradients_background.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable\\theme_gradients_background.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable-v24_settings.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable-v24\\settings.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\layout_fragment_ayuda.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\layout\\fragment_ayuda.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\layout_fragment_perfil.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\layout\\fragment_perfil.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\layout_fragment_configuraciones.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\layout\\fragment_configuraciones.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable-v24_bus.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable-v24\\bus.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable-v24_crashcar.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable-v24\\crashcar.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable-v24_animal.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable-v24\\animal.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\raw_animacion.json.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\raw\\animacion.json"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable-v24_avatargris.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable-v24\\avatargris.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable-v24_help.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable-v24\\help.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable-v24_news.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable-v24\\news.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable-v24_bike.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable-v24\\bike.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\layout_activity_signup.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\layout\\activity_signup.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable-v24_lineaemergencia.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable-v24\\lineaemergencia.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable_ic_outline_car.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable\\ic_outline_car.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\layout_activity_restore.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\layout\\activity_restore.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\layout_card_view_siniestro.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\layout\\card_view_siniestro.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable-v24_crashcar.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable-v24\\crashcar.png"
+        "merged": "com.example.appsiniestralidadkotlin.app-merged_res-61:/layout_fragment_menu.xml.flat",
+        "source": "com.example.appsiniestralidadkotlin.app-main-63:/layout/fragment_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable-v24_personwalking.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable-v24\\personwalking.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\raw_animacion.json.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\raw\\animacion.json"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable-v24_motorcycle.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable-v24\\motorcycle.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable_theme_gradients_background_blue.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable\\theme_gradients_background_blue.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable_ic_outline_car.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable\\ic_outline_car.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\layout_fragment_noticias.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\layout\\fragment_noticias.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\layout\\activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable-v24_motorcycle.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable-v24\\motorcycle.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable-v24_animal.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable-v24\\animal.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-pngs-54:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\layout_activity_restore.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\layout\\activity_restore.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\menu_navigation_bar.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\menu\\navigation_bar.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\layout_prueba.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\layout\\prueba.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\layout_fragment_emergencias.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\layout\\fragment_emergencias.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable-v24_avatargris.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable-v24\\avatargris.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable_ic_outline_search.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable\\ic_outline_search.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable_ic_outline_search.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable\\ic_outline_search.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\layout_card_view_siniestro.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\layout\\card_view_siniestro.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\layout_fragment_perfil.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\layout\\fragment_perfil.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable-v24_carblue.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable-v24\\carblue.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable_theme_gradients_background_blue.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable\\theme_gradients_background_blue.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\layout_fragment_noticias.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\layout\\fragment_noticias.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-62:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable_theme_gradients_background.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable\\theme_gradients_background.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable-v24_bus.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable-v24\\bus.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\navigation\\nav_graph.xml"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\layout\\activity_signup.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\drawable-v24_news.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-61:\\drawable-v24\\news.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\menu_navigation_bar.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\menu\\navigation_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable-v24_personwalking.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable-v24\\personwalking.png"
     },
     {
-        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-59:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-60:\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-61:\\drawable-v24_carblue.png.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-63:\\drawable-v24\\carblue.png"
     }
 ]

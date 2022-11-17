@@ -79,8 +79,8 @@ class LoginActivity: AppCompatActivity() {
 
         home = findViewById(R.id.btn_log_ini)
         home.setOnClickListener {
-//            startActivity(Intent(this, HomeActivity::class.java))
-            login(email.text.toString(), password.text.toString())
+            startActivity(Intent(this, HomeActivity::class.java))
+//            login(email.text.toString(), password.text.toString())
         }
 
         recuperar = findViewById(R.id.textView_olvidar)
