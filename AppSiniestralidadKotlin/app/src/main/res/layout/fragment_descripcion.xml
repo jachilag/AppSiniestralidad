@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".view.ui.fragments.ubicacionFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0"
+        android:background="@drawable/theme_gradients_background_blue">
+
+        <ImageView
+            android:layout_width="111dp"
+            android:layout_height="120dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/settings"
+
+            ></ImageView>
+
+        <TextView
+            android:layout_width="281dp"
+            android:layout_height="115dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-11dp"
+            android:layout_marginEnd="101dp"
+            android:gravity="center"
+            android:text="@string/descripcion"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_margin="35dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:outlineAmbientShadowColor="@color/black"
+            android:elevation="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/txt_descripcion"
+                android:gravity="top"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_finalizar"
+            android:layout_width="345dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/purple"
+            android:text="@string/finalizar"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

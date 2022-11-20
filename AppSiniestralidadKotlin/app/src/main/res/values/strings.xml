@@ -44,4 +44,11 @@
     <string name="Boton_perfil">ACTUALIZAR</string>
     <string name="titulo_ciudad">Ciudad de Residencia</string>
     <string name="hint_ciudad">Ciudad</string>
+    <string name="actores_viales">ACTORES VIALES INVOLUCRADOS</string>
+    <string name="ubicacion">UBICACION SINIESTRO</string>
+    <string name="siguiente">SIGUIENTE</string>
+    <string name="descripcion">DESCRIPCION DEL SINIESTRO</string>
+    <string name="finalizar">FINALIZAR</string>
+    <string name="txt_descripcion">Haga una descripcion del siniestro</string>
+    <string name="google_maps_api_key">AIzaSyB3OaqWPqQFJ23_TvNo5TXdij5LWIBS5CM</string>
 </resources>

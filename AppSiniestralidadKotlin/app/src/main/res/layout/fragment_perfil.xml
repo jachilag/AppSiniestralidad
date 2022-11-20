@@ -242,7 +242,7 @@
             </LinearLayout>
 
                 <Button
-                    android:id="@+id/btn_perfil"
+                    android:id="@+id/btn_actualizar"
                     android:layout_width="345dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"

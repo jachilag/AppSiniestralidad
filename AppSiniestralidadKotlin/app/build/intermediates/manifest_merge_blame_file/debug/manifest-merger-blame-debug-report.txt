@@ -10,570 +10,591 @@
 9        android:targetSdkVersion="32" />
 9-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:91:5-66
-11-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:91:22-64
-12
-13    <queries>
-13-->[com.facebook.android:facebook-common:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5b96e20962f2df2a858588bbab7f516b\transformed\facebook-common-15.1.0\AndroidManifest.xml:17:5-19:15
-14        <package android:name="com.facebook.katana" />
-14-->[com.facebook.android:facebook-common:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5b96e20962f2df2a858588bbab7f516b\transformed\facebook-common-15.1.0\AndroidManifest.xml:18:9-55
-14-->[com.facebook.android:facebook-common:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5b96e20962f2df2a858588bbab7f516b\transformed\facebook-common-15.1.0\AndroidManifest.xml:18:18-52
-15        <!-- Needs to be explicitly declared on Android R+ -->
-16        <package android:name="com.google.android.apps.maps" />
-16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
-16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
-17    </queries> <!-- Include required permissions for Google Maps API to run. -->
-18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
-18-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
-19
-20    <uses-feature
-20-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
-21        android:glEsVersion="0x00020000"
-21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
-22        android:required="true" />
-22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
-23
-24    <uses-permission android:name="android.permission.WAKE_LOCK" />
-24-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\7f0c8c122bbccec57af1814077e51f93\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
-24-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\7f0c8c122bbccec57af1814077e51f93\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:22-65
-25    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-25-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\7f0c8c122bbccec57af1814077e51f93\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
-25-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\7f0c8c122bbccec57af1814077e51f93\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
-26    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-26-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
-26-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
-27
-28    <supports-screens
-28-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:11:5-14:40
-29        android:anyDensity="true"
-29-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:12:9-34
-30        android:largeScreens="true"
-30-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:13:9-36
-31        android:normalScreens="true" />
-31-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:14:9-37
-32
-33    <uses-feature
-33-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:16:5-18:36
-34        android:name="android.hardware.location.network"
-34-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:17:9-57
-35        android:required="false" />
-35-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:18:9-33
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:4:5-78
+11-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:5:5-80
+12-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:6:5-66
+13-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:6:5-66
+14-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:6:22-64
+15
+16    <queries>
+16-->[com.facebook.android:facebook-common:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5b96e20962f2df2a858588bbab7f516b\transformed\facebook-common-15.1.0\AndroidManifest.xml:17:5-19:15
+17        <package android:name="com.facebook.katana" />
+17-->[com.facebook.android:facebook-common:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5b96e20962f2df2a858588bbab7f516b\transformed\facebook-common-15.1.0\AndroidManifest.xml:18:9-55
+17-->[com.facebook.android:facebook-common:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5b96e20962f2df2a858588bbab7f516b\transformed\facebook-common-15.1.0\AndroidManifest.xml:18:18-52
+18        <!-- Needs to be explicitly declared on Android R+ -->
+19        <package android:name="com.google.android.apps.maps" />
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+20    </queries> <!-- Include required permissions for Google Maps API to run. -->
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+26
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\7f0c8c122bbccec57af1814077e51f93\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
+27-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\7f0c8c122bbccec57af1814077e51f93\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:22-65
+28    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+28-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\7f0c8c122bbccec57af1814077e51f93\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+28-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\7f0c8c122bbccec57af1814077e51f93\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+29-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+29-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+30
+31    <supports-screens
+31-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:11:5-14:40
+32        android:anyDensity="true"
+32-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:12:9-34
+33        android:largeScreens="true"
+33-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:13:9-36
+34        android:normalScreens="true" />
+34-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:14:9-37
+35
 36    <uses-feature
-36-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:19:5-21:36
-37        android:name="android.hardware.location.gps"
-37-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:20:9-53
+36-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:16:5-18:36
+37        android:name="android.hardware.location.network"
+37-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:17:9-57
 38        android:required="false" />
-38-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:21:9-33
+38-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:18:9-33
 39    <uses-feature
-39-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:22:5-24:36
-40        android:name="android.hardware.telephony"
-40-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:23:9-50
+39-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:19:5-21:36
+40        android:name="android.hardware.location.gps"
+40-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:20:9-53
 41        android:required="false" />
-41-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:24:9-33
+41-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:21:9-33
 42    <uses-feature
-42-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:25:5-27:36
-43        android:name="android.hardware.wifi"
-43-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:26:9-45
-44        android:required="false" /> <!-- Permission will be merged into the manifest of the hosting app. -->
-44-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:27:9-33
-45    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
-46    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-46-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:13:5-77
-46-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:13:22-74
-47
-48    <application
-48-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:5:5-89:19
-49        android:allowBackup="true"
-49-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:6:9-35
-50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-50-->[androidx.core:core:1.8.0] C:\Users\Jonathan\.gradle\caches\transforms-3\bb29823574370f1bac0a184f0f3b9285\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-51        android:dataExtractionRules="@xml/data_extraction_rules"
-51-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:7:9-65
-52        android:debuggable="true"
-53        android:fullBackupContent="@xml/backup_rules"
-53-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:8:9-54
-54        android:icon="@mipmap/ic_launcher"
-54-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:9:9-43
-55        android:label="@string/app_name"
-55-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:10:9-41
-56        android:roundIcon="@mipmap/ic_launcher_round"
+42-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:22:5-24:36
+43        android:name="android.hardware.telephony"
+43-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:23:9-50
+44        android:required="false" />
+44-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:24:9-33
+45    <uses-feature
+45-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:25:5-27:36
+46        android:name="android.hardware.wifi"
+46-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:26:9-45
+47        android:required="false" /> <!-- Permission will be merged into the manifest of the hosting app. -->
+47-->[org.osmdroid:osmdroid-android:6.1.10] C:\Users\Jonathan\.gradle\caches\transforms-3\05ce414085b687833563be8119b215d5\transformed\osmdroid-android-6.1.10\AndroidManifest.xml:27:9-33
+48    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+49    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+49-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:13:5-77
+49-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:13:22-74
+50
+51    <application
+51-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:8:5-91:19
+52        android:allowBackup="true"
+52-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:9:9-35
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.8.0] C:\Users\Jonathan\.gradle\caches\transforms-3\bb29823574370f1bac0a184f0f3b9285\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+54        android:dataExtractionRules="@xml/data_extraction_rules"
+54-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:10:9-65
+55        android:debuggable="true"
+56        android:fullBackupContent="@xml/backup_rules"
 56-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:11:9-54
-57        android:supportsRtl="true"
-57-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:12:9-35
-58        android:testOnly="true"
-59        android:theme="@style/Theme.AppSiniestralidadKotlin"
-59-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:13:9-61
-60        android:usesCleartextTraffic="true" >
-60-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:15:9-44
-61        <meta-data
-61-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:17:9-18:70
-62            android:name="com.google.android.geo.API_KEY"
-62-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:17:20-65
-63            android:value="AIzaSyB3OaqWPqQFJ23_TvNo5TXdij5LWIBS5CM" />
-63-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:18:13-68
+57        android:icon="@mipmap/ic_launcher"
+57-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:12:9-43
+58        android:label="@string/app_name"
+58-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:13:9-41
+59        android:roundIcon="@mipmap/ic_launcher_round"
+59-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:14:9-54
+60        android:supportsRtl="true"
+60-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:15:9-35
+61        android:testOnly="true"
+62        android:theme="@style/Theme.AppSiniestralidadKotlin"
+62-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:16:9-61
+63        android:usesCleartextTraffic="true" >
+63-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:18:9-44
 64        <meta-data
-64-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:19:9-107
-65            android:name="com.facebook.sdk.ApplicationId"
-65-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:19:20-65
-66            android:value="@string/facebook_app_id" />
-66-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:19:66-105
+64-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:20:9-111
+65            android:name="com.google.android.geo.API_KEY"
+65-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:20:20-65
+66            android:value="@string/google_maps_api_key" />
+66-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:20:66-109
 67        <meta-data
-67-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:20:9-111
-68            android:name="com.facebook.sdk.ClientToken"
-68-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:20:20-63
-69            android:value="@string/facebook_client_token" />
-69-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:20:64-109
-70
-71        <activity
-71-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:22:9-25:48
-72            android:name="com.facebook.FacebookActivity"
-72-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:22:19-63
-73            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-73-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:23:13-114
-74            android:label="@string/app_name"
-74-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:25:13-45
-75            android:theme="@style/com_facebook_activity_theme" />
-75-->[com.facebook.android:facebook-common:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5b96e20962f2df2a858588bbab7f516b\transformed\facebook-common-15.1.0\AndroidManifest.xml:25:13-63
-76        <activity
-76-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:26:9-35:20
-77            android:name="com.facebook.CustomTabActivity"
-77-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:27:13-58
-78            android:exported="true" >
-78-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:28:13-36
-79            <intent-filter>
-79-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:29:13-34:29
-80                <action android:name="android.intent.action.VIEW" />
-80-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:30:17-69
-80-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:30:25-66
-81
-82                <category android:name="android.intent.category.DEFAULT" />
-82-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:31:17-76
-82-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:31:27-73
-83                <category android:name="android.intent.category.BROWSABLE" />
-83-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:17-78
-83-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:27-75
+67-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:21:9-107
+68            android:name="com.facebook.sdk.ApplicationId"
+68-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:21:20-65
+69            android:value="@string/facebook_app_id" />
+69-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:21:66-105
+70        <meta-data
+70-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:22:9-111
+71            android:name="com.facebook.sdk.ClientToken"
+71-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:22:20-63
+72            android:value="@string/facebook_client_token" />
+72-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:22:64-109
+73
+74        <activity
+74-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:24:9-27:48
+75            android:name="com.facebook.FacebookActivity"
+75-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:24:19-63
+76            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+76-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:25:13-114
+77            android:label="@string/app_name"
+77-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:27:13-45
+78            android:theme="@style/com_facebook_activity_theme" />
+78-->[com.facebook.android:facebook-common:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5b96e20962f2df2a858588bbab7f516b\transformed\facebook-common-15.1.0\AndroidManifest.xml:25:13-63
+79        <activity
+79-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:28:9-37:20
+80            android:name="com.facebook.CustomTabActivity"
+80-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:29:13-58
+81            android:exported="true" >
+81-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:30:13-36
+82            <intent-filter>
+82-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:31:13-36:29
+83                <action android:name="android.intent.action.VIEW" />
+83-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:17-69
+83-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:25-66
 84
-85                <data android:scheme="@string/fb_login_protocol_scheme" />
-85-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:33:17-75
-85-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:33:23-72
-86            </intent-filter>
-87            <intent-filter>
-87-->[com.facebook.android:facebook-common:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5b96e20962f2df2a858588bbab7f516b\transformed\facebook-common-15.1.0\AndroidManifest.xml:31:13-40:29
-88                <action android:name="android.intent.action.VIEW" />
-88-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:30:17-69
-88-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:30:25-66
-89
-90                <category android:name="android.intent.category.DEFAULT" />
-90-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:31:17-76
-90-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:31:27-73
-91                <category android:name="android.intent.category.BROWSABLE" />
-91-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:17-78
-91-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:27-75
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:33:17-76
+85-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:33:27-73
+86                <category android:name="android.intent.category.BROWSABLE" />
+86-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:34:17-78
+86-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:34:27-75
+87
+88                <data android:scheme="@string/fb_login_protocol_scheme" />
+88-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:35:17-75
+88-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:35:23-72
+89            </intent-filter>
+90            <intent-filter>
+90-->[com.facebook.android:facebook-common:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5b96e20962f2df2a858588bbab7f516b\transformed\facebook-common-15.1.0\AndroidManifest.xml:31:13-40:29
+91                <action android:name="android.intent.action.VIEW" />
+91-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:17-69
+91-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:25-66
 92
-93                <data
-93-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:33:17-75
-94                    android:host="cct.com.example.appsiniestralidadkotlin"
-95                    android:scheme="fbconnect" />
-95-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:33:23-72
-96            </intent-filter>
-97        </activity>
-98        <activity
-98-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:40:9-52:20
-99            android:name="com.example.appsiniestralidadkotlin.view.ui.activities.MainActivity"
-99-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:41:13-60
-100            android:exported="true" >
-100-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:42:13-36
-101            <intent-filter>
-101-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:43:13-47:29
-102                <action android:name="android.intent.action.MAIN" />
-102-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:44:17-69
-102-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:44:25-66
-103
-104                <category android:name="android.intent.category.LAUNCHER" />
-104-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:46:17-77
-104-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:46:27-74
-105            </intent-filter>
+93                <category android:name="android.intent.category.DEFAULT" />
+93-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:33:17-76
+93-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:33:27-73
+94                <category android:name="android.intent.category.BROWSABLE" />
+94-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:34:17-78
+94-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:34:27-75
+95
+96                <data
+96-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:35:17-75
+97                    android:host="cct.com.example.appsiniestralidadkotlin"
+98                    android:scheme="fbconnect" />
+98-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:35:23-72
+99            </intent-filter>
+100        </activity>
+101        <activity
+101-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:42:9-54:20
+102            android:name="com.example.appsiniestralidadkotlin.view.ui.activities.MainActivity"
+102-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:43:13-60
+103            android:exported="true" >
+103-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:44:13-36
+104            <intent-filter>
+104-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:45:13-49:29
+105                <action android:name="android.intent.action.MAIN" />
+105-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:46:17-69
+105-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:46:25-66
 106
-107            <meta-data
-107-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:49:13-51:36
-108                android:name="android.app.lib_name"
-108-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:50:17-52
-109                android:value="" />
-109-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:51:17-33
-110        </activity>
-111        <activity
-111-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:54:9-61:20
-112            android:name="com.example.appsiniestralidadkotlin.view.ui.activities.LoginActivity"
-112-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:55:13-61
-113            android:exported="false" >
-113-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:56:13-37
-114            <meta-data
-114-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:49:13-51:36
-115                android:name="android.app.lib_name"
-115-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:50:17-52
-116                android:value="" >
-116-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:51:17-33
-117            </meta-data>
-118        </activity>
-119        <activity
-119-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:63:9-71:20
-120            android:name="com.example.appsiniestralidadkotlin.view.ui.activities.HomeActivity"
-120-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:64:13-60
-121            android:exported="false" >
-121-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:65:13-37
-122            <meta-data
-122-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:49:13-51:36
-123                android:name="android.app.lib_name"
-123-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:50:17-52
-124                android:value="" >
-124-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:51:17-33
-125            </meta-data>
-126        </activity>
-127        <activity
-127-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:71:20-78:20
-128            android:name="com.example.appsiniestralidadkotlin.view.ui.activities.SignUpActivity"
-128-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:72:13-62
-129            android:exported="false" >
-129-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:73:13-37
-130            <meta-data
-130-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:49:13-51:36
-131                android:name="android.app.lib_name"
-131-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:50:17-52
-132                android:value="" >
-132-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:51:17-33
-133            </meta-data>
-134        </activity>
-135        <activity
-135-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:80:9-87:20
-136            android:name="com.example.appsiniestralidadkotlin.view.ui.activities.RestoreActivity"
-136-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:81:13-63
-137            android:exported="false" >
-137-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:82:13-37
-138            <meta-data
-138-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:49:13-51:36
-139                android:name="android.app.lib_name"
-139-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:50:17-52
-140                android:value="" >
-140-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:51:17-33
-141            </meta-data>
-142        </activity>
-143
-144        <service
-144-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\bb80bb74f45f2f79db127f2ce7cb1ad7\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:8:9-14:19
-145            android:name="com.google.firebase.components.ComponentDiscoveryService"
-145-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\bb80bb74f45f2f79db127f2ce7cb1ad7\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:9:13-84
-146            android:directBootAware="true"
-146-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\22711f26e7db729cbf3a097f892e374b\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
-147            android:exported="false" >
-147-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\bb80bb74f45f2f79db127f2ce7cb1ad7\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:10:13-37
-148            <meta-data
-148-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\bb80bb74f45f2f79db127f2ce7cb1ad7\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:11:13-13:85
-149                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
-149-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\bb80bb74f45f2f79db127f2ce7cb1ad7\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:12:17-116
-150                android:value="com.google.firebase.components.ComponentRegistrar" />
-150-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\bb80bb74f45f2f79db127f2ce7cb1ad7\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:13:17-82
+107                <category android:name="android.intent.category.LAUNCHER" />
+107-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:48:17-77
+107-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:48:27-74
+108            </intent-filter>
+109
+110            <meta-data
+110-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:51:13-53:36
+111                android:name="android.app.lib_name"
+111-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:52:17-52
+112                android:value="" />
+112-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:53:17-33
+113        </activity>
+114        <activity
+114-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:56:9-63:20
+115            android:name="com.example.appsiniestralidadkotlin.view.ui.activities.LoginActivity"
+115-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:57:13-61
+116            android:exported="false" >
+116-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:58:13-37
+117            <meta-data
+117-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:51:13-53:36
+118                android:name="android.app.lib_name"
+118-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:52:17-52
+119                android:value="" >
+119-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:53:17-33
+120            </meta-data>
+121        </activity>
+122        <activity
+122-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:65:9-73:20
+123            android:name="com.example.appsiniestralidadkotlin.view.ui.activities.HomeActivity"
+123-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:66:13-60
+124            android:exported="false" >
+124-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:67:13-37
+125            <meta-data
+125-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:51:13-53:36
+126                android:name="android.app.lib_name"
+126-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:52:17-52
+127                android:value="" >
+127-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:53:17-33
+128            </meta-data>
+129        </activity>
+130        <activity
+130-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:73:20-80:20
+131            android:name="com.example.appsiniestralidadkotlin.view.ui.activities.SignUpActivity"
+131-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:74:13-62
+132            android:exported="false" >
+132-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:75:13-37
+133            <meta-data
+133-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:51:13-53:36
+134                android:name="android.app.lib_name"
+134-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:52:17-52
+135                android:value="" >
+135-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:53:17-33
+136            </meta-data>
+137        </activity>
+138        <activity
+138-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:82:9-89:20
+139            android:name="com.example.appsiniestralidadkotlin.view.ui.activities.RestoreActivity"
+139-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:83:13-63
+140            android:exported="false" >
+140-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:84:13-37
+141            <meta-data
+141-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:51:13-53:36
+142                android:name="android.app.lib_name"
+142-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:52:17-52
+143                android:value="" >
+143-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:53:17-33
+144            </meta-data>
+145        </activity>
+146
+147        <service
+147-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\bb80bb74f45f2f79db127f2ce7cb1ad7\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:8:9-14:19
+148            android:name="com.google.firebase.components.ComponentDiscoveryService"
+148-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\bb80bb74f45f2f79db127f2ce7cb1ad7\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:9:13-84
+149            android:directBootAware="true"
+149-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\22711f26e7db729cbf3a097f892e374b\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+150            android:exported="false" >
+150-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\bb80bb74f45f2f79db127f2ce7cb1ad7\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:10:13-37
 151            <meta-data
-151-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\70a7347f6658204bdce111642441cc50\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:11:13-13:85
-152                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
-152-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\70a7347f6658204bdce111642441cc50\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:12:17-126
+151-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\bb80bb74f45f2f79db127f2ce7cb1ad7\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:11:13-13:85
+152                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+152-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\bb80bb74f45f2f79db127f2ce7cb1ad7\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:12:17-116
 153                android:value="com.google.firebase.components.ComponentRegistrar" />
-153-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\70a7347f6658204bdce111642441cc50\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:13:17-82
+153-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\bb80bb74f45f2f79db127f2ce7cb1ad7\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:13:17-82
 154            <meta-data
-154-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\2124e840b8b9817b29828d02b3baaf71\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
-155                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
-155-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\2124e840b8b9817b29828d02b3baaf71\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
+154-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\212aa5f22ce4783538d4a32294e68ab5\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:14:13-16:85
+155                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+155-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\212aa5f22ce4783538d4a32294e68ab5\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:15:17-124
 156                android:value="com.google.firebase.components.ComponentRegistrar" />
-156-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\2124e840b8b9817b29828d02b3baaf71\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
+156-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\212aa5f22ce4783538d4a32294e68ab5\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:16:17-82
 157            <meta-data
-157-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
-158                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-158-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+157-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\70a7347f6658204bdce111642441cc50\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:11:13-13:85
+158                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+158-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\70a7347f6658204bdce111642441cc50\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:12:17-126
 159                android:value="com.google.firebase.components.ComponentRegistrar" />
-159-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+159-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\70a7347f6658204bdce111642441cc50\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:13:17-82
 160            <meta-data
-160-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\2ab1d6d1dfbb81a6242264e942ea779e\transformed\firebase-firestore-24.4.0\AndroidManifest.xml:19:13-21:85
-161                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-161-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\2ab1d6d1dfbb81a6242264e942ea779e\transformed\firebase-firestore-24.4.0\AndroidManifest.xml:20:17-111
+160-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\2124e840b8b9817b29828d02b3baaf71\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+161                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+161-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\2124e840b8b9817b29828d02b3baaf71\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
 162                android:value="com.google.firebase.components.ComponentRegistrar" />
-162-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\2ab1d6d1dfbb81a6242264e942ea779e\transformed\firebase-firestore-24.4.0\AndroidManifest.xml:21:17-82
+162-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\2124e840b8b9817b29828d02b3baaf71\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
 163            <meta-data
-163-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\7f0c8c122bbccec57af1814077e51f93\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
-164                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-164-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\7f0c8c122bbccec57af1814077e51f93\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+163-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+164                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+164-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
 165                android:value="com.google.firebase.components.ComponentRegistrar" />
-165-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\7f0c8c122bbccec57af1814077e51f93\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+165-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
 166            <meta-data
-166-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\f52739298a5f4d94ab625c3f5f6b33a5\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
-167                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-167-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\f52739298a5f4d94ab625c3f5f6b33a5\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+166-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\2ab1d6d1dfbb81a6242264e942ea779e\transformed\firebase-firestore-24.4.0\AndroidManifest.xml:19:13-21:85
+167                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+167-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\2ab1d6d1dfbb81a6242264e942ea779e\transformed\firebase-firestore-24.4.0\AndroidManifest.xml:20:17-111
 168                android:value="com.google.firebase.components.ComponentRegistrar" />
-168-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\f52739298a5f4d94ab625c3f5f6b33a5\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
-169        </service>
-170
-171        <activity android:name="com.facebook.CustomTabMainActivity" />
-171-->[com.facebook.android:facebook-common:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5b96e20962f2df2a858588bbab7f516b\transformed\facebook-common-15.1.0\AndroidManifest.xml:26:9-71
-171-->[com.facebook.android:facebook-common:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5b96e20962f2df2a858588bbab7f516b\transformed\facebook-common-15.1.0\AndroidManifest.xml:26:19-68
-172
-173        <uses-library
-173-->[androidx.window:window:1.0.0] C:\Users\Jonathan\.gradle\caches\transforms-3\a8f95f231c1bb1d95e8586e779e79593\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-174            android:name="androidx.window.extensions"
-174-->[androidx.window:window:1.0.0] C:\Users\Jonathan\.gradle\caches\transforms-3\a8f95f231c1bb1d95e8586e779e79593\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-175            android:required="false" />
-175-->[androidx.window:window:1.0.0] C:\Users\Jonathan\.gradle\caches\transforms-3\a8f95f231c1bb1d95e8586e779e79593\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-176        <uses-library
-176-->[androidx.window:window:1.0.0] C:\Users\Jonathan\.gradle\caches\transforms-3\a8f95f231c1bb1d95e8586e779e79593\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-177            android:name="androidx.window.sidecar"
-177-->[androidx.window:window:1.0.0] C:\Users\Jonathan\.gradle\caches\transforms-3\a8f95f231c1bb1d95e8586e779e79593\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-178            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
-178-->[androidx.window:window:1.0.0] C:\Users\Jonathan\.gradle\caches\transforms-3\a8f95f231c1bb1d95e8586e779e79593\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-179        <uses-library
-179-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
-180            android:name="org.apache.http.legacy"
-180-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
-181            android:required="false" />
-181-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
-182
-183        <activity
-183-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
-184            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-184-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
-185            android:excludeFromRecents="true"
-185-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
-186            android:exported="true"
-186-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
-187            android:launchMode="singleTask"
-187-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
-188            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-188-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
-189            <intent-filter>
-189-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
-190                <action android:name="android.intent.action.VIEW" />
-190-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:30:17-69
-190-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:30:25-66
+168-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\2ab1d6d1dfbb81a6242264e942ea779e\transformed\firebase-firestore-24.4.0\AndroidManifest.xml:21:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\4101d613b15c726a6d740dc723d52680\transformed\firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+170                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+170-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\4101d613b15c726a6d740dc723d52680\transformed\firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\4101d613b15c726a6d740dc723d52680\transformed\firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+172            <meta-data
+172-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\7f0c8c122bbccec57af1814077e51f93\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+173                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+173-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\7f0c8c122bbccec57af1814077e51f93\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\7f0c8c122bbccec57af1814077e51f93\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+175            <meta-data
+175-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\f52739298a5f4d94ab625c3f5f6b33a5\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+176                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+176-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\f52739298a5f4d94ab625c3f5f6b33a5\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\f52739298a5f4d94ab625c3f5f6b33a5\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+178        </service>
+179
+180        <activity android:name="com.facebook.CustomTabMainActivity" />
+180-->[com.facebook.android:facebook-common:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5b96e20962f2df2a858588bbab7f516b\transformed\facebook-common-15.1.0\AndroidManifest.xml:26:9-71
+180-->[com.facebook.android:facebook-common:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5b96e20962f2df2a858588bbab7f516b\transformed\facebook-common-15.1.0\AndroidManifest.xml:26:19-68
+181
+182        <uses-library
+182-->[androidx.window:window:1.0.0] C:\Users\Jonathan\.gradle\caches\transforms-3\a8f95f231c1bb1d95e8586e779e79593\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+183            android:name="androidx.window.extensions"
+183-->[androidx.window:window:1.0.0] C:\Users\Jonathan\.gradle\caches\transforms-3\a8f95f231c1bb1d95e8586e779e79593\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+184            android:required="false" />
+184-->[androidx.window:window:1.0.0] C:\Users\Jonathan\.gradle\caches\transforms-3\a8f95f231c1bb1d95e8586e779e79593\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+185        <uses-library
+185-->[androidx.window:window:1.0.0] C:\Users\Jonathan\.gradle\caches\transforms-3\a8f95f231c1bb1d95e8586e779e79593\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+186            android:name="androidx.window.sidecar"
+186-->[androidx.window:window:1.0.0] C:\Users\Jonathan\.gradle\caches\transforms-3\a8f95f231c1bb1d95e8586e779e79593\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+187            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+187-->[androidx.window:window:1.0.0] C:\Users\Jonathan\.gradle\caches\transforms-3\a8f95f231c1bb1d95e8586e779e79593\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+188        <uses-library
+188-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+189            android:name="org.apache.http.legacy"
+189-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+190            android:required="false" />
+190-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\5a1eaeb18ee9580ef798919b3db5a112\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
 191
-192                <category android:name="android.intent.category.DEFAULT" />
-192-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:31:17-76
-192-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:31:27-73
-193                <category android:name="android.intent.category.BROWSABLE" />
-193-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:17-78
-193-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:27-75
-194
-195                <data
-195-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:33:17-75
-196                    android:host="firebase.auth"
-197                    android:path="/"
-198                    android:scheme="genericidp" />
-198-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:33:23-72
-199            </intent-filter>
-200        </activity>
-201        <activity
-201-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
-202            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-202-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
-203            android:excludeFromRecents="true"
-203-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
-204            android:exported="true"
-204-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
-205            android:launchMode="singleTask"
-205-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
-206            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-206-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
-207            <intent-filter>
-207-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
-208                <action android:name="android.intent.action.VIEW" />
-208-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:30:17-69
-208-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:30:25-66
-209
-210                <category android:name="android.intent.category.DEFAULT" />
-210-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:31:17-76
-210-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:31:27-73
-211                <category android:name="android.intent.category.BROWSABLE" />
-211-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:17-78
-211-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:27-75
-212
-213                <data
-213-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:33:17-75
-214                    android:host="firebase.auth"
-215                    android:path="/"
-216                    android:scheme="recaptcha" />
-216-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:33:23-72
-217            </intent-filter>
-218        </activity>
-219
-220        <provider
-220-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\22711f26e7db729cbf3a097f892e374b\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
-221            android:name="com.google.firebase.provider.FirebaseInitProvider"
-221-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\22711f26e7db729cbf3a097f892e374b\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
-222            android:authorities="com.example.appsiniestralidadkotlin.firebaseinitprovider"
-222-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\22711f26e7db729cbf3a097f892e374b\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
-223            android:directBootAware="true"
-223-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\22711f26e7db729cbf3a097f892e374b\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
-224            android:exported="false"
-224-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\22711f26e7db729cbf3a097f892e374b\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
-225            android:initOrder="100" />
-225-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\22711f26e7db729cbf3a097f892e374b\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
-226
-227        <activity
-227-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\72ef6478b6a5179c57a88d9051a065f3\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
-228            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-228-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\72ef6478b6a5179c57a88d9051a065f3\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
-229            android:exported="false"
-229-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\72ef6478b6a5179c57a88d9051a065f3\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
-230            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-230-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\72ef6478b6a5179c57a88d9051a065f3\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
-231
-232        <receiver
-232-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
-233            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-233-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
-234            android:enabled="true"
-234-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
-235            android:exported="false" >
-235-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
-236        </receiver>
-237
-238        <service
-238-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
-239            android:name="com.google.android.gms.measurement.AppMeasurementService"
-239-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
-240            android:enabled="true"
-240-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
-241            android:exported="false" />
-241-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
-242        <service
-242-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
-243            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-243-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
-244            android:enabled="true"
-244-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
-245            android:exported="false"
-245-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
-246            android:permission="android.permission.BIND_JOB_SERVICE" />
-246-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
-247
-248        <meta-data
-248-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\897d0b8f4848d71a6e00f3430aaa62ef\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-249            android:name="com.google.android.gms.version"
-249-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\897d0b8f4848d71a6e00f3430aaa62ef\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-250            android:value="@integer/google_play_services_version" />
-250-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\897d0b8f4848d71a6e00f3430aaa62ef\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-251        <!--
-252         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-253         with the application context. This config is merged in with the host app's manifest,
-254         but there can only be one provider with the same authority activated at any given
-255         point; so if the end user has two or more different apps that use Facebook SDK, only the
-256         first one will be able to use the provider. To work around this problem, we use the
-257         following placeholder in the authority to identify each host application as if it was
-258         a completely different provider.
-259        -->
-260        <provider
-260-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:29:9-32:40
-261            android:name="com.facebook.internal.FacebookInitProvider"
-261-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:30:13-70
-262            android:authorities="com.example.appsiniestralidadkotlin.FacebookInitProvider"
-262-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:31:13-72
-263            android:exported="false" />
-263-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:32:13-37
-264
-265        <receiver
-265-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:34:9-40:20
-266            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-266-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:35:13-86
-267            android:exported="false" >
-267-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:36:13-37
-268            <intent-filter>
-268-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:37:13-39:29
-269                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-269-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:38:17-95
-269-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:38:25-92
-270            </intent-filter>
-271        </receiver>
-272        <receiver
-272-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:41:9-47:20
-273            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
-273-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:42:13-118
-274            android:exported="false" >
-274-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:43:13-37
-275            <intent-filter>
-275-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:44:13-46:29
-276                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
-276-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:45:17-103
-276-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:45:25-100
-277            </intent-filter>
-278        </receiver>
-279
-280        <provider
-280-->[com.squareup.picasso:picasso:2.8] C:\Users\Jonathan\.gradle\caches\transforms-3\0ed837150c6e2b91abb8d23eaf1851f5\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
-281            android:name="com.squareup.picasso.PicassoProvider"
-281-->[com.squareup.picasso:picasso:2.8] C:\Users\Jonathan\.gradle\caches\transforms-3\0ed837150c6e2b91abb8d23eaf1851f5\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
-282            android:authorities="com.example.appsiniestralidadkotlin.com.squareup.picasso"
-282-->[com.squareup.picasso:picasso:2.8] C:\Users\Jonathan\.gradle\caches\transforms-3\0ed837150c6e2b91abb8d23eaf1851f5\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
-283            android:exported="false" />
-283-->[com.squareup.picasso:picasso:2.8] C:\Users\Jonathan\.gradle\caches\transforms-3\0ed837150c6e2b91abb8d23eaf1851f5\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
-284        <provider
-284-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
-285            android:name="androidx.startup.InitializationProvider"
-285-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:27:13-67
-286            android:authorities="com.example.appsiniestralidadkotlin.androidx-startup"
-286-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:28:13-68
-287            android:exported="false" >
-287-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:29:13-37
-288            <meta-data
-288-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-289                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-289-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-290                android:value="androidx.startup" />
-290-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-291        </provider> <!-- The activities will be merged into the manifest of the hosting app. -->
-292        <activity
-292-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:18:9-24:45
-293            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
-293-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:19:13-100
-294            android:enabled="false"
-294-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:20:13-36
-295            android:exported="false"
-295-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:21:13-37
-296            android:launchMode="singleInstance"
-296-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:22:13-48
-297            android:process=":playcore_missing_splits_activity"
-297-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:23:13-64
-298            android:stateNotNeeded="true" />
-298-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:24:13-42
-299        <activity
-299-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:25:9-29:65
-300            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-300-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:26:13-93
-301            android:exported="false"
-301-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:27:13-37
-302            android:stateNotNeeded="true"
-302-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:28:13-42
-303            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
-303-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:29:13-62
-304        <service
-304-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:32:9-39:19
-305            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
-305-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:33:13-94
-306            android:enabled="false"
-306-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:34:13-36
-307            android:exported="true" >
-307-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:35:13-36
-308            <meta-data
-308-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:36:13-38:41
-309                android:name="com.google.android.play.core.assetpacks.versionCode"
-309-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:37:17-83
-310                android:value="11003" />
-310-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:38:17-38
-311        </service>
-312        <service
-312-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:40:9-43:40
-313            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
-313-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:41:13-95
-314            android:enabled="false"
-314-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:42:13-36
-315            android:exported="false" />
-315-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:43:13-37
-316    </application>
-317
-318</manifest>
+192        <activity
+192-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+193            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+193-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+194            android:excludeFromRecents="true"
+194-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+195            android:exported="true"
+195-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+196            android:launchMode="singleTask"
+196-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+197-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+198            <intent-filter>
+198-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+199                <action android:name="android.intent.action.VIEW" />
+199-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:17-69
+199-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:25-66
+200
+201                <category android:name="android.intent.category.DEFAULT" />
+201-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:33:17-76
+201-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:33:27-73
+202                <category android:name="android.intent.category.BROWSABLE" />
+202-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:34:17-78
+202-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:34:27-75
+203
+204                <data
+204-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:35:17-75
+205                    android:host="firebase.auth"
+206                    android:path="/"
+207                    android:scheme="genericidp" />
+207-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:35:23-72
+208            </intent-filter>
+209        </activity>
+210        <activity
+210-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+211            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+211-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+212            android:excludeFromRecents="true"
+212-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+213            android:exported="true"
+213-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+214            android:launchMode="singleTask"
+214-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+215            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+215-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+216            <intent-filter>
+216-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\36e646900f7aae3c3c9121cebf07b536\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+217                <action android:name="android.intent.action.VIEW" />
+217-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:17-69
+217-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:32:25-66
+218
+219                <category android:name="android.intent.category.DEFAULT" />
+219-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:33:17-76
+219-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:33:27-73
+220                <category android:name="android.intent.category.BROWSABLE" />
+220-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:34:17-78
+220-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:34:27-75
+221
+222                <data
+222-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:35:17-75
+223                    android:host="firebase.auth"
+224                    android:path="/"
+225                    android:scheme="recaptcha" />
+225-->C:\Users\Jonathan\misArchivos\MINTIC\ciclo 4\AppSiniestralidad\AppSiniestralidadKotlin\app\src\main\AndroidManifest.xml:35:23-72
+226            </intent-filter>
+227        </activity>
+228
+229        <provider
+229-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\22711f26e7db729cbf3a097f892e374b\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+230            android:name="com.google.firebase.provider.FirebaseInitProvider"
+230-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\22711f26e7db729cbf3a097f892e374b\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+231            android:authorities="com.example.appsiniestralidadkotlin.firebaseinitprovider"
+231-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\22711f26e7db729cbf3a097f892e374b\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+232            android:directBootAware="true"
+232-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\22711f26e7db729cbf3a097f892e374b\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+233            android:exported="false"
+233-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\22711f26e7db729cbf3a097f892e374b\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+234            android:initOrder="100" />
+234-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\22711f26e7db729cbf3a097f892e374b\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+235
+236        <activity
+236-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\72ef6478b6a5179c57a88d9051a065f3\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+237            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+237-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\72ef6478b6a5179c57a88d9051a065f3\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+238            android:exported="false"
+238-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\72ef6478b6a5179c57a88d9051a065f3\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+239            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+239-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\72ef6478b6a5179c57a88d9051a065f3\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+240
+241        <receiver
+241-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+242            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+242-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+243            android:enabled="true"
+243-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+244            android:exported="false" >
+244-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+245        </receiver>
+246
+247        <service
+247-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+248            android:name="com.google.android.gms.measurement.AppMeasurementService"
+248-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+249            android:enabled="true"
+249-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+250            android:exported="false" />
+250-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+251        <service
+251-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+252            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+252-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+253            android:enabled="true"
+253-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+254            android:exported="false"
+254-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+255            android:permission="android.permission.BIND_JOB_SERVICE" />
+255-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6763472e50ed8a8d1cc3c2467dded28a\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+256
+257        <meta-data
+257-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\897d0b8f4848d71a6e00f3430aaa62ef\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+258            android:name="com.google.android.gms.version"
+258-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\897d0b8f4848d71a6e00f3430aaa62ef\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+259            android:value="@integer/google_play_services_version" />
+259-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\897d0b8f4848d71a6e00f3430aaa62ef\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+260        <!--
+261         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+262         with the application context. This config is merged in with the host app's manifest,
+263         but there can only be one provider with the same authority activated at any given
+264         point; so if the end user has two or more different apps that use Facebook SDK, only the
+265         first one will be able to use the provider. To work around this problem, we use the
+266         following placeholder in the authority to identify each host application as if it was
+267         a completely different provider.
+268        -->
+269        <provider
+269-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:29:9-32:40
+270            android:name="com.facebook.internal.FacebookInitProvider"
+270-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:30:13-70
+271            android:authorities="com.example.appsiniestralidadkotlin.FacebookInitProvider"
+271-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:31:13-72
+272            android:exported="false" />
+272-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:32:13-37
+273
+274        <receiver
+274-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:34:9-40:20
+275            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+275-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:35:13-86
+276            android:exported="false" >
+276-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:36:13-37
+277            <intent-filter>
+277-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:37:13-39:29
+278                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+278-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:38:17-95
+278-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:38:25-92
+279            </intent-filter>
+280        </receiver>
+281        <receiver
+281-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:41:9-47:20
+282            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+282-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:42:13-118
+283            android:exported="false" >
+283-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:43:13-37
+284            <intent-filter>
+284-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:44:13-46:29
+285                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+285-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:45:17-103
+285-->[com.facebook.android:facebook-core:15.1.0] C:\Users\Jonathan\.gradle\caches\transforms-3\6f85ae709a1f6f113fa48d01df53f7d5\transformed\facebook-core-15.1.0\AndroidManifest.xml:45:25-100
+286            </intent-filter>
+287        </receiver>
+288
+289        <provider
+289-->[com.squareup.picasso:picasso:2.8] C:\Users\Jonathan\.gradle\caches\transforms-3\0ed837150c6e2b91abb8d23eaf1851f5\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+290            android:name="com.squareup.picasso.PicassoProvider"
+290-->[com.squareup.picasso:picasso:2.8] C:\Users\Jonathan\.gradle\caches\transforms-3\0ed837150c6e2b91abb8d23eaf1851f5\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
+291            android:authorities="com.example.appsiniestralidadkotlin.com.squareup.picasso"
+291-->[com.squareup.picasso:picasso:2.8] C:\Users\Jonathan\.gradle\caches\transforms-3\0ed837150c6e2b91abb8d23eaf1851f5\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+292            android:exported="false" />
+292-->[com.squareup.picasso:picasso:2.8] C:\Users\Jonathan\.gradle\caches\transforms-3\0ed837150c6e2b91abb8d23eaf1851f5\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+293        <provider
+293-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+294            android:name="androidx.startup.InitializationProvider"
+294-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:27:13-67
+295            android:authorities="com.example.appsiniestralidadkotlin.androidx-startup"
+295-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:28:13-68
+296            android:exported="false" >
+296-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:29:13-37
+297            <meta-data
+297-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+298                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+298-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+299                android:value="androidx.startup" />
+299-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+300        </provider> <!-- The activities will be merged into the manifest of the hosting app. -->
+301        <activity
+301-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:18:9-24:45
+302            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+302-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:19:13-100
+303            android:enabled="false"
+303-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:20:13-36
+304            android:exported="false"
+304-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:21:13-37
+305            android:launchMode="singleInstance"
+305-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:22:13-48
+306            android:process=":playcore_missing_splits_activity"
+306-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:23:13-64
+307            android:stateNotNeeded="true" />
+307-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:24:13-42
+308        <activity
+308-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:25:9-29:65
+309            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+309-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:26:13-93
+310            android:exported="false"
+310-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:27:13-37
+311            android:stateNotNeeded="true"
+311-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:28:13-42
+312            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+312-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:29:13-62
+313        <service
+313-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:32:9-39:19
+314            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+314-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:33:13-94
+315            android:enabled="false"
+315-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:34:13-36
+316            android:exported="true" >
+316-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:35:13-36
+317            <meta-data
+317-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:36:13-38:41
+318                android:name="com.google.android.play.core.assetpacks.versionCode"
+318-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:37:17-83
+319                android:value="11003" />
+319-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:38:17-38
+320        </service>
+321        <service
+321-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:40:9-43:40
+322            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+322-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:41:13-95
+323            android:enabled="false"
+323-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:42:13-36
+324            android:exported="false" />
+324-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:43:13-37
+325    </application>
+326
+327</manifest>

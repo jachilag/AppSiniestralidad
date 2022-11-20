@@ -8,22 +8,28 @@ import androidx.cardview.widget.CardView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.appsiniestralidadkotlin.R
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 
 class menuFragment : Fragment() {
+    lateinit var firebaseAuth: FirebaseAuth
 
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+        inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?): View? {
+
+
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_menu, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        firebaseAuth = Firebase.auth
+        val user = firebaseAuth.currentUser
+        val email = user?.email.toString()
 
         val cardPerfil = view.findViewById<CardView>(R.id.fragPerfil)
         cardPerfil.setOnClickListener {

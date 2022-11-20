@@ -4,20 +4,72 @@ package com.example.appsiniestralidadkotlin.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.appsiniestralidadkotlin.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentReportarBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
 
-  private FragmentReportarBinding(@NonNull LinearLayout rootView) {
+  @NonNull
+  public final Button btnAvanzarToUbicacion;
+
+  @NonNull
+  public final CheckBox checkBox10;
+
+  @NonNull
+  public final CheckBox checkBox11;
+
+  @NonNull
+  public final CheckBox checkBox2;
+
+  @NonNull
+  public final CheckBox checkBox3;
+
+  @NonNull
+  public final CheckBox checkBox4;
+
+  @NonNull
+  public final CheckBox checkBox5;
+
+  @NonNull
+  public final CheckBox checkBox6;
+
+  @NonNull
+  public final CheckBox checkBox7;
+
+  @NonNull
+  public final CheckBox checkBox8;
+
+  @NonNull
+  public final CheckBox checkBox9;
+
+  private FragmentReportarBinding(@NonNull LinearLayout rootView,
+      @NonNull Button btnAvanzarToUbicacion, @NonNull CheckBox checkBox10,
+      @NonNull CheckBox checkBox11, @NonNull CheckBox checkBox2, @NonNull CheckBox checkBox3,
+      @NonNull CheckBox checkBox4, @NonNull CheckBox checkBox5, @NonNull CheckBox checkBox6,
+      @NonNull CheckBox checkBox7, @NonNull CheckBox checkBox8, @NonNull CheckBox checkBox9) {
     this.rootView = rootView;
+    this.btnAvanzarToUbicacion = btnAvanzarToUbicacion;
+    this.checkBox10 = checkBox10;
+    this.checkBox11 = checkBox11;
+    this.checkBox2 = checkBox2;
+    this.checkBox3 = checkBox3;
+    this.checkBox4 = checkBox4;
+    this.checkBox5 = checkBox5;
+    this.checkBox6 = checkBox6;
+    this.checkBox7 = checkBox7;
+    this.checkBox8 = checkBox8;
+    this.checkBox9 = checkBox9;
   }
 
   @Override
@@ -43,10 +95,81 @@ public final class FragmentReportarBinding implements ViewBinding {
 
   @NonNull
   public static FragmentReportarBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.btn_avanzar_to_ubicacion;
+      Button btnAvanzarToUbicacion = ViewBindings.findChildViewById(rootView, id);
+      if (btnAvanzarToUbicacion == null) {
+        break missingId;
+      }
 
-    return new FragmentReportarBinding((LinearLayout) rootView);
+      id = R.id.checkBox10;
+      CheckBox checkBox10 = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox10 == null) {
+        break missingId;
+      }
+
+      id = R.id.checkBox11;
+      CheckBox checkBox11 = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox11 == null) {
+        break missingId;
+      }
+
+      id = R.id.checkBox2;
+      CheckBox checkBox2 = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox2 == null) {
+        break missingId;
+      }
+
+      id = R.id.checkBox3;
+      CheckBox checkBox3 = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox3 == null) {
+        break missingId;
+      }
+
+      id = R.id.checkBox4;
+      CheckBox checkBox4 = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox4 == null) {
+        break missingId;
+      }
+
+      id = R.id.checkBox5;
+      CheckBox checkBox5 = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox5 == null) {
+        break missingId;
+      }
+
+      id = R.id.checkBox6;
+      CheckBox checkBox6 = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox6 == null) {
+        break missingId;
+      }
+
+      id = R.id.checkBox7;
+      CheckBox checkBox7 = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox7 == null) {
+        break missingId;
+      }
+
+      id = R.id.checkBox8;
+      CheckBox checkBox8 = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox8 == null) {
+        break missingId;
+      }
+
+      id = R.id.checkBox9;
+      CheckBox checkBox9 = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox9 == null) {
+        break missingId;
+      }
+
+      return new FragmentReportarBinding((LinearLayout) rootView, btnAvanzarToUbicacion, checkBox10,
+          checkBox11, checkBox2, checkBox3, checkBox4, checkBox5, checkBox6, checkBox7, checkBox8,
+          checkBox9);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

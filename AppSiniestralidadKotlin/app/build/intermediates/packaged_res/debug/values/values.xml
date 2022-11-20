@@ -16,6 +16,7 @@
     <string name="Boton_perfil">ACTUALIZAR</string>
     <string name="Boton_recuperar">Recuperar</string>
     <string name="Boton_registrar">REGISTRAR</string>
+    <string name="actores_viales">ACTORES VIALES INVOLUCRADOS</string>
     <string name="animal">Animal</string>
     <string name="app_name">App Siniestralidad</string>
     <string name="automovil">Automovil</string>
@@ -24,15 +25,18 @@
     <string name="ciclista">Ciclista</string>
     <string name="configuraciones">Configuraciones</string>
     <string name="default_web_client_id" translatable="false">845001056490-p78ltop4ireo9utcf9n7elkonbvmjmho.apps.googleusercontent.com</string>
+    <string name="descripcion">DESCRIPCION DEL SINIESTRO</string>
     <string name="email_recuperacion">Escriba su correo de recuperacion de Contraseña</string>
     <string name="facebook_app_id">1183897232550435</string>
     <string name="facebook_client_token">065f93031f1529ce71aa0fd28474fbde</string>
     <string name="fb_login_protocol_scheme">fb1183897232550435</string>
     <string name="fecha_nacimiento">Fecha de Nacimiento</string>
+    <string name="finalizar">FINALIZAR</string>
     <string name="gcm_defaultSenderId" translatable="false">845001056490</string>
     <string name="google_api_key" translatable="false">AIzaSyATdFj4Ev3l4ya3oj-jupstvZHRrMGjF28</string>
     <string name="google_app_id" translatable="false">1:845001056490:android:7a205ed8051731e59fb793</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyATdFj4Ev3l4ya3oj-jupstvZHRrMGjF28</string>
+    <string name="google_maps_api_key">AIzaSyB3OaqWPqQFJ23_TvNo5TXdij5LWIBS5CM</string>
     <string name="google_storage_bucket" translatable="false">siniestralidad-grupo1.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hint_apellidos">Escribe tus apellidos</string>
@@ -55,6 +59,7 @@
     <string name="reportar">Reportar Accidente</string>
     <string name="search">Buscar</string>
     <string name="settings">Configuraciones</string>
+    <string name="siguiente">SIGUIENTE</string>
     <string name="texto_registrar">Registrarse</string>
     <string name="titulo_apellidos">Apellidos</string>
     <string name="titulo_celular">Celular</string>
@@ -63,6 +68,8 @@
     <string name="titulo_email">Correo Electronico</string>
     <string name="titulo_nacimiento">Fecha de Nacimiento</string>
     <string name="titulo_nombres">Nombres</string>
+    <string name="txt_descripcion">Haga una descripcion del siniestro</string>
+    <string name="ubicacion">UBICACION SINIESTRO</string>
     <style name="Theme.AppSiniestralidadKotlin" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorPrimary">@color/blue_king</item>

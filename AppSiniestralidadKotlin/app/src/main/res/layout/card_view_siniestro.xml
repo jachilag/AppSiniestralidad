@@ -9,9 +9,10 @@
     app:cardCornerRadius="20dp"
     android:layout_margin="10dp">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:padding="16dp">
         
         <ImageView
@@ -20,46 +21,43 @@
             android:layout_height="100dp">
 
         </ImageView>
-        <TextView
-            android:id="@+id/tituloSiniestro"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            android:text="Siniestro: "
-            android:layout_toRightOf="@+id/iconoSiniestro">
-        </TextView>
-        <TextView
-            android:id="@+id/tituloReportero"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            android:text="Reportado por: "
-            android:layout_toRightOf="@+id/iconoSiniestro"
-            android:layout_below="@+id/tituloSiniestro">
-        </TextView>
-        <TextView
-            android:id="@+id/tituloFecha"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            android:text="Fecha: "
-            android:layout_toRightOf="@+id/iconoSiniestro"
-            android:layout_below="@+id/tituloReportero">
-        </TextView>
-        <TextView
-            android:id="@+id/tituloUbicacion"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            android:text="Ubicacion GPS: "
-            android:layout_toRightOf="@+id/iconoSiniestro"
-            android:layout_below="@+id/tituloFecha">
-        </TextView>
-
-    </RelativeLayout>
-
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp">
+            <TextView
+                android:id="@+id/tituloSiniestro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Siniestro: ">
+            </TextView>
+            <TextView
+                android:id="@+id/tituloReportero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Reportado por: ">
+            </TextView>
+            <TextView
+                android:id="@+id/tituloFecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Fecha: ">
+            </TextView>
+            <TextView
+                android:id="@+id/tituloUbicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Ubicacion GPS: ">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
 </androidx.cardview.widget.CardView>

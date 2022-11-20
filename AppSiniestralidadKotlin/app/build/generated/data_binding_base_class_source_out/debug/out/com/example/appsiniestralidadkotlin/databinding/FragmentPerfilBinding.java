@@ -23,7 +23,7 @@ public final class FragmentPerfilBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final Button btnPerfil;
+  public final Button btnActualizar;
 
   @NonNull
   public final EditText registerBirthday;
@@ -55,13 +55,13 @@ public final class FragmentPerfilBinding implements ViewBinding {
   @NonNull
   public final TextView textView5;
 
-  private FragmentPerfilBinding(@NonNull LinearLayout rootView, @NonNull Button btnPerfil,
+  private FragmentPerfilBinding(@NonNull LinearLayout rootView, @NonNull Button btnActualizar,
       @NonNull EditText registerBirthday, @NonNull EditText registrarCelular,
       @NonNull EditText registroApellido, @NonNull EditText registroNombre,
       @NonNull Spinner spinnerCiudad, @NonNull TextView textView, @NonNull TextView textView2,
       @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5) {
     this.rootView = rootView;
-    this.btnPerfil = btnPerfil;
+    this.btnActualizar = btnActualizar;
     this.registerBirthday = registerBirthday;
     this.registrarCelular = registrarCelular;
     this.registroApellido = registroApellido;
@@ -101,9 +101,9 @@ public final class FragmentPerfilBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_perfil;
-      Button btnPerfil = ViewBindings.findChildViewById(rootView, id);
-      if (btnPerfil == null) {
+      id = R.id.btn_actualizar;
+      Button btnActualizar = ViewBindings.findChildViewById(rootView, id);
+      if (btnActualizar == null) {
         break missingId;
       }
 
@@ -167,7 +167,7 @@ public final class FragmentPerfilBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentPerfilBinding((LinearLayout) rootView, btnPerfil, registerBirthday,
+      return new FragmentPerfilBinding((LinearLayout) rootView, btnActualizar, registerBirthday,
           registrarCelular, registroApellido, registroNombre, spinnerCiudad, textView, textView2,
           textView3, textView4, textView5);
     }

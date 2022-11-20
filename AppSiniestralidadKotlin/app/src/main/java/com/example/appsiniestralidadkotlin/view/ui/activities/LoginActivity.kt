@@ -49,8 +49,7 @@ class LoginActivity: AppCompatActivity() {
 
         buttonFacebookLogin.setOnClickListener {
             LoginManager.getInstance().logInWithReadPermissions(this, listOf("email"))
-            LoginManager.getInstance()
-                .registerCallback(callbackManager, object : FacebookCallback<LoginResult> {
+            LoginManager.getInstance().registerCallback(callbackManager, object : FacebookCallback<LoginResult> {
                     override fun onSuccess(loginResult: LoginResult) {
                         loginResult?.let{
                             handleFacebookAccessToken(loginResult.accessToken)
@@ -58,11 +57,11 @@ class LoginActivity: AppCompatActivity() {
                     }
 
                     override fun onCancel() {
-                        // App code
+                        Toast.makeText(this@LoginActivity, "login cancelado", Toast.LENGTH_LONG).show()
                     }
 
                     override fun onError(error: FacebookException) {
-                        // App code
+                        Toast.makeText(this@LoginActivity, "No se puede logear usuario", Toast.LENGTH_LONG).show()
                     }
                 })
         }
@@ -79,8 +78,8 @@ class LoginActivity: AppCompatActivity() {
 
         home = findViewById(R.id.btn_log_ini)
         home.setOnClickListener {
-            startActivity(Intent(this, HomeActivity::class.java))
-//            login(email.text.toString(), password.text.toString())
+//            startActivity(Intent(this, HomeActivity::class.java))
+            login(email.text.toString(), password.text.toString())
         }
 
         recuperar = findViewById(R.id.textView_olvidar)
@@ -94,7 +93,6 @@ class LoginActivity: AppCompatActivity() {
         }
     }
 
-
     private fun handleFacebookAccessToken(token: AccessToken) {
         val credential = FacebookAuthProvider.getCredential(token.token)
         firebaseAuth.signInWithCredential(credential)
@@ -104,10 +102,7 @@ class LoginActivity: AppCompatActivity() {
                     Toast.makeText(baseContext, user?.email.toString(), Toast.LENGTH_LONG).show()
                     startActivity(Intent(this, HomeActivity::class.java))
                 } else {
-                    Toast.makeText(
-                        baseContext, "Authentication failed.",
-                        Toast.LENGTH_SHORT
-                    ).show()
+                    Toast.makeText(baseContext, "Authentication failed.",Toast.LENGTH_SHORT).show()
                     Firebase.auth.signOut()
                 }
             }

@@ -2816,8 +2816,12 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_camaraFragment_to_descripcionFragment
+id action_camaraFragment_to_ubicacionFragment
 id action_container
 id action_context_bar
+id action_descripcionFragment_to_camaraFragment
+id action_descripcionFragment_to_menuFragment
 id action_divider
 id action_image
 id action_menuFragment_to_ayudaFragment
@@ -2832,7 +2836,11 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_perfilFragment_to_menuFragment
+id action_reportarFragment_to_ubicacionFragment
 id action_text
+id action_ubicacionFragment_to_camaraFragment
+id action_ubicacionFragment_to_reportarFragment
 id actions
 id activity_chooser_view_content
 id add
@@ -2877,9 +2885,13 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btn_actualizar
+id btn_avanzar_to_camara
+id btn_avanzar_to_descripcion
+id btn_avanzar_to_ubicacion
+id btn_finalizar
 id btn_log_google
 id btn_log_ini
-id btn_perfil
 id btn_recuperar
 id btn_registrarse
 id bubble_description
@@ -2891,6 +2903,7 @@ id button
 id buttonPanel
 id cache_measures
 id callMeasure
+id camaraFragment
 id cancel_action
 id cancel_button
 id carryVelocity
@@ -2900,6 +2913,16 @@ id center_vertical
 id chain
 id chain2
 id chains
+id checkBox10
+id checkBox11
+id checkBox2
+id checkBox3
+id checkBox4
+id checkBox5
+id checkBox6
+id checkBox7
+id checkBox8
+id checkBox9
 id checkbox
 id checked
 id chip
@@ -2952,6 +2975,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id descripcionFragment
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3070,6 +3094,7 @@ id login_email
 id login_password
 id lottie_layer_name
 id ltr
+id mapGoogle
 id masked
 id match_constraint
 id match_parent
@@ -3340,6 +3365,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id ubicacionFragment
 id unchecked
 id uniform
 id unknown
@@ -3484,12 +3510,15 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dynamic_feature_install_fragment
 layout fragment_ayuda
+layout fragment_camara
 layout fragment_configuraciones
+layout fragment_descripcion
 layout fragment_emergencias
 layout fragment_menu
 layout fragment_noticias
 layout fragment_perfil
 layout fragment_reportar
+layout fragment_ubicacion
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3612,6 +3641,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string about
 string about_message
+string actores_viales
 string androidx_startup
 string animal
 string app_name
@@ -3676,6 +3706,7 @@ string configuraciones
 string copy_toast_msg
 string cyclemap
 string default_web_client_id
+string descripcion
 string email_recuperacion
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3689,6 +3720,7 @@ string fallback_menu_item_share_link
 string fb_login_protocol_scheme
 string fecha_nacimiento
 string fiets_nl
+string finalizar
 string first_fix_message
 string format_distance_feet
 string format_distance_kilometers
@@ -3705,6 +3737,7 @@ string gcm_defaultSenderId
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
+string google_maps_api_key
 string google_storage_bucket
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
@@ -3840,6 +3873,7 @@ string set_mode_offline
 string set_mode_online
 string set_mode_show_me
 string settings
+string siguiente
 string snapshot
 string states
 string status_bar_notification_info_overflow
@@ -3852,6 +3886,8 @@ string titulo_email
 string titulo_nacimiento
 string titulo_nombres
 string topo
+string txt_descripcion
+string ubicacion
 string unknown
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
