@@ -9,11 +9,18 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.appsiniestralidadkotlin.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
+import java.text.SimpleDateFormat
+import java.util.*
 
 class SignUpActivity: AppCompatActivity() {
     lateinit var authStateListener: FirebaseAuth.AuthStateListener
     lateinit var firebaseAuth: FirebaseAuth
+    lateinit var databaseReference: DatabaseReference
+    lateinit var database: FirebaseDatabase
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,16 +30,37 @@ class SignUpActivity: AppCompatActivity() {
         var email = findViewById<EditText>(R.id.register_birthday)
         var password = findViewById<EditText>(R.id.registrar_password)
 
+        // creacion de usurio en la coleccion user que no es la misma de la autenticacion
+        databaseReference = Firebase.database.reference.child("users")
+        val formater = SimpleDateFormat("dd-MM-yyyy")
+        var name = ""
+        var apellido = ""
+        var celular = 0L
+        var fechaNacimiento =  formater.parse("01-01-1900")
+        var ciudad = ""
+
         var register: Button = findViewById(R.id.btn_registrarse)
         register.setOnClickListener {
-            createUser(email.text.toString(),password.text.toString())
+            createUser(email.text.toString(),password.text.toString(), name,
+                apellido,celular,fechaNacimiento,ciudad)
         }
     }
-    fun createUser(email:String, password:String){
+
+    fun createUser(email:String, password:String, name: String, apellido: String, celular:Long,
+    nacimiento:Date,ciudad:String){
         firebaseAuth.createUserWithEmailAndPassword(email,password)
             .addOnCompleteListener(this){
                     Task->if(Task.isSuccessful){
                 val user = firebaseAuth.currentUser
+                val userdb = databaseReference.child(user?.uid.toString())
+                userdb.child("Nombres").setValue(name)
+                userdb.child("Apellidos").setValue(apellido)
+                userdb.child("Celular").setValue(celular)
+                userdb.child("fechaNacimiento").setValue(nacimiento)
+                userdb.child("Ciudad").setValue(ciudad)
+                userdb.child("Correo").setValue(email)
+
+
                 Toast.makeText(applicationContext,"USUARIO REGISTRADO", Toast.LENGTH_LONG).show()
                 startActivity(Intent(this,LoginActivity::class.java))
             }else{

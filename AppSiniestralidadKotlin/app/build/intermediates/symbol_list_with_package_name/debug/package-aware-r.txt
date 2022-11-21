@@ -2666,6 +2666,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable fire
+drawable fire_2
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable help
@@ -3607,6 +3609,7 @@ mipmap ic_launcher_round
 navigation nav_graph
 plurals mtrl_badge_content_description
 raw animacion
+raw custom_map
 raw firebase_common_keep
 raw keep
 string Boton_perfil

@@ -5,6 +5,8 @@ package com.example.appsiniestralidadkotlin.view.ui.fragments
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.pm.PackageManager
+import android.graphics.Bitmap
+import android.graphics.drawable.BitmapDrawable
 import android.location.Location
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -19,22 +21,19 @@ import androidx.navigation.fragment.findNavController
 import com.example.appsiniestralidadkotlin.R
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
-import com.google.android.gms.maps.CameraUpdateFactory
-import com.google.android.gms.maps.GoogleMap
-import com.google.android.gms.maps.OnMapReadyCallback
-import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.*
+import com.google.android.gms.maps.model.*
 import com.google.firebase.auth.FirebaseAuth
-import org.osmdroid.config.Configuration
-import org.osmdroid.library.BuildConfig
 import org.osmdroid.views.MapView
 
 
 class ubicacionFragment  : Fragment(), OnMapReadyCallback {
-    lateinit var googleMap: GoogleMap
+    private lateinit var googleMap: GoogleMap
     lateinit var mapView: MapView
+
     private lateinit var fusedLocationClient: FusedLocationProviderClient
     var lastKnownLocation: Location? = null
+    var geoPosicion: MutableList<Double> = mutableListOf()
 
     lateinit var firebaseAuth: FirebaseAuth
     companion object{
@@ -42,10 +41,10 @@ class ubicacionFragment  : Fragment(), OnMapReadyCallback {
     }
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?): View? {
+        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
+    ): View? {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_ubicacion, container, false)
-        return view
+        return inflater.inflate(R.layout.fragment_ubicacion, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -58,11 +57,12 @@ class ubicacionFragment  : Fragment(), OnMapReadyCallback {
         // google maps
         val mapFragment = this.childFragmentManager.findFragmentById(R.id.mapGoogle) as SupportMapFragment
         mapFragment.getMapAsync(this)
+        fusedLocationClient = LocationServices.getFusedLocationProviderClient(requireContext())
 
         //---------------------------------------------------
 
         //Conexion OSM y la App
-        Configuration.getInstance().userAgentValue = BuildConfig.APPLICATION_ID
+//        Configuration.getInstance().userAgentValue = BuildConfig.APPLICATION_ID
 
         // open Street maps
 //        mapView = view.findViewById(R.id.mapOpenStreet)
@@ -80,9 +80,6 @@ class ubicacionFragment  : Fragment(), OnMapReadyCallback {
 //        marker.setAnchor(Marker.ANCHOR_CENTER,Marker.ANCHOR_BOTTOM)
 //        marker.title = "siniestralidad"
 //        mapView.overlays.add(marker)
-        fusedLocationClient = LocationServices.getFusedLocationProviderClient(requireContext())
-
-
     }
 
     @SuppressLint("MissingPermission")
@@ -109,38 +106,48 @@ class ubicacionFragment  : Fragment(), OnMapReadyCallback {
     }
 
     override fun onMapReady(map: GoogleMap) {
-
-
-        map?.let {
-            this.googleMap = it
-
-        }
+        map?.let {this.googleMap = it}
+//        map?.setMapStyle(MapStyleOptions.loadRawResourceStyle(requireContext(),R.raw.custom_map))
         enableLocation()
         getDeviceLocation(map)
-
-
     }
-    private fun getDeviceLocation(mMap: GoogleMap) {
+
+    private fun getDeviceLocation(mMap: GoogleMap){
         try {
             val locationResult = fusedLocationClient.lastLocation
             locationResult.addOnCompleteListener(context as Activity) { task ->
                 if (task.isSuccessful) {
-                    // Set the map's camera position to the current location of the device.
                     lastKnownLocation = task.result
                     if (lastKnownLocation != null) {
-                        mMap.moveCamera(
-                            CameraUpdateFactory.newLatLngZoom(
-                            LatLng(lastKnownLocation!!.latitude,
-                                lastKnownLocation!!.longitude),  16F))
-
+                        val cameraPosition = CameraPosition.Builder()
+                            .target(LatLng(lastKnownLocation!!.latitude,lastKnownLocation!!.longitude))
+                            .zoom(16f)            // Sets the zoom
+                            .bearing(0f)         // Sets the orientation of the camera to east
+                            .tilt(1f)            // Sets the tilt of the camera to 30 degrees
+                            .build()              // Creates a CameraPosition from the builder
+                        mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition))
+                        geoPosicion.add(0,lastKnownLocation!!.latitude)
+                        geoPosicion.add(1,lastKnownLocation!!.longitude)
+                        marcador(mMap)
                     }
                 } else {
-
                 }
             }
         } catch (e: SecurityException) {
-
         }
+    }
+
+    private fun marcador(map:GoogleMap) {
+        val centerMark = LatLng(geoPosicion.get(0), geoPosicion.get(1))
+        val bitmapDraw = context?.applicationContext?.let{
+            ContextCompat.getDrawable(it,R.drawable.fire_2)
+        } as BitmapDrawable
+        val smallMarker = Bitmap.createScaledBitmap(bitmapDraw.bitmap,90,108,false)
+        map.addMarker( MarkerOptions()
+            .position(centerMark)
+            .title(centerMark.toString())
+            .icon(BitmapDescriptorFactory.fromBitmap(smallMarker))
+        )
     }
 
 }

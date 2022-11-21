@@ -6,6 +6,8 @@ import com.example.appsiniestralidadkotlin.model.ciudades
 import com.example.appsiniestralidadkotlin.model.siniestros
 import com.example.appsiniestralidadkotlin.model.users
 import com.google.firebase.firestore.FirebaseFirestore
+import java.sql.Timestamp
+import java.text.SimpleDateFormat
 
 class Repository {
     fun getSiniestrosData(): LiveData<MutableList<siniestros>> {
@@ -43,12 +45,15 @@ class Repository {
                 result->
             val listData = mutableListOf<users>()
             for(document in result){
+                val formater = SimpleDateFormat("dd-MM-yyyy")
                 val nombres = document.getString("asistenciaMedica")
                 val apellidos = document.getString("fecha")
                 val correo = document.getString("reportero")
-                val celular = document.getString("tipo")
-                val fechaNacimiento = document.getString("ubicacion")
-                val user = users(Nombres = nombres, Apellidos = apellidos, Celular = celular, Correo = correo, fechaNacimiento = fechaNacimiento)
+                val celular = document.getString("celular")
+                val ciudad = document.getString("ciudad")
+                val fechaNacimiento = formater.parse(document.getString("fechaNacimiento")) as Timestamp?
+                val user = users(Nombres = nombres, Apellidos = apellidos, Celular = celular, Correo = correo,
+                    fechaNacimiento = fechaNacimiento ,Ciudad = ciudad)
                 listData.add(user)
             }
             mutableLiveData.value=listData

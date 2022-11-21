@@ -20,6 +20,8 @@ drawable bike
 drawable bus
 drawable carblue
 drawable crashcar
+drawable fire
+drawable fire_2
 drawable help
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -149,6 +151,7 @@ mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 navigation nav_graph
 raw animacion
+raw custom_map
 string Boton_perfil
 string Boton_recuperar
 string Boton_registrar
