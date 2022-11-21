@@ -534,67 +534,73 @@
 292            android:exported="false" />
 292-->[com.squareup.picasso:picasso:2.8] C:\Users\Jonathan\.gradle\caches\transforms-3\0ed837150c6e2b91abb8d23eaf1851f5\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
 293        <provider
-293-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+293-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\cb32d61df2bf461baf640e6ba26d73b1\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 294            android:name="androidx.startup.InitializationProvider"
-294-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:27:13-67
+294-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\cb32d61df2bf461baf640e6ba26d73b1\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 295            android:authorities="com.example.appsiniestralidadkotlin.androidx-startup"
-295-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:28:13-68
+295-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\cb32d61df2bf461baf640e6ba26d73b1\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 296            android:exported="false" >
-296-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:29:13-37
+296-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\cb32d61df2bf461baf640e6ba26d73b1\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 297            <meta-data
-297-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-298                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-298-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+297-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\cb32d61df2bf461baf640e6ba26d73b1\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+298                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+298-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\cb32d61df2bf461baf640e6ba26d73b1\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 299                android:value="androidx.startup" />
-299-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jonathan\.gradle\caches\transforms-3\73a340f94f942c787d12c6385e7bf1f4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-300        </provider> <!-- The activities will be merged into the manifest of the hosting app. -->
-301        <activity
-301-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:18:9-24:45
-302            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
-302-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:19:13-100
-303            android:enabled="false"
-303-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:20:13-36
-304            android:exported="false"
-304-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:21:13-37
-305            android:launchMode="singleInstance"
-305-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:22:13-48
-306            android:process=":playcore_missing_splits_activity"
-306-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:23:13-64
-307            android:stateNotNeeded="true" />
-307-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:24:13-42
-308        <activity
-308-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:25:9-29:65
-309            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-309-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:26:13-93
-310            android:exported="false"
-310-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:27:13-37
-311            android:stateNotNeeded="true"
-311-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:28:13-42
-312            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
-312-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:29:13-62
-313        <service
-313-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:32:9-39:19
-314            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
-314-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:33:13-94
-315            android:enabled="false"
-315-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:34:13-36
-316            android:exported="true" >
-316-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:35:13-36
-317            <meta-data
-317-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:36:13-38:41
-318                android:name="com.google.android.play.core.assetpacks.versionCode"
-318-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:37:17-83
-319                android:value="11003" />
-319-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:38:17-38
-320        </service>
-321        <service
-321-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:40:9-43:40
-322            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
-322-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:41:13-95
-323            android:enabled="false"
-323-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:42:13-36
-324            android:exported="false" />
-324-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:43:13-37
-325    </application>
-326
-327</manifest>
+299-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jonathan\.gradle\caches\transforms-3\cb32d61df2bf461baf640e6ba26d73b1\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+300            <meta-data
+300-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Jonathan\.gradle\caches\transforms-3\a887086538afdc8efc5b6fa3c9f9b56e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+301                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+301-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Jonathan\.gradle\caches\transforms-3\a887086538afdc8efc5b6fa3c9f9b56e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+302                android:value="androidx.startup" />
+302-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Jonathan\.gradle\caches\transforms-3\a887086538afdc8efc5b6fa3c9f9b56e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+303        </provider> <!-- The activities will be merged into the manifest of the hosting app. -->
+304        <activity
+304-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:18:9-24:45
+305            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+305-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:19:13-100
+306            android:enabled="false"
+306-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:20:13-36
+307            android:exported="false"
+307-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:21:13-37
+308            android:launchMode="singleInstance"
+308-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:22:13-48
+309            android:process=":playcore_missing_splits_activity"
+309-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:23:13-64
+310            android:stateNotNeeded="true" />
+310-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:24:13-42
+311        <activity
+311-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:25:9-29:65
+312            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+312-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:26:13-93
+313            android:exported="false"
+313-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:27:13-37
+314            android:stateNotNeeded="true"
+314-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:28:13-42
+315            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+315-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:29:13-62
+316        <service
+316-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:32:9-39:19
+317            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+317-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:33:13-94
+318            android:enabled="false"
+318-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:34:13-36
+319            android:exported="true" >
+319-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:35:13-36
+320            <meta-data
+320-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:36:13-38:41
+321                android:name="com.google.android.play.core.assetpacks.versionCode"
+321-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:37:17-83
+322                android:value="11003" />
+322-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:38:17-38
+323        </service>
+324        <service
+324-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:40:9-43:40
+325            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+325-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:41:13-95
+326            android:enabled="false"
+326-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:42:13-36
+327            android:exported="false" />
+327-->[com.google.android.play:core:1.10.3] C:\Users\Jonathan\.gradle\caches\transforms-3\1957819aed7e715f8b2740704668913b\transformed\core-1.10.3\AndroidManifest.xml:43:13-37
+328    </application>
+329
+330</manifest>

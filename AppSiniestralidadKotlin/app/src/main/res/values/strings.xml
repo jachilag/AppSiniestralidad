@@ -51,4 +51,8 @@
     <string name="finalizar">FINALIZAR</string>
     <string name="txt_descripcion">Haga una descripcion del siniestro</string>
     <string name="google_maps_api_key">AIzaSyB3OaqWPqQFJ23_TvNo5TXdij5LWIBS5CM</string>
+    <string name="camara">CAMARA</string>
+    <string name="galeria">GALERIA</string>
+    <string name="email">Correo:</string>
+    <string name="correo_actual">Correo actual</string>
 </resources>

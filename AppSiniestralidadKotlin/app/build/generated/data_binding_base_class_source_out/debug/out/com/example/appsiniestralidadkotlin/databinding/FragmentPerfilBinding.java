@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -26,6 +27,15 @@ public final class FragmentPerfilBinding implements ViewBinding {
   public final Button btnActualizar;
 
   @NonNull
+  public final Button btnCamara;
+
+  @NonNull
+  public final Button btnGaleria;
+
+  @NonNull
+  public final ImageView imgPerfil;
+
+  @NonNull
   public final EditText registerBirthday;
 
   @NonNull
@@ -35,6 +45,9 @@ public final class FragmentPerfilBinding implements ViewBinding {
   public final EditText registroApellido;
 
   @NonNull
+  public final EditText registroCorreo;
+
+  @NonNull
   public final EditText registroNombre;
 
   @NonNull
@@ -42,6 +55,9 @@ public final class FragmentPerfilBinding implements ViewBinding {
 
   @NonNull
   public final TextView textView;
+
+  @NonNull
+  public final TextView textView0;
 
   @NonNull
   public final TextView textView2;
@@ -56,18 +72,25 @@ public final class FragmentPerfilBinding implements ViewBinding {
   public final TextView textView5;
 
   private FragmentPerfilBinding(@NonNull LinearLayout rootView, @NonNull Button btnActualizar,
+      @NonNull Button btnCamara, @NonNull Button btnGaleria, @NonNull ImageView imgPerfil,
       @NonNull EditText registerBirthday, @NonNull EditText registrarCelular,
-      @NonNull EditText registroApellido, @NonNull EditText registroNombre,
-      @NonNull Spinner spinnerCiudad, @NonNull TextView textView, @NonNull TextView textView2,
-      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5) {
+      @NonNull EditText registroApellido, @NonNull EditText registroCorreo,
+      @NonNull EditText registroNombre, @NonNull Spinner spinnerCiudad, @NonNull TextView textView,
+      @NonNull TextView textView0, @NonNull TextView textView2, @NonNull TextView textView3,
+      @NonNull TextView textView4, @NonNull TextView textView5) {
     this.rootView = rootView;
     this.btnActualizar = btnActualizar;
+    this.btnCamara = btnCamara;
+    this.btnGaleria = btnGaleria;
+    this.imgPerfil = imgPerfil;
     this.registerBirthday = registerBirthday;
     this.registrarCelular = registrarCelular;
     this.registroApellido = registroApellido;
+    this.registroCorreo = registroCorreo;
     this.registroNombre = registroNombre;
     this.spinnerCiudad = spinnerCiudad;
     this.textView = textView;
+    this.textView0 = textView0;
     this.textView2 = textView2;
     this.textView3 = textView3;
     this.textView4 = textView4;
@@ -107,6 +130,24 @@ public final class FragmentPerfilBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_camara;
+      Button btnCamara = ViewBindings.findChildViewById(rootView, id);
+      if (btnCamara == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_galeria;
+      Button btnGaleria = ViewBindings.findChildViewById(rootView, id);
+      if (btnGaleria == null) {
+        break missingId;
+      }
+
+      id = R.id.img_perfil;
+      ImageView imgPerfil = ViewBindings.findChildViewById(rootView, id);
+      if (imgPerfil == null) {
+        break missingId;
+      }
+
       id = R.id.register_birthday;
       EditText registerBirthday = ViewBindings.findChildViewById(rootView, id);
       if (registerBirthday == null) {
@@ -125,6 +166,12 @@ public final class FragmentPerfilBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.registro_correo;
+      EditText registroCorreo = ViewBindings.findChildViewById(rootView, id);
+      if (registroCorreo == null) {
+        break missingId;
+      }
+
       id = R.id.registro_nombre;
       EditText registroNombre = ViewBindings.findChildViewById(rootView, id);
       if (registroNombre == null) {
@@ -140,6 +187,12 @@ public final class FragmentPerfilBinding implements ViewBinding {
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
+        break missingId;
+      }
+
+      id = R.id.textView0;
+      TextView textView0 = ViewBindings.findChildViewById(rootView, id);
+      if (textView0 == null) {
         break missingId;
       }
 
@@ -167,9 +220,10 @@ public final class FragmentPerfilBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentPerfilBinding((LinearLayout) rootView, btnActualizar, registerBirthday,
-          registrarCelular, registroApellido, registroNombre, spinnerCiudad, textView, textView2,
-          textView3, textView4, textView5);
+      return new FragmentPerfilBinding((LinearLayout) rootView, btnActualizar, btnCamara,
+          btnGaleria, imgPerfil, registerBirthday, registrarCelular, registroApellido,
+          registroCorreo, registroNombre, spinnerCiudad, textView, textView0, textView2, textView3,
+          textView4, textView5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

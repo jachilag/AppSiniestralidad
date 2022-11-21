@@ -295,6 +295,9 @@
             android:authorities="com.example.appsiniestralidadkotlin.androidx-startup"
             android:exported="false" >
             <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider> <!-- The activities will be merged into the manifest of the hosting app. -->

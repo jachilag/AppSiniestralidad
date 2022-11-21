@@ -3,8 +3,6 @@
     <color name="azul_facebook">#3b5998</color>
     <color name="black">#FF000000</color>
     <color name="blue_king">#004370</color>
-    <color name="color_fodorange">#f37335</color>
-    <color name="color_fondyellow">#fdc830</color>
     <color name="google_rojo">#FF0000</color>
     <color name="gris_claro">#D3D2D9</color>
     <color name="gris_medio">#8c8c8c</color>
@@ -22,16 +20,20 @@
     <string name="automovil">Automovil</string>
     <string name="ayuda">Ayuda</string>
     <string name="bus">Bus</string>
+    <string name="camara">CAMARA</string>
     <string name="ciclista">Ciclista</string>
     <string name="configuraciones">Configuraciones</string>
+    <string name="correo_actual">Correo actual</string>
     <string name="default_web_client_id" translatable="false">845001056490-p78ltop4ireo9utcf9n7elkonbvmjmho.apps.googleusercontent.com</string>
     <string name="descripcion">DESCRIPCION DEL SINIESTRO</string>
+    <string name="email">Correo:</string>
     <string name="email_recuperacion">Escriba su correo de recuperacion de Contraseña</string>
     <string name="facebook_app_id">1183897232550435</string>
     <string name="facebook_client_token">065f93031f1529ce71aa0fd28474fbde</string>
     <string name="fb_login_protocol_scheme">fb1183897232550435</string>
     <string name="fecha_nacimiento">Fecha de Nacimiento</string>
     <string name="finalizar">FINALIZAR</string>
+    <string name="galeria">GALERIA</string>
     <string name="gcm_defaultSenderId" translatable="false">845001056490</string>
     <string name="google_api_key" translatable="false">AIzaSyATdFj4Ev3l4ya3oj-jupstvZHRrMGjF28</string>
     <string name="google_app_id" translatable="false">1:845001056490:android:7a205ed8051731e59fb793</string>
@@ -70,6 +72,9 @@
     <string name="titulo_nombres">Nombres</string>
     <string name="txt_descripcion">Haga una descripcion del siniestro</string>
     <string name="ubicacion">UBICACION SINIESTRO</string>
+    <style name="DatePickerTheme" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">#00A87D</item>
+    </style>
     <style name="Theme.AppSiniestralidadKotlin" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorPrimary">@color/blue_king</item>

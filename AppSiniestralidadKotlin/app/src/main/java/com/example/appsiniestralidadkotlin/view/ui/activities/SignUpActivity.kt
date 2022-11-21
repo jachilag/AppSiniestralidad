@@ -13,8 +13,6 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
-import java.text.SimpleDateFormat
-import java.util.*
 
 class SignUpActivity: AppCompatActivity() {
     lateinit var authStateListener: FirebaseAuth.AuthStateListener
@@ -31,13 +29,15 @@ class SignUpActivity: AppCompatActivity() {
         var password = findViewById<EditText>(R.id.registrar_password)
 
         // creacion de usurio en la coleccion user que no es la misma de la autenticacion
+//        val formater = SimpleDateFormat("dd-MM-yyyy")
+//        var fechaNacimiento =  formater.parse("01-01-1900")
         databaseReference = Firebase.database.reference.child("users")
-        val formater = SimpleDateFormat("dd-MM-yyyy")
         var name = ""
         var apellido = ""
         var celular = 0L
-        var fechaNacimiento =  formater.parse("01-01-1900")
+        var fechaNacimiento = "01/01/1900"
         var ciudad = ""
+
 
         var register: Button = findViewById(R.id.btn_registrarse)
         register.setOnClickListener {
@@ -47,7 +47,7 @@ class SignUpActivity: AppCompatActivity() {
     }
 
     fun createUser(email:String, password:String, name: String, apellido: String, celular:Long,
-    nacimiento:Date,ciudad:String){
+    nacimiento:String,ciudad:String){
         firebaseAuth.createUserWithEmailAndPassword(email,password)
             .addOnCompleteListener(this){
                     Task->if(Task.isSuccessful){
@@ -59,7 +59,6 @@ class SignUpActivity: AppCompatActivity() {
                 userdb.child("fechaNacimiento").setValue(nacimiento)
                 userdb.child("Ciudad").setValue(ciudad)
                 userdb.child("Correo").setValue(email)
-
 
                 Toast.makeText(applicationContext,"USUARIO REGISTRADO", Toast.LENGTH_LONG).show()
                 startActivity(Intent(this,LoginActivity::class.java))

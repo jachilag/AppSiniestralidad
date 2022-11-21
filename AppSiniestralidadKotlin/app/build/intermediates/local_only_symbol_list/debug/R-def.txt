@@ -19,6 +19,7 @@ drawable avatarverde
 drawable bike
 drawable bus
 drawable carblue
+drawable circle
 drawable crashcar
 drawable fire
 drawable fire_2
@@ -29,6 +30,7 @@ drawable ic_outline_car
 drawable ic_outline_home
 drawable ic_outline_search
 drawable ic_outline_settings
+drawable img
 drawable lineaemergencia
 drawable motorcycle
 drawable news
@@ -54,12 +56,13 @@ id action_ubicacionFragment_to_reportarFragment
 id animation_view
 id ayudaFragment
 id bar_superior
-id bottom_navigation
 id btn_actualizar
 id btn_avanzar_to_camara
 id btn_avanzar_to_descripcion
 id btn_avanzar_to_ubicacion
+id btn_camara
 id btn_finalizar
+id btn_galeria
 id btn_log_google
 id btn_log_ini
 id btn_recuperar
@@ -93,6 +96,7 @@ id img_crashcar
 id img_help
 id img_lineaemergencia
 id img_news
+id img_perfil
 id login_button_facebook
 id login_email
 id login_password
@@ -109,6 +113,7 @@ id register_birthday
 id registrar_celular
 id registrar_password
 id registro_apellido
+id registro_correo
 id registro_nombre
 id reportarFragment
 id rv_noticias
@@ -116,6 +121,7 @@ id scrollView2
 id scroll_menu
 id spinner_ciudad
 id textView
+id textView0
 id textView2
 id textView3
 id textView4
@@ -144,7 +150,6 @@ layout fragment_noticias
 layout fragment_perfil
 layout fragment_reportar
 layout fragment_ubicacion
-layout prueba
 menu navigation_bar
 mipmap ic_launcher
 mipmap ic_launcher_foreground
@@ -161,16 +166,20 @@ string app_name
 string automovil
 string ayuda
 string bus
+string camara
 string ciclista
 string configuraciones
+string correo_actual
 string default_web_client_id
 string descripcion
+string email
 string email_recuperacion
 string facebook_app_id
 string facebook_client_token
 string fb_login_protocol_scheme
 string fecha_nacimiento
 string finalizar
+string galeria
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -209,6 +218,7 @@ string titulo_nacimiento
 string titulo_nombres
 string txt_descripcion
 string ubicacion
+style DatePickerTheme
 style Theme.AppSiniestralidadKotlin
 xml backup_rules
 xml data_extraction_rules

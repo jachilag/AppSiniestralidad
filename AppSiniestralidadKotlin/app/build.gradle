@@ -74,4 +74,6 @@ dependencies {
     implementation 'org.osmdroid:osmdroid-android:6.1.10'
 
     implementation 'com.google.firebase:firebase-database-ktx:20.1.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.mikhaellopez:circularimageview:4.3.1'
 }
