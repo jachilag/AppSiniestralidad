@@ -2,17 +2,14 @@ package com.example.appsiniestralidadkotlin.domain
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.appsiniestralidadkotlin.model.ciudades
+import com.example.appsiniestralidadkotlin.model.Ciudad
 import com.example.appsiniestralidadkotlin.model.siniestros
-import com.example.appsiniestralidadkotlin.model.users
 import com.google.firebase.firestore.FirebaseFirestore
-import java.sql.Timestamp
-import java.text.SimpleDateFormat
 
 class Repository {
     fun getSiniestrosData(): LiveData<MutableList<siniestros>> {
         val mutableLiveData = MutableLiveData<MutableList<siniestros>>()
-        FirebaseFirestore.getInstance().collection("siniestros").get().addOnSuccessListener(){
+        FirebaseFirestore.getInstance().collection("siniestros").get().addOnSuccessListener {
             result->
             val listData = mutableListOf<siniestros>()
             for(document in result){
@@ -39,39 +36,17 @@ class Repository {
         return "https://drive.google.com/uc?export=download&id=" + p[5]
     }
 
-    fun getUsersData(): LiveData<MutableList<users>> {
-        val mutableLiveData = MutableLiveData<MutableList<users>>()
-        FirebaseFirestore.getInstance().collection("users").get().addOnSuccessListener(){
-                result->
-            val listData = mutableListOf<users>()
-            for(document in result){
-                val formater = SimpleDateFormat("dd-MM-yyyy")
-                val nombres = document.getString("asistenciaMedica")
-                val apellidos = document.getString("fecha")
-                val correo = document.getString("reportero")
-                val celular = document.getString("celular")
-                val ciudad = document.getString("ciudad")
-                val fechaNacimiento = formater.parse(document.getString("fechaNacimiento")) as Timestamp?
-                val user = users(Nombres = nombres, Apellidos = apellidos, Celular = celular, Correo = correo,
-                    fechaNacimiento = fechaNacimiento ,Ciudad = ciudad)
-                listData.add(user)
-            }
-            mutableLiveData.value=listData
-        }
-        return  mutableLiveData
-    }
 
-
-    fun getCiudadesData(): LiveData<MutableList<ciudades>> {
-        val mutableLiveData = MutableLiveData<MutableList<ciudades>>()
-        FirebaseFirestore.getInstance().collection("ciudades").get().addOnSuccessListener(){
-                result->
-            val listData = mutableListOf<ciudades>()
+    fun getDataCiudades(): LiveData<MutableList<Ciudad>> {
+        val mutableLiveData = MutableLiveData<MutableList<Ciudad>>()
+        FirebaseFirestore.getInstance().collection("Ciudades").get().addOnSuccessListener { result->
+            val listData = mutableListOf<Ciudad>()
             for(document in result){
-                val ciudad = ciudades(nombre = document.getString("ciudad"))
+                val nombre = document.getString("nombre")
+                val ciudad = Ciudad(nombre=nombre)
                 listData.add(ciudad)
             }
-            mutableLiveData.value = listData
+            mutableLiveData.value=listData
         }
         return  mutableLiveData
     }

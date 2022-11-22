@@ -3243,6 +3243,7 @@ int id register_birthday 0x7f0801cc
 int id registrar_celular 0x7f0801cd
 int id registrar_password 0x7f0801ce
 int id registro_apellido 0x7f0801cf
+int id registro_ciudad 0x7f080282
 int id registro_correo 0x7f080280
 int id registro_nombre 0x7f0801d0
 int id reportarFragment 0x7f0801d1

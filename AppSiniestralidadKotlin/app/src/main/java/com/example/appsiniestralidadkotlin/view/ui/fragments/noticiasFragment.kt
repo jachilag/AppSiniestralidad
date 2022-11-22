@@ -16,7 +16,7 @@ import com.example.appsiniestralidadkotlin.viewModel.SiniestrosViewModel
 class noticiasFragment : Fragment() {
     lateinit var recyclerSiniestro: RecyclerView
     lateinit var adapter: SiniestrosAdapter
-    val viewmodel by lazy{ViewModelProvider(this).get(SiniestrosViewModel::class.java) }
+    val viewmodel by lazy{ ViewModelProvider(this)[SiniestrosViewModel::class.java] }
 
 
     override fun onCreateView(

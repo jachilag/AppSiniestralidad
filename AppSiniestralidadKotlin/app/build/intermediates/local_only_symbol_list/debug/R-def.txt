@@ -113,6 +113,7 @@ id register_birthday
 id registrar_celular
 id registrar_password
 id registro_apellido
+id registro_ciudad
 id registro_correo
 id registro_nombre
 id reportarFragment

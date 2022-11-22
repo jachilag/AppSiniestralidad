@@ -76,19 +76,24 @@
                     android:background="@drawable/img"
                     android:layout_marginRight="8dp"/>
 
+
                 <Button
                     android:id="@+id/btn_camara"
                     android:text="@string/camara"
                     android:layout_width="match_parent"
                     android:layout_weight="1"
-                    android:layout_height="50dp"/>
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/purple"
+                    android:textColor="@color/white"/>
 
                 <Button
                     android:id="@+id/btn_galeria"
                     android:text="@string/galeria"
                     android:layout_width="match_parent"
                     android:layout_weight="1"
-                    android:layout_height="50dp"/>
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/purple"
+                    android:textColor="@color/white"/>
 
             </LinearLayout>
 
@@ -296,20 +301,35 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.755" />
 
-                <Spinner
-                    android:id="@+id/spinner_ciudad"
+                <LinearLayout
                     android:layout_width="345dp"
                     android:layout_height="40dp"
-                    android:ems="10"
-                    android:layout_gravity="center"
-                    android:hint="@string/hint_ciudad"
-                    android:textColorHint="@color/blue_king"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView5"
-                    app:layout_constraintVertical_bias="0.0"
-                    />
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+                    <EditText
+                        android:id="@+id/registro_ciudad"
+                        android:layout_width="310dp"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:textColorHint="@color/blue_king"
+                        android:layout_gravity="center"
+                        android:focusable="false"
+                        android:clickable="false"/>
+                    <Spinner
+                        android:id="@+id/spinner_ciudad"
+                        android:layout_width="45dp"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:layout_gravity="center"
+                        android:textColorHint="@color/blue_king"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView5"
+                        app:layout_constraintVertical_bias="0.0"
+                        />
+                </LinearLayout>
 
             </LinearLayout>
 

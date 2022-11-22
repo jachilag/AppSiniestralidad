@@ -66,9 +66,5 @@
     {
         "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-mergeDebugResources-64:\\layout\\fragment_perfil.xml",
         "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-67:\\layout\\fragment_perfil.xml"
-    },
-    {
-        "merged": "com.example.appsiniestralidadkotlin.app-mergeDebugResources-64:/layout/activity_login.xml",
-        "source": "com.example.appsiniestralidadkotlin.app-main-67:/layout/activity_login.xml"
     }
 ]

@@ -4,14 +4,14 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.appsiniestralidadkotlin.domain.Repository
-import com.example.appsiniestralidadkotlin.model.ciudades
+import com.example.appsiniestralidadkotlin.model.Ciudad
 
-class CiudadesViewModel: ViewModel()  {
+class CiudadesViewModel: ViewModel() {
     val repository= Repository()
 
-    fun fetchBookData(): LiveData<MutableList<ciudades>> {
-        val mutableLiveData= MutableLiveData<MutableList<ciudades>>()
-        repository.getCiudadesData().observeForever{
+    fun fetchCiudadesData(): LiveData<MutableList<Ciudad>> {
+        val mutableLiveData= MutableLiveData<MutableList<Ciudad>>()
+        repository.getDataCiudades().observeForever{
             mutableLiveData.value=it
         }
         return mutableLiveData

@@ -232,10 +232,6 @@
         "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-67:\\drawable\\ic_outline_search.xml"
     },
     {
-        "merged": "com.example.appsiniestralidadkotlin.app-merged_res-65:/layout_activity_login.xml.flat",
-        "source": "com.example.appsiniestralidadkotlin.app-main-67:/layout/activity_login.xml"
-    },
-    {
         "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-65:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-67:\\layout\\activity_main.xml"
     },
