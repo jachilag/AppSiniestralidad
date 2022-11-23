@@ -2,7 +2,6 @@ package com.example.appsiniestralidadkotlin.domain
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.appsiniestralidadkotlin.model.Ciudad
 import com.example.appsiniestralidadkotlin.model.siniestros
 import com.google.firebase.firestore.FirebaseFirestore
 
@@ -49,19 +48,7 @@ class Repository {
     }
 
 
-    fun getDataCiudades(): LiveData<MutableList<Ciudad>> {
-        val mutableLiveData = MutableLiveData<MutableList<Ciudad>>()
-        FirebaseFirestore.getInstance().collection("Ciudades").get().addOnSuccessListener { result->
-            val listData = mutableListOf<Ciudad>()
-            for(document in result){
-                val nombre = document.getString("nombre")
-                val ciudad = Ciudad(nombre=nombre)
-                listData.add(ciudad)
-            }
-            mutableLiveData.value=listData
-        }
-        return  mutableLiveData
-    }
+
 }
 
 

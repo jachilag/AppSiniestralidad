@@ -62,7 +62,7 @@
                 android:name="com.google.android.gms.maps.SupportMapFragment"
                 map:uiZoomControls="true"
                 map:uiRotateGestures="true"
-                map:cameraTilt="30"/>
+                map:cameraTilt="0"/>
 <!--            <org.osmdroid.views.MapView-->
 <!--                android:layout_width="match_parent"-->
 <!--                android:layout_height="match_parent"-->

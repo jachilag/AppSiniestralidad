@@ -32,6 +32,10 @@
         "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-66:\\drawable\\fire.png"
     },
     {
+        "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-65:\\layout_fragment_detalle.xml.flat",
+        "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-67:\\layout\\fragment_detalle.xml"
+    },
+    {
         "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-65:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-66:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
@@ -110,10 +114,6 @@
     {
         "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-65:\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-debug-66:\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "com.example.appsiniestralidadkotlin.app-merged_res-65:/layout_fragment_descripcion.xml.flat",
-        "source": "com.example.appsiniestralidadkotlin.app-main-67:/layout/fragment_descripcion.xml"
     },
     {
         "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-65:\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -234,6 +234,10 @@
     {
         "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-65:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-67:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.appsiniestralidadkotlin.app-merged_res-65:/layout_fragment_detalle.xml.flat",
+        "source": "com.example.appsiniestralidadkotlin.app-main-67:/layout/fragment_detalle.xml"
     },
     {
         "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-merged_res-65:\\drawable-v24_news.png.flat",

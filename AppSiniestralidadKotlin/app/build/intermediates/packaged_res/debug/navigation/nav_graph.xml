@@ -47,7 +47,11 @@
     <fragment
         android:id="@+id/noticiasFragment"
         android:name="com.example.appsiniestralidadkotlin.view.ui.fragments.noticiasFragment"
-        android:label="noticiasFragment" />
+        android:label="noticiasFragment" >
+        <action
+            android:id="@+id/action_noticiasFragment_to_detalleFragment"
+            app:destination="@id/detalleFragment" />
+    </fragment>
     <fragment
         android:id="@+id/perfilFragment"
         android:name="com.example.appsiniestralidadkotlin.view.ui.fragments.perfilFragment"
@@ -97,5 +101,14 @@
         <action
             android:id="@+id/action_camaraFragment_to_ubicacionFragment"
             app:destination="@id/ubicacionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalleFragment"
+        android:name="com.example.appsiniestralidadkotlin.view.ui.fragments.DetalleFragment"
+        android:label="fragment_detalle"
+        tools:layout="@layout/fragment_detalle" >
+        <action
+            android:id="@+id/action_detalleFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
     </fragment>
 </navigation>

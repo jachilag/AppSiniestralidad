@@ -18,7 +18,7 @@
         <ImageView
             android:id="@+id/iconoSiniestro"
             android:layout_width="100dp"
-            android:layout_height="100dp">
+            android:layout_height="80dp">
 
         </ImageView>
         <LinearLayout
@@ -26,37 +26,32 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginLeft="15dp">
+
             <TextView
                 android:id="@+id/tituloSiniestro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:text="Siniestro: ">
-            </TextView>
+                android:text="Siniestro: "
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
+
             <TextView
                 android:id="@+id/tituloReportero"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:text="Reportado por: ">
-            </TextView>
+                android:text="Reportado por: "
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
             <TextView
                 android:id="@+id/tituloFecha"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
                 android:textStyle="bold"
+                android:textColor="@color/white"
                 android:text="Fecha: ">
-            </TextView>
-            <TextView
-                android:id="@+id/tituloUbicacion"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:text="Ubicacion GPS: ">
             </TextView>
         </LinearLayout>
     </LinearLayout>

@@ -19,6 +19,24 @@
     <color name="transparent">#00000000 </color>
     <color name="verde_aguamarina">#00A87D</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="cardCornerRadius">15dp</dimen>
+    <dimen name="cardCorrerRadius">5dp</dimen>
+    <dimen name="cardElevation">3dp</dimen>
+    <dimen name="cardLayoutMargin">1dp</dimen>
+    <dimen name="defaultLayoutMargin">10dp</dimen>
+    <dimen name="fotoTiendaHeight">300dp</dimen>
+    <dimen name="heigthImageProduct">150dp</dimen>
+    <dimen name="ibHeight">100dp</dimen>
+    <dimen name="itemCommentsScore">20sp</dimen>
+    <dimen name="itemCommentsUser">25sp</dimen>
+    <dimen name="itemsCommentsComment">25sp</dimen>
+    <dimen name="logoHeight">120dp</dimen>
+    <dimen name="sizeNameProduct">25sp</dimen>
+    <dimen name="sizePriceProduct">20sp</dimen>
+    <dimen name="sizeTitleComments">25sp</dimen>
+    <dimen name="textSizeAdmin">25sp</dimen>
+    <dimen name="textSizeContent">20sp</dimen>
+    <dimen name="textTitle">30sp</dimen>
     <string name="Boton_perfil">ACTUALIZAR</string>
     <string name="Boton_recuperar">Recuperar</string>
     <string name="Boton_registrar">REGISTRAR</string>
@@ -66,7 +84,9 @@
     <string name="olvidar_password">¿Olvidó su contraseña?</string>
     <string name="peaton">Peaton</string>
     <string name="project_id" translatable="false">siniestralidad-grupo1</string>
+    <string name="regresar">REGRESAR</string>
     <string name="reportar">Reportar Accidente</string>
+    <string name="salir">SALIR</string>
     <string name="search">Buscar</string>
     <string name="settings">Configuraciones</string>
     <string name="siguiente">SIGUIENTE</string>

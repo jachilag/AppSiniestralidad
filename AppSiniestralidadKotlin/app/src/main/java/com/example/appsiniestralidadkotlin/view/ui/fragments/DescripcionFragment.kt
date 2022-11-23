@@ -1,6 +1,7 @@
 package com.example.appsiniestralidadkotlin.view.ui.fragments
 
 import android.annotation.SuppressLint
+import android.app.AlertDialog
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -62,10 +63,10 @@ class DescripcionFragment : Fragment() {
 
         btn_finalizar.setOnClickListener {
             asistencia = cbAsistencia.isChecked
-//            reporte = (txtDescripcion as EditText).text.toString()
             reporte = txtDescripcion.text.toString()
             updateSiniestro(asistencia,reporte,involucrados,latitud,longitud,urlFoto)
-            findNavController().navigate(R.id.action_descripcionFragment_to_menuFragment)
+            makeReport()
+
         }
     }
 
@@ -96,6 +97,17 @@ class DescripcionFragment : Fragment() {
                 "url" to urlFoto
             )
         )
+    }
+
+    private fun makeReport() {
+        val builder= AlertDialog.Builder(requireContext())
+        builder.setTitle("Gracias por reportar")
+        builder.setMessage("Gestionaremos los recursos necesarios para atender el siniestro lo antes posible")
+        builder.setPositiveButton("Ok"){
+                dialog,which->
+            findNavController().navigate(R.id.action_descripcionFragment_to_menuFragment)
+        }
+        builder.show()
     }
 
 

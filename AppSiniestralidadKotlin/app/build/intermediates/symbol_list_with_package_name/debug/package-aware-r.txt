@@ -2021,6 +2021,10 @@ dimen action_bar_size
 dimen appcompat_dialog_background_inset
 dimen browser_actions_context_menu_max_width
 dimen browser_actions_context_menu_min_padding
+dimen cardCornerRadius
+dimen cardCorrerRadius
+dimen cardElevation
+dimen cardLayoutMargin
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -2049,6 +2053,7 @@ dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
 dimen def_drawer_elevation
+dimen defaultLayoutMargin
 dimen default_dimension
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
@@ -2103,6 +2108,8 @@ dimen disabled_alpha_material_light
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
+dimen fotoTiendaHeight
+dimen heigthImageProduct
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -2110,9 +2117,14 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen ibHeight
+dimen itemCommentsScore
+dimen itemCommentsUser
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen itemsCommentsComment
+dimen logoHeight
 dimen m3_alert_dialog_action_bottom_padding
 dimen m3_alert_dialog_action_top_padding
 dimen m3_alert_dialog_corner_size
@@ -2516,6 +2528,9 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen sizeNameProduct
+dimen sizePriceProduct
+dimen sizeTitleComments
 dimen sliding_pane_detail_pane_width
 dimen subtitle_corner_radius
 dimen subtitle_outline_width
@@ -2534,6 +2549,9 @@ dimen test_navigation_bar_item_min_width
 dimen test_navigation_bar_label_padding
 dimen test_navigation_bar_shadow_height
 dimen test_navigation_bar_text_size
+dimen textSizeAdmin
+dimen textSizeContent
+dimen textTitle
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -2845,6 +2863,7 @@ id action_container
 id action_context_bar
 id action_descripcionFragment_to_camaraFragment
 id action_descripcionFragment_to_menuFragment
+id action_detalleFragment_to_menuFragment
 id action_divider
 id action_image
 id action_menuFragment_to_ayudaFragment
@@ -2859,6 +2878,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_noticiasFragment_to_detalleFragment
 id action_perfilFragment_to_menuFragment
 id action_reportarFragment_to_ubicacionFragment
 id action_text
@@ -2919,6 +2939,7 @@ id btn_log_google
 id btn_log_ini
 id btn_recuperar
 id btn_registrarse
+id btn_salir
 id bubble_description
 id bubble_image
 id bubble_moreinfo
@@ -3006,6 +3027,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detalleFragment
 id dfn_progress_fragment
 id dialog_button
 id dimensions
@@ -3122,6 +3144,7 @@ id login_password
 id lottie_layer_name
 id ltr
 id mapGoogle
+id mapGoogleDetalle
 id masked
 id match_constraint
 id match_parent
@@ -3385,7 +3408,6 @@ id title_template
 id tituloFecha
 id tituloReportero
 id tituloSiniestro
-id tituloUbicacion
 id toggle
 id top
 id topPanel
@@ -3399,6 +3421,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtDetalleFecha
+id txtDetalleInvolucrados
+id txtDetalleReporte
+id txtDetalleReportero
 id ubicacionFragment
 id unchecked
 id uniform
@@ -3547,6 +3573,7 @@ layout fragment_ayuda
 layout fragment_camara
 layout fragment_configuraciones
 layout fragment_descripcion
+layout fragment_detalle
 layout fragment_emergencias
 layout fragment_menu
 layout fragment_noticias
@@ -3900,9 +3927,11 @@ string peaton
 string progress
 string project_id
 string public_transport
+string regresar
 string reportar
 string retry
 string roads_nl
+string salir
 string samples
 string search
 string search_menu_title

@@ -13,7 +13,7 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.squareup.picasso.Picasso
 
 
-class SiniestrosAdapter(val context: Context):RecyclerView.Adapter<SiniestrosAdapter.ViewHolder>() {
+class SiniestrosAdapter(val context: Context, var clickListener: OnSiniestroItemClickListener):RecyclerView.Adapter<SiniestrosAdapter.ViewHolder>() {
     val db = FirebaseFirestore.getInstance()
     var siniestrosList = mutableListOf<siniestros>()
     fun setListData(data:MutableList<siniestros>){
@@ -28,7 +28,7 @@ class SiniestrosAdapter(val context: Context):RecyclerView.Adapter<SiniestrosAda
 
     override fun onBindViewHolder(viewHolder: ViewHolder, position: Int) {
         val siniestro = siniestrosList[position]
-        viewHolder.binWew(siniestro)
+        viewHolder.binWew(siniestro,clickListener)
 
     }
 
@@ -37,16 +37,21 @@ class SiniestrosAdapter(val context: Context):RecyclerView.Adapter<SiniestrosAda
     }
 
     inner class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
-
-        fun binWew(siniestro: siniestros){
-
+        fun binWew(siniestro: siniestros, action: OnSiniestroItemClickListener){
             val img = itemView.findViewById<ImageView>(R.id.iconoSiniestro)
             Picasso.get().load(siniestro.url).into(img)
             itemView.findViewById<TextView>(R.id.tituloSiniestro).text = siniestro.tipo
             itemView.findViewById<TextView>(R.id.tituloReportero).text = siniestro.reportero
             itemView.findViewById<TextView>(R.id.tituloFecha).text = siniestro.fecha
-            itemView.findViewById<TextView>(R.id.tituloUbicacion).text = siniestro.latitud + "," + siniestro.longitud
+
+            itemView.setOnClickListener{
+                action.onItemClickSiniestro(siniestro,adapterPosition)
+            }
         }
+    }
+
+    interface OnSiniestroItemClickListener{
+        fun onItemClickSiniestro(siniestro: siniestros,position:Int)
     }
 
 }

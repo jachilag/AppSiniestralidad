@@ -43,4 +43,6 @@ class CamaraFragment: Fragment() {
             findNavController().navigate(R.id.action_camaraFragment_to_descripcionFragment,bundle)
         }
     }
+
+    //https://drive.google.com/file/d/10Jrcl7znqO-IbstjQyopYoDvHzjW9-4C/view?usp=share_link
 }

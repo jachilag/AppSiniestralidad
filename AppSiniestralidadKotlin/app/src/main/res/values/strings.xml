@@ -56,6 +56,8 @@
     <string name="email">Correo:</string>
     <string name="correo_actual">Correo actual</string>
     <string name="textAsistencia">Se requiere asistencia medica?</string>
+    <string name="regresar">REGRESAR</string>
+    <string name="salir">SALIR</string>
 
 
     <string-array name="ciudades">

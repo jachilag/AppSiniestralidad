@@ -14,6 +14,24 @@ color purple
 color transparent
 color verde_aguamarina
 color white
+dimen cardCornerRadius
+dimen cardCorrerRadius
+dimen cardElevation
+dimen cardLayoutMargin
+dimen defaultLayoutMargin
+dimen fotoTiendaHeight
+dimen heigthImageProduct
+dimen ibHeight
+dimen itemCommentsScore
+dimen itemCommentsUser
+dimen itemsCommentsComment
+dimen logoHeight
+dimen sizeNameProduct
+dimen sizePriceProduct
+dimen sizeTitleComments
+dimen textSizeAdmin
+dimen textSizeContent
+dimen textTitle
 drawable animal
 drawable avatargris
 drawable avatarverde
@@ -43,6 +61,7 @@ id action_camaraFragment_to_descripcionFragment
 id action_camaraFragment_to_ubicacionFragment
 id action_descripcionFragment_to_camaraFragment
 id action_descripcionFragment_to_menuFragment
+id action_detalleFragment_to_menuFragment
 id action_menuFragment_to_ayudaFragment
 id action_menuFragment_to_configuracionesFragment
 id action_menuFragment_to_configuracionesFragment2
@@ -50,6 +69,7 @@ id action_menuFragment_to_emergenciasFragment
 id action_menuFragment_to_noticiasFragment
 id action_menuFragment_to_perfilFragment
 id action_menuFragment_to_reportarFragment
+id action_noticiasFragment_to_detalleFragment
 id action_perfilFragment_to_menuFragment
 id action_reportarFragment_to_ubicacionFragment
 id action_ubicacionFragment_to_camaraFragment
@@ -68,6 +88,7 @@ id btn_log_google
 id btn_log_ini
 id btn_recuperar
 id btn_registrarse
+id btn_salir
 id camaraFragment
 id cbAsistencia
 id cbBiciusuario
@@ -82,6 +103,7 @@ id cbVehiculoPublico
 id configuracionesFragment
 id cvSiniestro
 id descripcionFragment
+id detalleFragment
 id emergenciasFragment
 id fragAyuda
 id fragConfiguraciones
@@ -102,6 +124,7 @@ id login_button_facebook
 id login_email
 id login_password
 id mapGoogle
+id mapGoogleDetalle
 id menuFragment
 id nav_graph
 id nav_home
@@ -136,7 +159,10 @@ id text_correo_recuperacion
 id tituloFecha
 id tituloReportero
 id tituloSiniestro
-id tituloUbicacion
+id txtDetalleFecha
+id txtDetalleInvolucrados
+id txtDetalleReporte
+id txtDetalleReportero
 id ubicacionFragment
 layout activity_home
 layout activity_login
@@ -148,6 +174,7 @@ layout fragment_ayuda
 layout fragment_camara
 layout fragment_configuraciones
 layout fragment_descripcion
+layout fragment_detalle
 layout fragment_emergencias
 layout fragment_menu
 layout fragment_noticias
@@ -208,7 +235,9 @@ string numerostelefono
 string olvidar_password
 string peaton
 string project_id
+string regresar
 string reportar
+string salir
 string search
 string settings
 string siguiente
