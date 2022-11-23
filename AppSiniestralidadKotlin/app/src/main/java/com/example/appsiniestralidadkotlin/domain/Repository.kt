@@ -16,11 +16,23 @@ class Repository {
 //                val asistenciaMedica = document.getString("asistenciaMedica")
                 val fecha = document.getString("fecha")
                 val reportero = document.getString("reportero")
+                val idReportero = document.getString("idReportero")
                 val reporte = document.getString("reporte")
                 val tipo = document.getString("tipo")
-                val ubicacion = document.getString("ubicacion")
+                val latitud = document.getString("longitud")
+                val longitud = document.getString("latitud")
                 val url = generateUrl(document.getString("url").toString())
-                val siniestro = siniestros(asistenciaMedica = null,fecha = fecha, reportero = reportero, reporte = reporte,tipo =tipo, ubicacion = ubicacion, url = url)
+                val siniestro = siniestros(
+                    asistenciaMedica = null,
+                    fecha = fecha,
+                    reportero = reportero,
+                    idReportero = idReportero,
+                    reporte = reporte,
+                    tipo =tipo,
+                    latitud = latitud,
+                    longitud = longitud,
+                    url = url
+                )
                 listData.add(siniestro)
             }
             mutableLiveData.value=listData

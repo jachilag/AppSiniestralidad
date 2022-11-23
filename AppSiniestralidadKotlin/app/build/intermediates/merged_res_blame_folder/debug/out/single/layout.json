@@ -48,16 +48,16 @@
         "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-67:\\layout\\fragment_reportar.xml"
     },
     {
-        "merged": "com.example.appsiniestralidadkotlin.app-mergeDebugResources-64:/layout/fragment_perfil.xml",
-        "source": "com.example.appsiniestralidadkotlin.app-main-67:/layout/fragment_perfil.xml"
-    },
-    {
         "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-mergeDebugResources-64:\\layout\\activity_restore.xml",
         "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-67:\\layout\\activity_restore.xml"
     },
     {
         "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-mergeDebugResources-64:\\layout\\fragment_descripcion.xml",
         "source": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-main-67:\\layout\\fragment_descripcion.xml"
+    },
+    {
+        "merged": "com.example.appsiniestralidadkotlin.app-mergeDebugResources-64:/layout/fragment_descripcion.xml",
+        "source": "com.example.appsiniestralidadkotlin.app-main-67:/layout/fragment_descripcion.xml"
     },
     {
         "merged": "C:\\Users\\Jonathan\\.gradle\\daemon\\7.4\\com.example.appsiniestralidadkotlin.app-mergeDebugResources-64:\\layout\\fragment_ayuda.xml",

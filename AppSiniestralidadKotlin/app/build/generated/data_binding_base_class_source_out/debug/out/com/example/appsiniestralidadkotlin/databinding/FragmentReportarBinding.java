@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -24,52 +25,53 @@ public final class FragmentReportarBinding implements ViewBinding {
   public final Button btnAvanzarToUbicacion;
 
   @NonNull
-  public final CheckBox checkBox10;
+  public final CheckBox cbBiciusuario;
 
   @NonNull
-  public final CheckBox checkBox11;
+  public final CheckBox cbMotociclista;
 
   @NonNull
-  public final CheckBox checkBox2;
+  public final CheckBox cbOtro;
 
   @NonNull
-  public final CheckBox checkBox3;
+  public final CheckBox cbPeaton;
 
   @NonNull
-  public final CheckBox checkBox4;
+  public final CheckBox cbTransmilenio;
 
   @NonNull
-  public final CheckBox checkBox5;
+  public final CheckBox cbVehiculoAnimal;
 
   @NonNull
-  public final CheckBox checkBox6;
+  public final CheckBox cbVehiculoCarga;
 
   @NonNull
-  public final CheckBox checkBox7;
+  public final CheckBox cbVehiculoPrivado;
 
   @NonNull
-  public final CheckBox checkBox8;
+  public final CheckBox cbVehiculoPublico;
 
   @NonNull
-  public final CheckBox checkBox9;
+  public final EditText textOtro;
 
   private FragmentReportarBinding(@NonNull LinearLayout rootView,
-      @NonNull Button btnAvanzarToUbicacion, @NonNull CheckBox checkBox10,
-      @NonNull CheckBox checkBox11, @NonNull CheckBox checkBox2, @NonNull CheckBox checkBox3,
-      @NonNull CheckBox checkBox4, @NonNull CheckBox checkBox5, @NonNull CheckBox checkBox6,
-      @NonNull CheckBox checkBox7, @NonNull CheckBox checkBox8, @NonNull CheckBox checkBox9) {
+      @NonNull Button btnAvanzarToUbicacion, @NonNull CheckBox cbBiciusuario,
+      @NonNull CheckBox cbMotociclista, @NonNull CheckBox cbOtro, @NonNull CheckBox cbPeaton,
+      @NonNull CheckBox cbTransmilenio, @NonNull CheckBox cbVehiculoAnimal,
+      @NonNull CheckBox cbVehiculoCarga, @NonNull CheckBox cbVehiculoPrivado,
+      @NonNull CheckBox cbVehiculoPublico, @NonNull EditText textOtro) {
     this.rootView = rootView;
     this.btnAvanzarToUbicacion = btnAvanzarToUbicacion;
-    this.checkBox10 = checkBox10;
-    this.checkBox11 = checkBox11;
-    this.checkBox2 = checkBox2;
-    this.checkBox3 = checkBox3;
-    this.checkBox4 = checkBox4;
-    this.checkBox5 = checkBox5;
-    this.checkBox6 = checkBox6;
-    this.checkBox7 = checkBox7;
-    this.checkBox8 = checkBox8;
-    this.checkBox9 = checkBox9;
+    this.cbBiciusuario = cbBiciusuario;
+    this.cbMotociclista = cbMotociclista;
+    this.cbOtro = cbOtro;
+    this.cbPeaton = cbPeaton;
+    this.cbTransmilenio = cbTransmilenio;
+    this.cbVehiculoAnimal = cbVehiculoAnimal;
+    this.cbVehiculoCarga = cbVehiculoCarga;
+    this.cbVehiculoPrivado = cbVehiculoPrivado;
+    this.cbVehiculoPublico = cbVehiculoPublico;
+    this.textOtro = textOtro;
   }
 
   @Override
@@ -105,69 +107,69 @@ public final class FragmentReportarBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.checkBox10;
-      CheckBox checkBox10 = ViewBindings.findChildViewById(rootView, id);
-      if (checkBox10 == null) {
+      id = R.id.cbBiciusuario;
+      CheckBox cbBiciusuario = ViewBindings.findChildViewById(rootView, id);
+      if (cbBiciusuario == null) {
         break missingId;
       }
 
-      id = R.id.checkBox11;
-      CheckBox checkBox11 = ViewBindings.findChildViewById(rootView, id);
-      if (checkBox11 == null) {
+      id = R.id.cbMotociclista;
+      CheckBox cbMotociclista = ViewBindings.findChildViewById(rootView, id);
+      if (cbMotociclista == null) {
         break missingId;
       }
 
-      id = R.id.checkBox2;
-      CheckBox checkBox2 = ViewBindings.findChildViewById(rootView, id);
-      if (checkBox2 == null) {
+      id = R.id.cbOtro;
+      CheckBox cbOtro = ViewBindings.findChildViewById(rootView, id);
+      if (cbOtro == null) {
         break missingId;
       }
 
-      id = R.id.checkBox3;
-      CheckBox checkBox3 = ViewBindings.findChildViewById(rootView, id);
-      if (checkBox3 == null) {
+      id = R.id.cbPeaton;
+      CheckBox cbPeaton = ViewBindings.findChildViewById(rootView, id);
+      if (cbPeaton == null) {
         break missingId;
       }
 
-      id = R.id.checkBox4;
-      CheckBox checkBox4 = ViewBindings.findChildViewById(rootView, id);
-      if (checkBox4 == null) {
+      id = R.id.cbTransmilenio;
+      CheckBox cbTransmilenio = ViewBindings.findChildViewById(rootView, id);
+      if (cbTransmilenio == null) {
         break missingId;
       }
 
-      id = R.id.checkBox5;
-      CheckBox checkBox5 = ViewBindings.findChildViewById(rootView, id);
-      if (checkBox5 == null) {
+      id = R.id.cbVehiculoAnimal;
+      CheckBox cbVehiculoAnimal = ViewBindings.findChildViewById(rootView, id);
+      if (cbVehiculoAnimal == null) {
         break missingId;
       }
 
-      id = R.id.checkBox6;
-      CheckBox checkBox6 = ViewBindings.findChildViewById(rootView, id);
-      if (checkBox6 == null) {
+      id = R.id.cbVehiculoCarga;
+      CheckBox cbVehiculoCarga = ViewBindings.findChildViewById(rootView, id);
+      if (cbVehiculoCarga == null) {
         break missingId;
       }
 
-      id = R.id.checkBox7;
-      CheckBox checkBox7 = ViewBindings.findChildViewById(rootView, id);
-      if (checkBox7 == null) {
+      id = R.id.cbVehiculoPrivado;
+      CheckBox cbVehiculoPrivado = ViewBindings.findChildViewById(rootView, id);
+      if (cbVehiculoPrivado == null) {
         break missingId;
       }
 
-      id = R.id.checkBox8;
-      CheckBox checkBox8 = ViewBindings.findChildViewById(rootView, id);
-      if (checkBox8 == null) {
+      id = R.id.cbVehiculoPublico;
+      CheckBox cbVehiculoPublico = ViewBindings.findChildViewById(rootView, id);
+      if (cbVehiculoPublico == null) {
         break missingId;
       }
 
-      id = R.id.checkBox9;
-      CheckBox checkBox9 = ViewBindings.findChildViewById(rootView, id);
-      if (checkBox9 == null) {
+      id = R.id.textOtro;
+      EditText textOtro = ViewBindings.findChildViewById(rootView, id);
+      if (textOtro == null) {
         break missingId;
       }
 
-      return new FragmentReportarBinding((LinearLayout) rootView, btnAvanzarToUbicacion, checkBox10,
-          checkBox11, checkBox2, checkBox3, checkBox4, checkBox5, checkBox6, checkBox7, checkBox8,
-          checkBox9);
+      return new FragmentReportarBinding((LinearLayout) rootView, btnAvanzarToUbicacion,
+          cbBiciusuario, cbMotociclista, cbOtro, cbPeaton, cbTransmilenio, cbVehiculoAnimal,
+          cbVehiculoCarga, cbVehiculoPrivado, cbVehiculoPublico, textOtro);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

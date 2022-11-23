@@ -3,17 +3,13 @@ package com.example.appsiniestralidadkotlin.view.ui.fragments
 import android.annotation.SuppressLint
 import android.app.DatePickerDialog
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.appsiniestralidadkotlin.R
-import com.example.appsiniestralidadkotlin.view.adapter.CiudadesAdaptador
-import com.example.appsiniestralidadkotlin.viewModel.CiudadesViewModel
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -24,11 +20,6 @@ import java.util.*
 //--------------------------------------------------------------------------------------------
 // CODIGO BASADO EN OBTENER Y ACTUALIZAR LOS DATOS CON FIRESTORE CLOUD
 class perfilFragment : Fragment(), View.OnClickListener,AdapterView.OnItemSelectedListener {
-    lateinit var spinner_ciudad: Spinner;
-    var banderaListener = false
-//    var ciudades = MutableList<String>();
-    val viewmodel by lazy{ ViewModelProvider(this)[CiudadesViewModel::class.java] }
-    lateinit var adapter: CiudadesAdaptador
     lateinit var btn_actualizar: Button
     private lateinit var correo:EditText
     lateinit var fechaNacimiento:EditText
@@ -38,23 +29,17 @@ class perfilFragment : Fragment(), View.OnClickListener,AdapterView.OnItemSelect
     lateinit var spCiudad:Spinner
     lateinit var urlFoto:String
     lateinit var city:EditText
-    var pos:Int = 0
     val db = FirebaseFirestore.getInstance()
-    val dbRef = FirebaseFirestore.getInstance()
     var firebaseAuth: FirebaseAuth = Firebase.auth
     val user = firebaseAuth.currentUser
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?): View? {
-        // Inflate the layout for this fragment
+        // asignamos view a variable
+        val view = inflater.inflate(R.layout.fragment_perfil, container, false)
 
-        return inflater.inflate(R.layout.fragment_perfil, container, false)
-    }
-
-    @SuppressLint("ResourceType")
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
         //--------------------------------------------------------------------------
-        // seccion de lectura de los datos del usuario
+        // asignacion de los id de los layouts a variables kt
+        btn_actualizar = view.findViewById(R.id.btn_actualizar)
         correo = view.findViewById(R.id.registro_correo)
         name = view.findViewById(R.id.registro_nombre)
         apellido = view.findViewById(R.id.registro_apellido)
@@ -65,19 +50,20 @@ class perfilFragment : Fragment(), View.OnClickListener,AdapterView.OnItemSelect
         city = view.findViewById(R.id.registro_ciudad)
         urlFoto = ""
 
-        // capturamos los datos de firebase firestore de la coleccion ciudades y llenamos el spinner
-        val listData = ArrayList<String>()
-        db.collection("ciudades")
-            .get()
-            .addOnSuccessListener { result ->
-                for (document in result) {
-                    val nombre = document.data["ciudad"].toString()
-                    listData.add(nombre)
-                }
+        //llena el spinner con los valores del stringArray del archivo strings.xml. no se pudo hacer con firebase :(
+        ArrayAdapter.createFromResource(requireContext(),R.array.ciudades,android.R.layout.simple_spinner_item)
+            .also { adapter ->
+                adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+                spCiudad.adapter = adapter
             }
-            .addOnFailureListener { exception ->
-                Log.d("Documento: ", "Error getting documents: ", exception)
-            }
+
+        // Inflate the layout for this fragment
+        return view
+    }
+
+    @SuppressLint("ResourceType")
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
         // fijamos los campos edittext con los valores encontrados en firebase asociados a dicho usuario
         correo.setText(user?.email.toString())
@@ -89,57 +75,13 @@ class perfilFragment : Fragment(), View.OnClickListener,AdapterView.OnItemSelect
             city.setText(it.get("Ciudad")as String?)
         }
 
-
-
-
-        val adaptador:ArrayAdapter<String> = ArrayAdapter(requireContext(),android.R.layout.simple_dropdown_item_1line,listData)
-        spCiudad.adapter = adaptador
+        //listener del spinner para elegir cuidad
         spCiudad.onItemSelectedListener = this
 
-//        spCiudad.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-//            override fun onItemSelected(parent: AdapterView<*>, view: View, pos: Int, id: Long) {
-//                val text: String = spCiudad.selectedItem.toString()
-//                val item = parent.getItemAtPosition(pos)
-//                val size1: String = spCiudad.selectedItem.toString()
-//                val spinner_pos: Int = spCiudad.selectedItemPosition
-//
-//                //        val size_values = resources.getStringArray(listData)
-//    //        val size2 = Integer.valueOf(
-//    //            size_values[spinner_pos]
-//    //        )
-//                val itemText = spCiudad.selectedItem
-//                city.setText(itemText.toString())
-//            }
-//
-//            override fun onNothingSelected(parent: AdapterView<*>?) {}
-//        }
-
-
-
-
-//        spCiudad.onItemSelectedListener = this
-//        spCiudad.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-//            override fun onNothingSelected(parent: AdapterView<*>?) {
-//                Toast.makeText(requireContext(), "onNothingSelected", Toast.LENGTH_SHORT).show()
-//            }
-//
-//            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-////                if (!banderaListener) {
-////                    banderaListener = true
-////                    return
-////                }
-//                Toast.makeText(requireContext(), "onItemSelected position: $position. id: $id", Toast.LENGTH_SHORT).show()
-//                Log.d("ESTOY AQUI ",position.toString())
-////                val valor = parent?.getItemAtPosition(position)
-////                city.setText(valor.toString())
-////                pos = position
-//            }
-//        }
-
-        btn_actualizar = view.findViewById(R.id.btn_actualizar)
+        //listener para actualizar los datos en firebase
         btn_actualizar.setOnClickListener {
             updateUser(name.text.toString(),apellido.text.toString(),celular.text.toString(),
-                fechaNacimiento.text.toString(),city.text.toString(), urlFoto)
+                fechaNacimiento.text.toString(),city.text.toString(), urlFoto,"")
             findNavController().navigate(R.id.action_perfilFragment_to_menuFragment)
             Toast.makeText(requireContext(),"Datos Actualizados", Toast.LENGTH_LONG).show()
         }
@@ -154,26 +96,20 @@ class perfilFragment : Fragment(), View.OnClickListener,AdapterView.OnItemSelect
     }
 
     override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-        if (!banderaListener) {
-                    banderaListener = true
-                    return
-                }
-              Toast.makeText(requireContext(), "onItemSelected position: $position. id: $id", Toast.LENGTH_SHORT).show()
-              Log.d("ESTOY AQUI ",position.toString())
-                val valor = parent?.getItemAtPosition(position).toString()
-                city.setText(valor.toString())
-                pos = position
+        val valor = parent?.getItemAtPosition(position)
+        city.isFocusable = true
+        city.isClickable = true
+        city.setText(valor.toString())
     }
 
-    override fun onNothingSelected(parent: AdapterView<*>?) {    }
-
-
-
-
+    override fun onNothingSelected(parent: AdapterView<*>?) {
+        city.isFocusable = false
+        city.isClickable = false
+    }
 
     private fun updateUser(
         nombre:String, apellidos:String,celular: String,
-        nacimiento:String, ciudad:String,urlFoto:String) {
+        nacimiento:String, ciudad:String,urlFoto:String,registro:String) {
 
         db.collection("users").document(user?.uid.toString()).set(
             hashMapOf(
@@ -182,7 +118,8 @@ class perfilFragment : Fragment(), View.OnClickListener,AdapterView.OnItemSelect
                 "Celular" to celular,
                 "fechaNacimiento" to nacimiento,
                 "Ciudad" to ciudad,
-                "UrlFoto" to urlFoto
+                "UrlFoto" to urlFoto,
+                "Registro" to registro
             )
         )
     }
@@ -195,19 +132,38 @@ class perfilFragment : Fragment(), View.OnClickListener,AdapterView.OnItemSelect
         val recogerFecha = DatePickerDialog(requireContext(), R.style.DatePickerTheme,{ view, year, month, day ->
             val mes = month + 1
             val dia = if (day < 10) "0$day" else day.toString()
-            val mesFormateado = if (month < 10) "0$mes" else mes.toString()
+            val mesFormateado = if (mes < 10) "0$mes" else mes.toString()
             fechaNacimiento.setText("$dia/$mesFormateado/$year")
         }, year, month, day)
         recogerFecha.datePicker.maxDate = c.timeInMillis
         recogerFecha.show()
     }
-
-
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//---------------------------------------------------------------------------------------------------
+//ESTO SIRVE PARA TRAER MULTIPLES DATOS DE FIREBASE REALTIME
 /*database.addValueEventListener(object :ValueEventListener{
   override fun onDataChange(snapshot: DataSnapshot) {
       for (ds in snapshot.children){
@@ -223,6 +179,24 @@ class perfilFragment : Fragment(), View.OnClickListener,AdapterView.OnItemSelect
   }
 })*/
 
+//-----------------------------------------------------------------------------------------------------
+//   SIRVE PARA LLENAR UN ARRAYLIST CON DATOS TRAIDOS DE FIREBASE
+//        // capturamos los datos de firebase firestore de la coleccion ciudades y los ponemos en el listData
+//        db.collection("ciudades")
+//            .get()
+//            .addOnSuccessListener { result ->
+//                for (document in result) {
+//                    val nombre = document.data["ciudad"].toString()
+//                    listData.add(nombre)
+//                }
+//            }
+//            .addOnFailureListener { exception ->
+//                Log.d("Documento: ", "Error getting documents: ", exception)
+//            }
+
+//        //llenar el spinner con los valores de firebase de ciudades y logica de eleccion de item
+//        adaptador= ArrayAdapter(requireContext(),android.R.layout.simple_dropdown_item_1line,listData)
+//        spCiudad.adapter = adaptador
 
 //-----------------------------------------------------------------------------------------------
 // CODIGO BASADO EN OBTENER Y ACTUALIZAR LOS DATOS CON REALTIME

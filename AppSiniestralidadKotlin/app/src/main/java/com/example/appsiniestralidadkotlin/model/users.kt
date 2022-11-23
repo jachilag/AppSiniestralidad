@@ -8,5 +8,7 @@ data class users (
     var Celular: String?,
     var Correo: String?,
     var fechaNacimiento: Timestamp?,
-    var Ciudad: String?
+    var Ciudad: String?,
+    var Urlfoto:String?,
+    var Registro:String?
 )

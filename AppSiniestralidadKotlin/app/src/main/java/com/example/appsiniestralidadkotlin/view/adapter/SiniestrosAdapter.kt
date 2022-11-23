@@ -9,10 +9,12 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.appsiniestralidadkotlin.R
 import com.example.appsiniestralidadkotlin.model.siniestros
+import com.google.firebase.firestore.FirebaseFirestore
 import com.squareup.picasso.Picasso
 
 
 class SiniestrosAdapter(val context: Context):RecyclerView.Adapter<SiniestrosAdapter.ViewHolder>() {
+    val db = FirebaseFirestore.getInstance()
     var siniestrosList = mutableListOf<siniestros>()
     fun setListData(data:MutableList<siniestros>){
         siniestrosList = data
@@ -35,13 +37,15 @@ class SiniestrosAdapter(val context: Context):RecyclerView.Adapter<SiniestrosAda
     }
 
     inner class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
+
         fun binWew(siniestro: siniestros){
+
             val img = itemView.findViewById<ImageView>(R.id.iconoSiniestro)
             Picasso.get().load(siniestro.url).into(img)
             itemView.findViewById<TextView>(R.id.tituloSiniestro).text = siniestro.tipo
             itemView.findViewById<TextView>(R.id.tituloReportero).text = siniestro.reportero
             itemView.findViewById<TextView>(R.id.tituloFecha).text = siniestro.fecha
-            itemView.findViewById<TextView>(R.id.tituloUbicacion).text = siniestro.ubicacion
+            itemView.findViewById<TextView>(R.id.tituloUbicacion).text = siniestro.latitud + "," + siniestro.longitud
         }
     }
 

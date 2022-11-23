@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array ciudades
 color azul_facebook
 color black
 color blue_king
@@ -68,16 +69,16 @@ id btn_log_ini
 id btn_recuperar
 id btn_registrarse
 id camaraFragment
-id checkBox10
-id checkBox11
-id checkBox2
-id checkBox3
-id checkBox4
-id checkBox5
-id checkBox6
-id checkBox7
-id checkBox8
-id checkBox9
+id cbAsistencia
+id cbBiciusuario
+id cbMotociclista
+id cbOtro
+id cbPeaton
+id cbTransmilenio
+id cbVehiculoAnimal
+id cbVehiculoCarga
+id cbVehiculoPrivado
+id cbVehiculoPublico
 id configuracionesFragment
 id cvSiniestro
 id descripcionFragment
@@ -121,6 +122,8 @@ id rv_noticias
 id scrollView2
 id scroll_menu
 id spinner_ciudad
+id textDescripcion
+id textOtro
 id textView
 id textView0
 id textView2
@@ -209,6 +212,7 @@ string reportar
 string search
 string settings
 string siguiente
+string textAsistencia
 string texto_registrar
 string titulo_apellidos
 string titulo_celular

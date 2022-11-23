@@ -22,7 +22,7 @@
             android:layout_width="111dp"
             android:layout_height="120dp"
             android:layout_alignParentRight="true"
-            android:src="@drawable/settings"
+            android:src="@drawable/crashcar"
 
             ></ImageView>
 
@@ -36,7 +36,7 @@
             android:gravity="center"
             android:text="@string/descripcion"
             android:textColor="@color/black"
-            android:textSize="30sp"
+            android:textSize="28sp"
             android:textStyle="bold"></TextView>
     </RelativeLayout>
 
@@ -48,16 +48,26 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="290dp"
+            android:hint="@string/txt_descripcion"
             android:outlineAmbientShadowColor="@color/black"
-            android:elevation="10dp">
+            android:elevation="10dp"
+            app:counterMaxLength="600">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textDescripcion"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:hint="@string/txt_descripcion"
+                android:layout_height="280dp"
+                android:maxLength="600"
                 android:gravity="top"/>
         </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/cbAsistencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/textAsistencia" />
 
         <Button
             android:id="@+id/btn_finalizar"

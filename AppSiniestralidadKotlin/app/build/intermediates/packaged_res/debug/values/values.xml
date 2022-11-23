@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="ciudades">
+        <item>Bogotá</item>
+        <item>Cali</item>
+        <item>Medellin</item>
+        <item>Manizales</item>
+        <item>Tunja</item>
+        <item>Cartagena</item>
+    </string-array>
     <color name="azul_facebook">#3b5998</color>
     <color name="black">#FF000000</color>
     <color name="blue_king">#004370</color>
@@ -62,6 +70,7 @@
     <string name="search">Buscar</string>
     <string name="settings">Configuraciones</string>
     <string name="siguiente">SIGUIENTE</string>
+    <string name="textAsistencia">Se requiere asistencia medica?</string>
     <string name="texto_registrar">Registrarse</string>
     <string name="titulo_apellidos">Apellidos</string>
     <string name="titulo_celular">Celular</string>

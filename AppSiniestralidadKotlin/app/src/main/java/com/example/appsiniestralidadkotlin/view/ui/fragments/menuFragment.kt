@@ -29,7 +29,8 @@ class menuFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         firebaseAuth = Firebase.auth
         val user = firebaseAuth.currentUser
-        val email = user?.email.toString()
+
+
 
         val cardPerfil = view.findViewById<CardView>(R.id.fragPerfil)
         cardPerfil.setOnClickListener {

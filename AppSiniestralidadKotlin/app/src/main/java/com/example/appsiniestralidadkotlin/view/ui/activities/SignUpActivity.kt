@@ -31,17 +31,17 @@ class SignUpActivity: AppCompatActivity() {
         var fechaNacimiento = ""
         var ciudad = ""
         var urlFoto = ""
-
+        var registro = ""
         var register: Button = findViewById(R.id.btn_registrarse)
         register.setOnClickListener {
             createUser(email.text.toString(),password.text.toString(), name,
-                apellido,celular,fechaNacimiento,ciudad,urlFoto)
+                apellido,celular,fechaNacimiento,ciudad,urlFoto,registro)
         }
     }
 //-------------------------------------------------------------------------------------------------
 //    utilizacion de  CLOUD STORE para guardar datos vacios de usuarios
     fun createUser(email:String, password:String, name: String, apellido: String, celular:String,
-    nacimiento:String,ciudad:String,urlFoto:String) {
+    nacimiento:String,ciudad:String,urlFoto:String,registro:String) {
     firebaseAuth.createUserWithEmailAndPassword(email, password)
         .addOnCompleteListener(this) { Task ->
             if (Task.isSuccessful) {
@@ -55,7 +55,8 @@ class SignUpActivity: AppCompatActivity() {
                         "fechaNacimiento" to nacimiento,
                         "Ciudad" to ciudad,
                         "Correo" to email,
-                        "UrlFoto" to urlFoto
+                        "UrlFoto" to urlFoto,
+                        "Registro" to registro
                     )
                 )
                 Toast.makeText(applicationContext, "USUARIO REGISTRADO", Toast.LENGTH_LONG).show()

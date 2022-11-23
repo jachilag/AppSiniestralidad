@@ -49,61 +49,70 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center">
-            <RadioGroup
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:orientation="vertical"
                 android:layout_margin="35dp">
                 <CheckBox
-                    android:id="@+id/checkBox11"
+                    android:id="@+id/cbPeaton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="CheckBox" />
+                    android:text="Peaton" />
                 <CheckBox
-                    android:id="@+id/checkBox10"
+                    android:id="@+id/cbBiciusuario"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="CheckBox" />
+                    android:text="BiciUsuario" />
                 <CheckBox
-                    android:id="@+id/checkBox9"
+                    android:id="@+id/cbMotociclista"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="CheckBox" />
+                    android:text="Motociclista" />
                 <CheckBox
-                    android:id="@+id/checkBox8"
+                    android:id="@+id/cbVehiculoPrivado"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="CheckBox" />
+                    android:text="Vehiculo Privado" />
                 <CheckBox
-                    android:id="@+id/checkBox7"
+                    android:id="@+id/cbVehiculoPublico"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="CheckBox" />
+                    android:text="Vehiculo Publico" />
                 <CheckBox
-                    android:id="@+id/checkBox6"
+                    android:id="@+id/cbTransmilenio"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="CheckBox" />
+                    android:text="Transmilenio" />
                 <CheckBox
-                    android:id="@+id/checkBox5"
+                    android:id="@+id/cbVehiculoCarga"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="CheckBox" />
+                    android:text="Vehiculo de carga larga y/o ancha" />
                 <CheckBox
-                    android:id="@+id/checkBox4"
+                    android:id="@+id/cbVehiculoAnimal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="CheckBox" />
-                <CheckBox
-                    android:id="@+id/checkBox3"
+                    android:text="Vehiculo de traccion animal" />
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="CheckBox" />
-                <CheckBox
-                    android:id="@+id/checkBox2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="CheckBox" />
-            </RadioGroup>
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cbOtro"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:text="Otro. ¿Cúal?" />
+                    <EditText
+                        android:id="@+id/textOtro"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="invisible"
+                        android:hint="separe por comas"/>
+                </LinearLayout>
+
+            </LinearLayout>
             <Button
                 android:id="@+id/btn_avanzar_to_ubicacion"
                 android:layout_width="345dp"
