@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -27,7 +28,7 @@
                 android:layout_width="111dp"
                 android:layout_height="120dp"
                 android:layout_alignParentRight="true"
-                android:src="@drawable/settings"
+                android:src="@drawable/mapa_menu"
 
                 ></ImageView>
 
@@ -39,11 +40,47 @@
                 android:layout_marginStart="-11dp"
                 android:layout_marginEnd="101dp"
                 android:gravity="center"
-                android:text="Configuraciones"
+                android:text="UBICACION SINIESTROS"
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 android:textStyle="bold">
             </TextView>
         </RelativeLayout>
+
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="520dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/mapGoogleSiniestros"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                map:uiZoomControls="true"
+                map:uiRotateGestures="true"
+                map:cameraTilt="0"/>
+<!--                        <org.osmdroid.views.MapView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:id="@+id/mapGoogleSiniestros" />-->
+
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:id="@+id/btn_regresar_mapa"
+            android:layout_width="345dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/purple"
+            android:text="@string/regresar"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+
+
 </LinearLayout>

@@ -35,7 +35,14 @@
     <fragment
         android:id="@+id/configuracionesFragment"
         android:name="com.example.appsiniestralidadkotlin.view.ui.fragments.configuracionesFragment"
-        android:label="configuracionesFragment" />
+        android:label="configuracionesFragment" >
+        <action
+            android:id="@+id/action_configuracionesFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_configuracionesFragment_to_detalleMapFragment"
+            app:destination="@id/detalleMapFragment" />
+    </fragment>
     <fragment
         android:id="@+id/ayudaFragment"
         android:name="com.example.appsiniestralidadkotlin.view.ui.fragments.ayudaFragment"
@@ -59,6 +66,9 @@
         <action
             android:id="@+id/action_perfilFragment_to_menuFragment"
             app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_perfilFragment_to_fotoPerfilFragment"
+            app:destination="@id/fotoPerfilFragment" />
     </fragment>
     <fragment
         android:id="@+id/reportarFragment"
@@ -110,5 +120,23 @@
         <action
             android:id="@+id/action_detalleFragment_to_menuFragment"
             app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fotoPerfilFragment"
+        android:name="com.example.appsiniestralidadkotlin.view.ui.fragments.FotoPerfilFragment"
+        android:label="fragment_fotoperfil"
+        tools:layout="@layout/fragment_fotoperfil" >
+        <action
+            android:id="@+id/action_fotoPerfilFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalleMapFragment"
+        android:name="com.example.appsiniestralidadkotlin.view.ui.fragments.DetalleMapFragment"
+        android:label="fragment_detalle_mapa"
+        tools:layout="@layout/fragment_detalle_mapa" >
+        <action
+            android:id="@+id/action_detalleMapFragment_to_configuracionesFragment"
+            app:destination="@id/configuracionesFragment" />
     </fragment>
 </navigation>

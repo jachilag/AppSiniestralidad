@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.appsiniestralidadkotlin.app-mergeDebugResources-63:/values-gu/values-gu.xml",
+            "outputFile": "com.example.appsiniestralidadkotlin.app-mergeDebugResources-64:/values-gu/values-gu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Jonathan\\.gradle\\caches\\transforms-3\\0af614b78503e20687cad6c598b51d3b\\transformed\\facebook-login-15.1.0\\res\\values-gu\\values-gu.xml",

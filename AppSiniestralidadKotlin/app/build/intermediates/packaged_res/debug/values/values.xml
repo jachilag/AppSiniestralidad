@@ -23,6 +23,7 @@
     <dimen name="cardCorrerRadius">5dp</dimen>
     <dimen name="cardElevation">3dp</dimen>
     <dimen name="cardLayoutMargin">1dp</dimen>
+    <dimen name="cardviewMenu">15dp</dimen>
     <dimen name="defaultLayoutMargin">10dp</dimen>
     <dimen name="fotoTiendaHeight">300dp</dimen>
     <dimen name="heigthImageProduct">150dp</dimen>
@@ -54,6 +55,7 @@
     <string name="descripcion">DESCRIPCION DEL SINIESTRO</string>
     <string name="email">Correo:</string>
     <string name="email_recuperacion">Escriba su correo de recuperacion de Contraseña</string>
+    <string name="establecerFoto">CAMBIAR FOTO</string>
     <string name="facebook_app_id">1183897232550435</string>
     <string name="facebook_client_token">065f93031f1529ce71aa0fd28474fbde</string>
     <string name="fb_login_protocol_scheme">fb1183897232550435</string>
@@ -101,6 +103,7 @@
     <string name="titulo_nombres">Nombres</string>
     <string name="txt_descripcion">Haga una descripcion del siniestro</string>
     <string name="ubicacion">UBICACION SINIESTRO</string>
+    <string name="ubicacionSiniestros">Mapa Siniestros</string>
     <style name="DatePickerTheme" parent="android:Theme.Material.Light.Dialog">
         <item name="android:colorAccent">#00A87D</item>
     </style>

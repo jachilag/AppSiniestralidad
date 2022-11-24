@@ -58,6 +58,8 @@
     <string name="textAsistencia">Se requiere asistencia medica?</string>
     <string name="regresar">REGRESAR</string>
     <string name="salir">SALIR</string>
+    <string name="establecerFoto">CAMBIAR FOTO</string>
+    <string name="ubicacionSiniestros">Mapa Siniestros</string>
 
 
     <string-array name="ciudades">

@@ -2,18 +2,24 @@ package com.example.appsiniestralidadkotlin.view.ui.fragments
 
 import android.annotation.SuppressLint
 import android.app.DatePickerDialog
+import android.content.Context
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
+import androidx.core.net.toUri
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.bumptech.glide.Glide
 import com.example.appsiniestralidadkotlin.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
+import com.google.firebase.storage.FirebaseStorage
+import com.google.firebase.storage.StorageReference
 import java.util.*
 
 
@@ -21,14 +27,17 @@ import java.util.*
 // CODIGO BASADO EN OBTENER Y ACTUALIZAR LOS DATOS CON FIRESTORE CLOUD
 class perfilFragment : Fragment(), View.OnClickListener,AdapterView.OnItemSelectedListener {
     lateinit var btn_actualizar: Button
+    lateinit var btn_cambiarFoto: Button
     private lateinit var correo:EditText
     lateinit var fechaNacimiento:EditText
     lateinit var name:EditText
     lateinit var apellido:EditText
     lateinit var celular:EditText
     lateinit var spCiudad:Spinner
-    lateinit var urlFoto:String
     lateinit var city:EditText
+    lateinit var fotoPerfil:ImageView
+    lateinit var storageRef : StorageReference
+    lateinit var urlFoto:String
     val db = FirebaseFirestore.getInstance()
     var firebaseAuth: FirebaseAuth = Firebase.auth
     val user = firebaseAuth.currentUser
@@ -36,10 +45,13 @@ class perfilFragment : Fragment(), View.OnClickListener,AdapterView.OnItemSelect
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?): View? {
         // asignamos view a variable
         val view = inflater.inflate(R.layout.fragment_perfil, container, false)
+        storageRef = FirebaseStorage.getInstance().reference
 
         //--------------------------------------------------------------------------
         // asignacion de los id de los layouts a variables kt
+        fotoPerfil = view.findViewById(R.id.img_perfil_1)
         btn_actualizar = view.findViewById(R.id.btn_actualizar)
+        btn_cambiarFoto = view.findViewById(R.id.btn_tomarFoto)
         correo = view.findViewById(R.id.registro_correo)
         name = view.findViewById(R.id.registro_nombre)
         apellido = view.findViewById(R.id.registro_apellido)
@@ -48,7 +60,7 @@ class perfilFragment : Fragment(), View.OnClickListener,AdapterView.OnItemSelect
         spCiudad = view.findViewById(R.id.spinner_ciudad)
         fechaNacimiento.setOnClickListener(this)
         city = view.findViewById(R.id.registro_ciudad)
-        urlFoto = ""
+
 
         //llena el spinner con los valores del stringArray del archivo strings.xml. no se pudo hacer con firebase :(
         ArrayAdapter.createFromResource(requireContext(),R.array.ciudades,android.R.layout.simple_spinner_item)
@@ -73,6 +85,8 @@ class perfilFragment : Fragment(), View.OnClickListener,AdapterView.OnItemSelect
             apellido.setText(it.get("Apellidos") as String?)
             celular.setText(it.get("Celular") as String?)
             city.setText(it.get("Ciudad")as String?)
+            urlFoto = it.get("UrlFoto") as String
+            cargarFoto(requireContext(),fotoPerfil,urlFoto)
         }
 
         //listener del spinner para elegir cuidad
@@ -84,6 +98,10 @@ class perfilFragment : Fragment(), View.OnClickListener,AdapterView.OnItemSelect
                 fechaNacimiento.text.toString(),city.text.toString(), urlFoto,"")
             findNavController().navigate(R.id.action_perfilFragment_to_menuFragment)
             Toast.makeText(requireContext(),"Datos Actualizados", Toast.LENGTH_LONG).show()
+        }
+
+        btn_cambiarFoto.setOnClickListener{
+            findNavController().navigate(R.id.action_perfilFragment_to_fotoPerfilFragment)
         }
 
         correo.setOnClickListener{
@@ -138,6 +156,18 @@ class perfilFragment : Fragment(), View.OnClickListener,AdapterView.OnItemSelect
         recogerFecha.datePicker.maxDate = c.timeInMillis
         recogerFecha.show()
     }
+
+    private fun cargarFoto(context: Context,foto: ImageView,url:String) {
+        if (url != ""){
+            val downloadUri:Uri =url.toUri()
+            Glide.with(context /* context */)
+                .load(downloadUri)
+                .fitCenter()
+                .centerCrop()
+                .into(foto)
+        }
+    }
+
 }
 
 

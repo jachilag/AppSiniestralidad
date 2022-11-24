@@ -4,20 +4,28 @@ package com.example.appsiniestralidadkotlin.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.appsiniestralidadkotlin.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentConfiguracionesBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
 
-  private FragmentConfiguracionesBinding(@NonNull LinearLayout rootView) {
+  @NonNull
+  public final Button btnRegresarMapa;
+
+  private FragmentConfiguracionesBinding(@NonNull LinearLayout rootView,
+      @NonNull Button btnRegresarMapa) {
     this.rootView = rootView;
+    this.btnRegresarMapa = btnRegresarMapa;
   }
 
   @Override
@@ -43,10 +51,19 @@ public final class FragmentConfiguracionesBinding implements ViewBinding {
 
   @NonNull
   public static FragmentConfiguracionesBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.btn_regresar_mapa;
+      Button btnRegresarMapa = ViewBindings.findChildViewById(rootView, id);
+      if (btnRegresarMapa == null) {
+        break missingId;
+      }
 
-    return new FragmentConfiguracionesBinding((LinearLayout) rootView);
+      return new FragmentConfiguracionesBinding((LinearLayout) rootView, btnRegresarMapa);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

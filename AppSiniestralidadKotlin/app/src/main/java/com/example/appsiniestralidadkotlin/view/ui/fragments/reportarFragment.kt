@@ -115,7 +115,7 @@ class reportarFragment : Fragment() {
     fun textoInvolucrados():String{
         var salida:String = ""
         for(agente in involucrados){
-            salida += agente + ", "
+            salida += "$agente, "
         }
         return salida
     }

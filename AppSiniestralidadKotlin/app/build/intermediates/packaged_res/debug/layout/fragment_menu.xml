@@ -58,7 +58,7 @@
                 android:layout_row="2"
                 android:layout_columnWeight="2"
                 android:layout_margin="5dp"
-                android:elevation="5dp">
+                android:elevation="@dimen/cardviewMenu">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -92,7 +92,7 @@
                 android:layout_row="2"
                 android:layout_columnWeight="2"
                 android:layout_margin="5dp"
-                android:elevation="5dp">
+                android:elevation="@dimen/cardviewMenu">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -126,7 +126,7 @@
                 android:layout_row="2"
                 android:layout_columnWeight="2"
                 android:layout_margin="5dp"
-                android:elevation="5dp">
+                android:elevation="@dimen/cardviewMenu">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -160,7 +160,7 @@
                 android:layout_row="2"
                 android:layout_columnWeight="2"
                 android:layout_margin="5dp"
-                android:elevation="5dp">
+                android:elevation="@dimen/cardviewMenu">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -173,13 +173,13 @@
                         android:id="@+id/img_configuraciones"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/settings"></ImageView>
+                        android:src="@drawable/mapa_menu"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:text="@string/configuraciones"
+                        android:text="@string/ubicacionSiniestros"
                         android:textAlignment="center"
                         android:textSize="18sp"
                         android:textStyle="bold"></TextView>
@@ -194,7 +194,7 @@
                 android:layout_row="2"
                 android:layout_columnWeight="2"
                 android:layout_margin="5dp"
-                android:elevation="5dp">
+                android:elevation="@dimen/cardviewMenu">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -228,7 +228,7 @@
                 android:layout_row="2"
                 android:layout_columnWeight="2"
                 android:layout_margin="5dp"
-                android:elevation="5dp">
+                android:elevation="@dimen/cardviewMenu">
 
                 <LinearLayout
                     android:layout_width="match_parent"

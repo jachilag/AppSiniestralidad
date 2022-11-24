@@ -33,7 +33,7 @@ class DescripcionFragment : Fragment() {
     lateinit var latitud: String
     lateinit var longitud: String
     var asistencia by Delegates.notNull<Boolean>()
-    var urlFoto: String = "https://drive.google.com/file/d/1alFVT-wYL2tlQttK8fQ2AlPeRUUjy6Pb/view?usp=share_link"
+    lateinit var urlFoto: String
     lateinit var reporte:String
     lateinit var reportero:String
 
@@ -60,6 +60,7 @@ class DescripcionFragment : Fragment() {
         involucrados = arguments?.getString("involucrados").toString()
         latitud = arguments?.getString("latitud").toString()
         longitud = arguments?.getString("longitud").toString()
+        urlFoto = arguments?.getString("url").toString()
 
         btn_finalizar.setOnClickListener {
             asistencia = cbAsistencia.isChecked
@@ -79,10 +80,8 @@ class DescripcionFragment : Fragment() {
         urlFoto: String
     ) {
         // se obtiene la hora y fecha del registro
-        val dateFormat1 = SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
-        val dateFormat2 = SimpleDateFormat("yyyyMMddHHmmss")
-        val fecha = dateFormat1.format(Date())
-        val date = dateFormat2.format(Date())
+        val fecha = SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(Date())
+        val date = SimpleDateFormat("yyyyMMddHHmmss").format(Date())
         val documento = date+"_"+idUser
         db.collection("siniestros").document(documento).set(
             hashMapOf(

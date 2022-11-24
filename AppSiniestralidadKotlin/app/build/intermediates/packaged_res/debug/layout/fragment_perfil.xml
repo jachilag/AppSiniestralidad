@@ -67,10 +67,11 @@
                 android:layout_gravity="center"
                 android:orientation="horizontal"
                 android:padding="10dp"
-                android:layout_marginRight="10dp">
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="20dp">
 
                 <ImageView
-                    android:id="@+id/img_perfil"
+                    android:id="@+id/img_perfil_1"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:background="@drawable/img"
@@ -78,22 +79,14 @@
 
 
                 <Button
-                    android:id="@+id/btn_camara"
-                    android:text="@string/camara"
+                    android:id="@+id/btn_tomarFoto"
+                    android:text="@string/establecerFoto"
                     android:layout_width="match_parent"
                     android:layout_weight="1"
                     android:layout_height="50dp"
                     android:backgroundTint="@color/purple"
                     android:textColor="@color/white"/>
 
-                <Button
-                    android:id="@+id/btn_galeria"
-                    android:text="@string/galeria"
-                    android:layout_width="match_parent"
-                    android:layout_weight="1"
-                    android:layout_height="50dp"
-                    android:backgroundTint="@color/purple"
-                    android:textColor="@color/white"/>
 
             </LinearLayout>
 
