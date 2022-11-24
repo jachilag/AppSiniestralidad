@@ -21,9 +21,11 @@
     <color name="white">#FFFFFFFF</color>
     <dimen name="cardCornerRadius">15dp</dimen>
     <dimen name="cardCorrerRadius">5dp</dimen>
-    <dimen name="cardElevation">3dp</dimen>
+    <dimen name="cardElevation">10dp</dimen>
     <dimen name="cardLayoutMargin">1dp</dimen>
     <dimen name="cardviewMenu">15dp</dimen>
+    <dimen name="cvAltoTelefono">80dp</dimen>
+    <dimen name="cvAnchoTelefono">340dp</dimen>
     <dimen name="defaultLayoutMargin">10dp</dimen>
     <dimen name="fotoTiendaHeight">300dp</dimen>
     <dimen name="heigthImageProduct">150dp</dimen>
@@ -42,19 +44,26 @@
     <string name="Boton_recuperar">Recuperar</string>
     <string name="Boton_registrar">REGISTRAR</string>
     <string name="actores_viales">ACTORES VIALES INVOLUCRADOS</string>
+    <string name="acueducto">ACUEDUCTO</string>
     <string name="animal">Animal</string>
     <string name="app_name">App Siniestralidad</string>
     <string name="automovil">Automovil</string>
     <string name="ayuda">Ayuda</string>
+    <string name="bomberos">BOMBEROS</string>
     <string name="bus">Bus</string>
     <string name="camara">CAMARA</string>
     <string name="ciclista">Ciclista</string>
+    <string name="codensa">CODENSA</string>
     <string name="configuraciones">Configuraciones</string>
     <string name="correo_actual">Correo actual</string>
+    <string name="cruzRoja">CRUZ ROJA COLOMBIANA</string>
     <string name="default_web_client_id" translatable="false">845001056490-p78ltop4ireo9utcf9n7elkonbvmjmho.apps.googleusercontent.com</string>
+    <string name="defensaCivil">DEFENSA CIVIL</string>
     <string name="descripcion">DESCRIPCION DEL SINIESTRO</string>
     <string name="email">Correo:</string>
     <string name="email_recuperacion">Escriba su correo de recuperacion de Contraseña</string>
+    <string name="emergenciaNacional">LINEA EMERGENCIA NACIONAL</string>
+    <string name="emergenciasMedicas">EMERGENCIAS MEDICAS</string>
     <string name="establecerFoto">CAMBIAR FOTO</string>
     <string name="facebook_app_id">1183897232550435</string>
     <string name="facebook_client_token">065f93031f1529ce71aa0fd28474fbde</string>
@@ -62,6 +71,7 @@
     <string name="fecha_nacimiento">Fecha de Nacimiento</string>
     <string name="finalizar">FINALIZAR</string>
     <string name="galeria">GALERIA</string>
+    <string name="gasnatural">GAS NATURAL</string>
     <string name="gcm_defaultSenderId" translatable="false">845001056490</string>
     <string name="google_api_key" translatable="false">AIzaSyATdFj4Ev3l4ya3oj-jupstvZHRrMGjF28</string>
     <string name="google_app_id" translatable="false">1:845001056490:android:7a205ed8051731e59fb793</string>
@@ -85,6 +95,8 @@
     <string name="numerostelefono">Emergencias</string>
     <string name="olvidar_password">¿Olvidó su contraseña?</string>
     <string name="peaton">Peaton</string>
+    <string name="policia">POLICIA NACIONAL</string>
+    <string name="policiaTransito">POLICIA TRANSITO</string>
     <string name="project_id" translatable="false">siniestralidad-grupo1</string>
     <string name="regresar">REGRESAR</string>
     <string name="reportar">Reportar Accidente</string>
@@ -101,6 +113,7 @@
     <string name="titulo_email">Correo Electronico</string>
     <string name="titulo_nacimiento">Fecha de Nacimiento</string>
     <string name="titulo_nombres">Nombres</string>
+    <string name="toxicologico">CENTRO TOXICOLOGICO</string>
     <string name="txt_descripcion">Haga una descripcion del siniestro</string>
     <string name="ubicacion">UBICACION SINIESTRO</string>
     <string name="ubicacionSiniestros">Mapa Siniestros</string>

@@ -60,6 +60,17 @@
     <string name="salir">SALIR</string>
     <string name="establecerFoto">CAMBIAR FOTO</string>
     <string name="ubicacionSiniestros">Mapa Siniestros</string>
+    <string name="policia">POLICIA NACIONAL</string>
+    <string name="emergenciaNacional">LINEA EMERGENCIA NACIONAL</string>
+    <string name="cruzRoja">CRUZ ROJA COLOMBIANA</string>
+    <string name="bomberos">BOMBEROS</string>
+    <string name="defensaCivil">DEFENSA CIVIL</string>
+    <string name="emergenciasMedicas">EMERGENCIAS MEDICAS</string>
+    <string name="policiaTransito">POLICIA TRANSITO</string>
+    <string name="toxicologico">CENTRO TOXICOLOGICO</string>
+    <string name="gasnatural">GAS NATURAL</string>
+    <string name="acueducto">ACUEDUCTO</string>
+    <string name="codensa">CODENSA</string>
 
 
     <string-array name="ciudades">

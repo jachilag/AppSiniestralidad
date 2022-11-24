@@ -4,20 +4,127 @@ package com.example.appsiniestralidadkotlin.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.appsiniestralidadkotlin.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentEmergenciasBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
 
-  private FragmentEmergenciasBinding(@NonNull LinearLayout rootView) {
+  @NonNull
+  public final CardView cvAcueducto;
+
+  @NonNull
+  public final CardView cvBomberos;
+
+  @NonNull
+  public final CardView cvCentroToxicologico;
+
+  @NonNull
+  public final CardView cvCodensa;
+
+  @NonNull
+  public final CardView cvCruzroja;
+
+  @NonNull
+  public final CardView cvDefensaCivil;
+
+  @NonNull
+  public final CardView cvEmergenciasMedicas;
+
+  @NonNull
+  public final CardView cvGasNatural;
+
+  @NonNull
+  public final CardView cvLineaemergencia;
+
+  @NonNull
+  public final CardView cvPoliciaNacinal;
+
+  @NonNull
+  public final CardView cvPoliciaTransito;
+
+  @NonNull
+  public final TextView numAcueducto;
+
+  @NonNull
+  public final TextView numBomberos;
+
+  @NonNull
+  public final TextView numCodensa;
+
+  @NonNull
+  public final TextView numCruzRoja;
+
+  @NonNull
+  public final TextView numDefensaCivil;
+
+  @NonNull
+  public final TextView numEmergencia123;
+
+  @NonNull
+  public final TextView numEmergenciasMedicas;
+
+  @NonNull
+  public final TextView numGasNatural;
+
+  @NonNull
+  public final TextView numPolicia;
+
+  @NonNull
+  public final TextView numPoliciaTransito;
+
+  @NonNull
+  public final TextView numToxicologico;
+
+  @NonNull
+  public final Button salirTelefono;
+
+  private FragmentEmergenciasBinding(@NonNull LinearLayout rootView, @NonNull CardView cvAcueducto,
+      @NonNull CardView cvBomberos, @NonNull CardView cvCentroToxicologico,
+      @NonNull CardView cvCodensa, @NonNull CardView cvCruzroja, @NonNull CardView cvDefensaCivil,
+      @NonNull CardView cvEmergenciasMedicas, @NonNull CardView cvGasNatural,
+      @NonNull CardView cvLineaemergencia, @NonNull CardView cvPoliciaNacinal,
+      @NonNull CardView cvPoliciaTransito, @NonNull TextView numAcueducto,
+      @NonNull TextView numBomberos, @NonNull TextView numCodensa, @NonNull TextView numCruzRoja,
+      @NonNull TextView numDefensaCivil, @NonNull TextView numEmergencia123,
+      @NonNull TextView numEmergenciasMedicas, @NonNull TextView numGasNatural,
+      @NonNull TextView numPolicia, @NonNull TextView numPoliciaTransito,
+      @NonNull TextView numToxicologico, @NonNull Button salirTelefono) {
     this.rootView = rootView;
+    this.cvAcueducto = cvAcueducto;
+    this.cvBomberos = cvBomberos;
+    this.cvCentroToxicologico = cvCentroToxicologico;
+    this.cvCodensa = cvCodensa;
+    this.cvCruzroja = cvCruzroja;
+    this.cvDefensaCivil = cvDefensaCivil;
+    this.cvEmergenciasMedicas = cvEmergenciasMedicas;
+    this.cvGasNatural = cvGasNatural;
+    this.cvLineaemergencia = cvLineaemergencia;
+    this.cvPoliciaNacinal = cvPoliciaNacinal;
+    this.cvPoliciaTransito = cvPoliciaTransito;
+    this.numAcueducto = numAcueducto;
+    this.numBomberos = numBomberos;
+    this.numCodensa = numCodensa;
+    this.numCruzRoja = numCruzRoja;
+    this.numDefensaCivil = numDefensaCivil;
+    this.numEmergencia123 = numEmergencia123;
+    this.numEmergenciasMedicas = numEmergenciasMedicas;
+    this.numGasNatural = numGasNatural;
+    this.numPolicia = numPolicia;
+    this.numPoliciaTransito = numPoliciaTransito;
+    this.numToxicologico = numToxicologico;
+    this.salirTelefono = salirTelefono;
   }
 
   @Override
@@ -43,10 +150,156 @@ public final class FragmentEmergenciasBinding implements ViewBinding {
 
   @NonNull
   public static FragmentEmergenciasBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.cvAcueducto;
+      CardView cvAcueducto = ViewBindings.findChildViewById(rootView, id);
+      if (cvAcueducto == null) {
+        break missingId;
+      }
 
-    return new FragmentEmergenciasBinding((LinearLayout) rootView);
+      id = R.id.cvBomberos;
+      CardView cvBomberos = ViewBindings.findChildViewById(rootView, id);
+      if (cvBomberos == null) {
+        break missingId;
+      }
+
+      id = R.id.cvCentroToxicologico;
+      CardView cvCentroToxicologico = ViewBindings.findChildViewById(rootView, id);
+      if (cvCentroToxicologico == null) {
+        break missingId;
+      }
+
+      id = R.id.cvCodensa;
+      CardView cvCodensa = ViewBindings.findChildViewById(rootView, id);
+      if (cvCodensa == null) {
+        break missingId;
+      }
+
+      id = R.id.cvCruzroja;
+      CardView cvCruzroja = ViewBindings.findChildViewById(rootView, id);
+      if (cvCruzroja == null) {
+        break missingId;
+      }
+
+      id = R.id.cvDefensaCivil;
+      CardView cvDefensaCivil = ViewBindings.findChildViewById(rootView, id);
+      if (cvDefensaCivil == null) {
+        break missingId;
+      }
+
+      id = R.id.cvEmergenciasMedicas;
+      CardView cvEmergenciasMedicas = ViewBindings.findChildViewById(rootView, id);
+      if (cvEmergenciasMedicas == null) {
+        break missingId;
+      }
+
+      id = R.id.cvGasNatural;
+      CardView cvGasNatural = ViewBindings.findChildViewById(rootView, id);
+      if (cvGasNatural == null) {
+        break missingId;
+      }
+
+      id = R.id.cvLineaemergencia;
+      CardView cvLineaemergencia = ViewBindings.findChildViewById(rootView, id);
+      if (cvLineaemergencia == null) {
+        break missingId;
+      }
+
+      id = R.id.cvPoliciaNacinal;
+      CardView cvPoliciaNacinal = ViewBindings.findChildViewById(rootView, id);
+      if (cvPoliciaNacinal == null) {
+        break missingId;
+      }
+
+      id = R.id.cvPoliciaTransito;
+      CardView cvPoliciaTransito = ViewBindings.findChildViewById(rootView, id);
+      if (cvPoliciaTransito == null) {
+        break missingId;
+      }
+
+      id = R.id.numAcueducto;
+      TextView numAcueducto = ViewBindings.findChildViewById(rootView, id);
+      if (numAcueducto == null) {
+        break missingId;
+      }
+
+      id = R.id.numBomberos;
+      TextView numBomberos = ViewBindings.findChildViewById(rootView, id);
+      if (numBomberos == null) {
+        break missingId;
+      }
+
+      id = R.id.numCodensa;
+      TextView numCodensa = ViewBindings.findChildViewById(rootView, id);
+      if (numCodensa == null) {
+        break missingId;
+      }
+
+      id = R.id.numCruzRoja;
+      TextView numCruzRoja = ViewBindings.findChildViewById(rootView, id);
+      if (numCruzRoja == null) {
+        break missingId;
+      }
+
+      id = R.id.numDefensaCivil;
+      TextView numDefensaCivil = ViewBindings.findChildViewById(rootView, id);
+      if (numDefensaCivil == null) {
+        break missingId;
+      }
+
+      id = R.id.numEmergencia123;
+      TextView numEmergencia123 = ViewBindings.findChildViewById(rootView, id);
+      if (numEmergencia123 == null) {
+        break missingId;
+      }
+
+      id = R.id.numEmergenciasMedicas;
+      TextView numEmergenciasMedicas = ViewBindings.findChildViewById(rootView, id);
+      if (numEmergenciasMedicas == null) {
+        break missingId;
+      }
+
+      id = R.id.numGasNatural;
+      TextView numGasNatural = ViewBindings.findChildViewById(rootView, id);
+      if (numGasNatural == null) {
+        break missingId;
+      }
+
+      id = R.id.numPolicia;
+      TextView numPolicia = ViewBindings.findChildViewById(rootView, id);
+      if (numPolicia == null) {
+        break missingId;
+      }
+
+      id = R.id.numPoliciaTransito;
+      TextView numPoliciaTransito = ViewBindings.findChildViewById(rootView, id);
+      if (numPoliciaTransito == null) {
+        break missingId;
+      }
+
+      id = R.id.numToxicologico;
+      TextView numToxicologico = ViewBindings.findChildViewById(rootView, id);
+      if (numToxicologico == null) {
+        break missingId;
+      }
+
+      id = R.id.salir_telefono;
+      Button salirTelefono = ViewBindings.findChildViewById(rootView, id);
+      if (salirTelefono == null) {
+        break missingId;
+      }
+
+      return new FragmentEmergenciasBinding((LinearLayout) rootView, cvAcueducto, cvBomberos,
+          cvCentroToxicologico, cvCodensa, cvCruzroja, cvDefensaCivil, cvEmergenciasMedicas,
+          cvGasNatural, cvLineaemergencia, cvPoliciaNacinal, cvPoliciaTransito, numAcueducto,
+          numBomberos, numCodensa, numCruzRoja, numDefensaCivil, numEmergencia123,
+          numEmergenciasMedicas, numGasNatural, numPolicia, numPoliciaTransito, numToxicologico,
+          salirTelefono);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

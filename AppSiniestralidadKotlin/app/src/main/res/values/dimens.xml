@@ -10,7 +10,7 @@
     <dimen name="itemCommentsScore">20sp</dimen>
     <dimen name="itemsCommentsComment">25sp</dimen>
     <dimen name="cardCornerRadius">15dp</dimen>
-    <dimen name="cardElevation">3dp</dimen>
+    <dimen name="cardElevation">10dp</dimen>
     <dimen name="sizeTitleComments">25sp</dimen>
     <dimen name="heigthImageProduct">150dp</dimen>
     <dimen name="sizeNameProduct">25sp</dimen>
@@ -19,4 +19,6 @@
     <dimen name="textSizeAdmin">25sp</dimen>
     <dimen name="ibHeight">100dp</dimen>
     <dimen name="cardviewMenu">15dp</dimen>
+    <dimen name="cvAnchoTelefono">340dp</dimen>
+    <dimen name="cvAltoTelefono">80dp</dimen>
 </resources>

@@ -50,7 +50,11 @@
     <fragment
         android:id="@+id/emergenciasFragment"
         android:name="com.example.appsiniestralidadkotlin.view.ui.fragments.emergenciasFragment"
-        android:label="emergenciasFragment" />
+        android:label="emergenciasFragment" >
+        <action
+            android:id="@+id/action_emergenciasFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
     <fragment
         android:id="@+id/noticiasFragment"
         android:name="com.example.appsiniestralidadkotlin.view.ui.fragments.noticiasFragment"
