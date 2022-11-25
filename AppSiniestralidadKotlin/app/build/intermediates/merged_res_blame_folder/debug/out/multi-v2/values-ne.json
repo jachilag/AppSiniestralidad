@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.appsiniestralidadkotlin.app-mergeDebugResources-64:/values-ne/values-ne.xml",
+            "outputFile": "com.example.appsiniestralidadkotlin.app-mergeDebugResources-65:/values-ne/values-ne.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Jonathan\\.gradle\\caches\\transforms-3\\897d0b8f4848d71a6e00f3430aaa62ef\\transformed\\play-services-basement-18.1.0\\res\\values-ne\\values.xml",

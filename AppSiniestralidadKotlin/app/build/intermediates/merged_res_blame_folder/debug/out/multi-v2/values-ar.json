@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.appsiniestralidadkotlin.app-mergeDebugResources-64:/values-ar/values-ar.xml",
+            "outputFile": "com.example.appsiniestralidadkotlin.app-mergeDebugResources-65:/values-ar/values-ar.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Jonathan\\.gradle\\caches\\transforms-3\\2aa0febf7fad7aad93c8615c2fa50e35\\transformed\\browser-1.4.0\\res\\values-ar\\values-ar.xml",
