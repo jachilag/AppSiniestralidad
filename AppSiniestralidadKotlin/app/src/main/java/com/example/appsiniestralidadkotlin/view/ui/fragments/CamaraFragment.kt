@@ -41,6 +41,7 @@ class CamaraFragment: Fragment() {
     private val CAMARA = 123
     private val GALERIA = 456
     lateinit var downloadUri: Uri
+    val sinFoto = "https://firebasestorage.googleapis.com/v0/b/siniestralidad-grupo1.appspot.com/o/fotosSiniestros%2FsinFoto.png?alt=media&token=31742b3c-f676-41ac-9c37-c0aa237bb5ce"
 
 
     override fun onCreateView(
@@ -56,6 +57,7 @@ class CamaraFragment: Fragment() {
         imgSiniestro = view.findViewById(R.id.img_siniestro)
         btnCamara = view.findViewById(R.id.btn_camara_siniestro)
         btnGaleria = view.findViewById(R.id.btn_galeria_siniestro)
+        urlFoto = ""
 
         // Inflate the layout for this fragment
         return view
@@ -71,6 +73,7 @@ class CamaraFragment: Fragment() {
 
 
         btn_continuar.setOnClickListener {
+            urlFoto = if(urlFoto != ""){urlFoto} else{sinFoto}
             val bundle = bundleOf(
                 "involucrados" to involucrados,
                 "latitud" to latitud,

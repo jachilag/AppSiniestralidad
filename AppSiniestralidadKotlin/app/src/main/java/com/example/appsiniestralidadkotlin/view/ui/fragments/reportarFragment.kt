@@ -1,5 +1,6 @@
 package com.example.appsiniestralidadkotlin.view.ui.fragments
 
+import android.app.AlertDialog
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -70,8 +71,19 @@ class reportarFragment : Fragment() {
             val bundle = bundleOf(
                 "involucrados" to txtInvolucrados,
             )
-            findNavController().navigate(R.id.action_reportarFragment_to_ubicacionFragment,bundle)
+            if(txtInvolucrados==""){ventana("Elija Una Opcion", "Para realizar un reporte debe elegir que tipo de actores viales estan afectados por el siniestro")}
+            else{findNavController().navigate(R.id.action_reportarFragment_to_ubicacionFragment,bundle)}
         }
+    }
+
+    private fun ventana(titulo: String, contenido: String) {
+        val builder= AlertDialog.Builder(requireContext())
+        builder.setTitle(titulo)
+        builder.setMessage(contenido)
+        builder.setPositiveButton("Ok"){
+                dialog,which->
+        }
+        builder.show()
     }
 
     fun obtenerInvolucrados() {

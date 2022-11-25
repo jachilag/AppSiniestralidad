@@ -33,6 +33,7 @@ class SignUpActivity: AppCompatActivity() {
         var urlFoto = ""
         var registro = ""
         var register: Button = findViewById(R.id.btn_registrarse)
+
         register.setOnClickListener {
             createUser(email.text.toString(),password.text.toString(), name,
                 apellido,celular,fechaNacimiento,ciudad,urlFoto,registro)
@@ -74,67 +75,66 @@ class SignUpActivity: AppCompatActivity() {
 //--------------------------------------------------
 // uso de REALTIME de FIRESTORE
 
-
-/*class SignUpActivity: AppCompatActivity() {
-    lateinit var authStateListener: FirebaseAuth.AuthStateListener
-    lateinit var firebaseAuth: FirebaseAuth
-    lateinit var databaseReference: DatabaseReference
-    lateinit var database: FirebaseDatabase
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_signup)
-
-        firebaseAuth = Firebase.auth
-        var email = findViewById<EditText>(R.id.register_birthday)
-        var password = findViewById<EditText>(R.id.registrar_password)
-
-        // creacion de usurio en la coleccion user que no es la misma de la autenticacion
-        databaseReference = Firebase.database.reference.child("users")
-        var name = ""
-        var apellido = ""
-        var celular = ""
-        var fechaNacimiento = "01/01/1900"
-        var ciudad = "Bogotá"
-        var urlFoto = ""
-
-
-        var register: Button = findViewById(R.id.btn_registrarse)
-        register.setOnClickListener {
-            createUser(
-                email.text.toString(), password.text.toString(), name,
-                apellido, celular, fechaNacimiento, ciudad, urlFoto
-            )
-        }
-    }
-
-    //-------------------------------------------------------------------------------------------------
-    //utilizacion de REALTIME para guardar datos vacios de usuarios
-    fun createUser(
-        email: String, password: String, name: String, apellido: String, celular: String,
-        nacimiento: String, ciudad: String, urlFoto: String
-    ) {
-        firebaseAuth.createUserWithEmailAndPassword(email, password)
-            .addOnCompleteListener(this) { Task ->
-                if (Task.isSuccessful) {
-                    val user = firebaseAuth.currentUser
-                    val userdb = databaseReference.child(user?.uid.toString())
-                    userdb.child("Nombres").setValue(name)
-                    userdb.child("Apellidos").setValue(apellido)
-                    userdb.child("Celular").setValue(celular)
-                    userdb.child("fechaNacimiento").setValue(nacimiento)
-                    userdb.child("Ciudad").setValue(ciudad)
-                    userdb.child("Correo").setValue(email)
-                    userdb.child("UrlFoto").setValue(urlFoto)
-
-                    Toast.makeText(applicationContext, "USUARIO REGISTRADO", Toast.LENGTH_LONG)
-                        .show()
-                    startActivity(Intent(this, LoginActivity::class.java))
-                } else {
-                    Toast.makeText(applicationContext, "Error", Toast.LENGTH_LONG).show()
-                }
-            }
-
-    }
-}*/
+//class SignUpActivity: AppCompatActivity() {
+//    lateinit var authStateListener: FirebaseAuth.AuthStateListener
+//    lateinit var firebaseAuth: FirebaseAuth
+//    lateinit var databaseReference: DatabaseReference
+//    lateinit var database: FirebaseDatabase
+//
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//        setContentView(R.layout.activity_signup)
+//
+//        firebaseAuth = Firebase.auth
+//        var email = findViewById<EditText>(R.id.register_birthday)
+//        var password = findViewById<EditText>(R.id.registrar_password)
+//
+//        // creacion de usurio en la coleccion user que no es la misma de la autenticacion
+//        databaseReference = Firebase.database.reference.child("users")
+//        var name = ""
+//        var apellido = ""
+//        var celular = ""
+//        var fechaNacimiento = "01/01/1900"
+//        var ciudad = "Bogotá"
+//        var urlFoto = ""
+//
+//
+//        var register: Button = findViewById(R.id.btn_registrarse)
+//        register.setOnClickListener {
+//            createUser(
+//                email.text.toString(), password.text.toString(), name,
+//                apellido, celular, fechaNacimiento, ciudad, urlFoto
+//            )
+//        }
+//    }
+//
+//    //-------------------------------------------------------------------------------------------------
+//    //utilizacion de REALTIME para guardar datos vacios de usuarios
+//    fun createUser(
+//        email: String, password: String, name: String, apellido: String, celular: String,
+//        nacimiento: String, ciudad: String, urlFoto: String
+//    ) {
+//        firebaseAuth.createUserWithEmailAndPassword(email, password)
+//            .addOnCompleteListener(this) { Task ->
+//                if (Task.isSuccessful) {
+//                    val user = firebaseAuth.currentUser
+//                    val userdb = databaseReference.child(user?.uid.toString())
+//                    userdb.child("Nombres").setValue(name)
+//                    userdb.child("Apellidos").setValue(apellido)
+//                    userdb.child("Celular").setValue(celular)
+//                    userdb.child("fechaNacimiento").setValue(nacimiento)
+//                    userdb.child("Ciudad").setValue(ciudad)
+//                    userdb.child("Correo").setValue(email)
+//                    userdb.child("UrlFoto").setValue(urlFoto)
+//
+//                    Toast.makeText(applicationContext, "USUARIO REGISTRADO", Toast.LENGTH_LONG)
+//                        .show()
+//                    startActivity(Intent(this, LoginActivity::class.java))
+//                } else {
+//                    Toast.makeText(applicationContext, "Error", Toast.LENGTH_LONG).show()
+//                }
+//            }
+//
+//    }
+//}
 

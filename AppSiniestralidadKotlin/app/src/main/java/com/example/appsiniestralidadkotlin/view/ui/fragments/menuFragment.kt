@@ -1,5 +1,6 @@
 package com.example.appsiniestralidadkotlin.view.ui.fragments
 
+import android.app.AlertDialog
 import android.content.Context
 import android.net.Uri
 import android.os.Bundle
@@ -34,6 +35,8 @@ class menuFragment : Fragment() {
     lateinit var imgPerfil:ImageView
     lateinit var urlFoto:String
     lateinit var storageRef : StorageReference
+    lateinit var nombre: String
+    lateinit var apellido: String
     val db = FirebaseFirestore.getInstance()
 
 
@@ -66,11 +69,16 @@ class menuFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
          
         cardPerfil.setOnClickListener {
-            findNavController().navigate(R.id.action_menuFragment_to_perfilFragment)
+                findNavController().navigate(R.id.action_menuFragment_to_perfilFragment)
         }
 
         cardReportar.setOnClickListener {
-            findNavController().navigate(R.id.action_menuFragment_to_reportarFragment)
+            db.collection("users").document(idUser).get().addOnSuccessListener {
+                nombre = it.get("Nombres") as String
+                apellido = it.get("Apellidos") as String
+                if(nombre == "" || apellido == ""){ventana()}
+                else {findNavController().navigate(R.id.action_menuFragment_to_reportarFragment)}
+            }
         }
 
         cardNoticias.setOnClickListener {
@@ -104,5 +112,16 @@ class menuFragment : Fragment() {
                 .centerCrop()
                 .into(foto)
         }
+    }
+
+    private fun ventana() {
+        val builder= AlertDialog.Builder(requireContext())
+        builder.setTitle("COMPLETE SU PERFIL")
+        builder.setMessage("Para realizar reportes, porfavor complete su perfil¡¡")
+        builder.setPositiveButton("Ok"){
+                dialog,which->
+            findNavController().navigate(R.id.action_menuFragment_to_perfilFragment)
+        }
+        builder.show()
     }
 }
