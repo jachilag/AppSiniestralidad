@@ -1,7 +1,7 @@
 package com.example.appsiniestralidadkotlin.model
 
 data class siniestros (
-    var asistenciaMedica: String?,
+    var asistenciaMedica: Boolean?,
     var idReportero:String?,
     var reportero: String?,
     var fecha: String?,

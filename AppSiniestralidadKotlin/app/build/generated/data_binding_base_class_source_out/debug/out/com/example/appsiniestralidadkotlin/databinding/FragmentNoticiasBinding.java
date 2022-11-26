@@ -8,6 +8,7 @@ import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.appsiniestralidadkotlin.R;
@@ -22,10 +23,14 @@ public final class FragmentNoticiasBinding implements ViewBinding {
   @NonNull
   public final RecyclerView rvNoticias;
 
-  private FragmentNoticiasBinding(@NonNull LinearLayout rootView,
-      @NonNull RecyclerView rvNoticias) {
+  @NonNull
+  public final SwipeRefreshLayout swipeNoticias;
+
+  private FragmentNoticiasBinding(@NonNull LinearLayout rootView, @NonNull RecyclerView rvNoticias,
+      @NonNull SwipeRefreshLayout swipeNoticias) {
     this.rootView = rootView;
     this.rvNoticias = rvNoticias;
+    this.swipeNoticias = swipeNoticias;
   }
 
   @Override
@@ -61,7 +66,13 @@ public final class FragmentNoticiasBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentNoticiasBinding((LinearLayout) rootView, rvNoticias);
+      id = R.id.swipeNoticias;
+      SwipeRefreshLayout swipeNoticias = ViewBindings.findChildViewById(rootView, id);
+      if (swipeNoticias == null) {
+        break missingId;
+      }
+
+      return new FragmentNoticiasBinding((LinearLayout) rootView, rvNoticias, swipeNoticias);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

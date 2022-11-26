@@ -1,5 +1,6 @@
 package com.example.appsiniestralidadkotlin.view.ui.fragments
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,6 +12,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.example.appsiniestralidadkotlin.R
 import com.example.appsiniestralidadkotlin.model.siniestros
 import com.example.appsiniestralidadkotlin.view.adapter.SiniestrosAdapter
@@ -19,12 +21,16 @@ import com.example.appsiniestralidadkotlin.viewModel.SiniestrosViewModel
 class noticiasFragment : Fragment(), SiniestrosAdapter.OnSiniestroItemClickListener {
     lateinit var recyclerSiniestro: RecyclerView
     lateinit var adapter: SiniestrosAdapter
+    lateinit var swipeNoticias: SwipeRefreshLayout
     val viewmodel by lazy{ ViewModelProvider(this)[SiniestrosViewModel::class.java] }
 
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?): View? {
+
+    @SuppressLint("MissingInflatedId")
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
         val view =  inflater.inflate(R.layout.fragment_noticias, container, false)
+        swipeNoticias = view.findViewById(R.id.swipeNoticias)
         recyclerSiniestro = view.findViewById(R.id.rv_noticias)
         adapter = SiniestrosAdapter(requireContext(),this)
         recyclerSiniestro.layoutManager = LinearLayoutManager(context)
@@ -33,10 +39,19 @@ class noticiasFragment : Fragment(), SiniestrosAdapter.OnSiniestroItemClickListe
         return view
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        swipeNoticias.setOnRefreshListener {
+            observeData()
+        }
+    }
+
     fun observeData(){
         viewmodel.fetchSiniestroData().observe(viewLifecycleOwner, Observer{
             adapter.setListData(it)
             adapter.notifyDataSetChanged()
+            swipeNoticias.isRefreshing = false
+
         })
     }
 

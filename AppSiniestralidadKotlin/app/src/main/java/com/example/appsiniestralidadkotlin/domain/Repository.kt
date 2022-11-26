@@ -12,7 +12,7 @@ class Repository {
             result->
             val listData = mutableListOf<siniestros>()
             for(document in result){
-//                val asistenciaMedica = document.getString("asistenciaMedica")
+                val asistenciaMedica = document.getBoolean("asistenciaMedica")
                 val fecha = document.getString("fecha")
                 val reportero = document.getString("reportero")
                 val idReportero = document.getString("idReportero")
@@ -22,7 +22,7 @@ class Repository {
                 val longitud = document.getString("latitud")
                 val url = generateUrl(document.getString("url").toString())
                 val siniestro = siniestros(
-                    asistenciaMedica = null,
+                    asistenciaMedica = asistenciaMedica,
                     fecha = fecha,
                     reportero = reportero,
                     idReportero = idReportero,
@@ -34,7 +34,7 @@ class Repository {
                 )
                 listData.add(siniestro)
             }
-            mutableLiveData.value=listData
+            mutableLiveData.value= listData.sortedByDescending{it.fecha} as MutableList<siniestros> //ordena la lista por fecha
         }
         return  mutableLiveData
     }

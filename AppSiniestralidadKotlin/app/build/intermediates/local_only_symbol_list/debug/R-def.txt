@@ -204,6 +204,7 @@ id salir_telefono
 id scrollView2
 id scroll_menu
 id spinner_ciudad
+id swipeNoticias
 id textDescripcion
 id textOtro
 id textView
